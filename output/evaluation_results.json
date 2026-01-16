@@ -1,0 +1,26 @@
+{
+  "jeans": {
+    "total_images": 199,
+    "IN_DOMAIN": 0,
+    "NEAR_DOMAIN": 34,
+    "OUT_OF_DOMAIN": 165
+  },
+  "sofa": {
+    "total_images": 199,
+    "IN_DOMAIN": 169,
+    "NEAR_DOMAIN": 30,
+    "OUT_OF_DOMAIN": 0
+  },
+  "tshirt": {
+    "total_images": 199,
+    "IN_DOMAIN": 0,
+    "NEAR_DOMAIN": 16,
+    "OUT_OF_DOMAIN": 183
+  },
+  "tv": {
+    "total_images": 199,
+    "IN_DOMAIN": 0,
+    "NEAR_DOMAIN": 129,
+    "OUT_OF_DOMAIN": 70
+  }
+}

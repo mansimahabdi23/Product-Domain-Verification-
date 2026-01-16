@@ -1,0 +1,557 @@
+================================================================================
+                    PRODUCT CLASSIFICATION PROJECT
+                         COMPLETE DOCUMENTATION
+================================================================================
+
+PROJECT OVERVIEW
+================================================================================
+Project Name: Product Domain Verification (Image-Based)
+Location: d:\Projects\product-classification
+Purpose: Verifies whether a product image belongs to a company's domain using 
+         a pretrained CLIP vision-language model.
+Key Feature: No training required, no manual category rules, fully semantic approach.
+
+================================================================================
+DIRECTORY STRUCTURE
+================================================================================
+
+product-classification/
+│
+├── app.py                          # Main Flask web application
+├── README.md                       # Project readme
+├── requirements.txt                # Python dependencies
+│
+├── config/
+│   └── company_domains.py          # Company domain definitions
+│   └── __pycache__/               # Python cache
+│
+├── data/
+│   ├── jeans/                      # Sample data folder
+│   ├── sofa/                       # Sample data folder
+│   ├── tshirt/                     # Sample data folder
+│   └── tv/                         # Sample data folder
+│
+├── demo/
+│   ├── evaluate_dataset.py         # Dataset evaluation script
+│   ├── run_demo.py                 # Demo execution script
+│   └── __pycache__/               # Python cache
+│
+├── models/
+│   ├── clip_model.py               # CLIP model loader
+│   └── __pycache__/               # Python cache
+│
+├── output/
+│   ├── evaluation_results.json     # Evaluation output
+│   └── results.json                # Demo results
+│
+├── pipelines/
+│   ├── verification_pipeline.py    # Main verification pipeline
+│   └── __pycache__/               # Python cache
+│
+├── static/
+│   └── style.css                   # CSS styling for web interface
+│
+├── templates/
+│   └── index.html                  # HTML template for web interface
+│
+├── utils/
+│   ├── embedding_utils.py          # Embedding generation utilities
+│   ├── image_utils.py              # Image loading utilities
+│   ├── scoring_utils.py            # Scoring and classification utilities
+│   └── __pycache__/               # Python cache
+│
+└── PROJECT_DOCUMENTATION.txt       # This file
+
+
+================================================================================
+FILE CONTENTS
+================================================================================
+
+FILE: requirements.txt
+--------------------------------------------------------------------------------
+torch
+torchvision
+transformers
+Pillow
+numpy
+scikit-learn
+
+
+FILE: README.md
+--------------------------------------------------------------------------------
+# Product Domain Verification (Image-Based)
+
+This project verifies whether a product image belongs to a company's domain
+using a pretrained CLIP vision-language model.
+
+No training, no manual category rules, fully semantic.
+
+
+FILE: config/company_domains.py
+--------------------------------------------------------------------------------
+COMPANY_DOMAINS = {
+    "fashion_company": "clothing, apparel, fashion garments, t shirts, pants",
+    "furniture_company": "sofa, furniture, home seating products",
+    "tv_company": "television, smart tv, led tv, home entertainment electronics",
+}
+
+
+FILE: models/clip_model.py
+--------------------------------------------------------------------------------
+from transformers import CLIPProcessor, CLIPModel
+
+def load_clip():
+    model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
+    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+    return model, processor
+
+
+FILE: utils/embedding_utils.py
+--------------------------------------------------------------------------------
+import torch
+
+def get_image_embedding(model, processor, image):
+    inputs = processor(images=image, return_tensors="pt")
+    with torch.no_grad():
+        emb = model.get_image_features(**inputs)
+    return emb / emb.norm(dim=-1, keepdim=True)
+
+def get_text_embedding(model, processor, text):
+    inputs = processor(text=text, return_tensors="pt", padding=True)
+    with torch.no_grad():
+        emb = model.get_text_features(**inputs)
+    return emb / emb.norm(dim=-1, keepdim=True)
+
+
+FILE: utils/image_utils.py
+--------------------------------------------------------------------------------
+from PIL import Image
+import os
+
+def load_images_by_category(base_dir):
+    data = {}
+    for category in os.listdir(base_dir):
+        category_path = os.path.join(base_dir, category)
+        if not os.path.isdir(category_path):
+            continue
+
+        images = []
+        for file in os.listdir(category_path):
+            if file.lower().endswith(".jpg"):
+                img_path = os.path.join(category_path, file)
+                images.append(Image.open(img_path).convert("RGB"))
+
+        data[category] = images
+
+    return data
+
+
+FILE: utils/scoring_utils.py
+--------------------------------------------------------------------------------
+import torch.nn.functional as F
+
+IN_DOMAIN_THRESHOLD = 0.30
+NEAR_DOMAIN_THRESHOLD = 0.20
+
+def cosine_similarity(img_emb, text_emb):
+    return F.cosine_similarity(img_emb, text_emb).item()
+
+def classify_score(score):
+    if score >= IN_DOMAIN_THRESHOLD:
+        return "IN_DOMAIN"
+    elif score >= NEAR_DOMAIN_THRESHOLD:
+        return "NEAR_DOMAIN"
+    else:
+        return "OUT_OF_DOMAIN"
+
+
+FILE: pipelines/verification_pipeline.py
+--------------------------------------------------------------------------------
+from utils.embedding_utils import get_image_embedding, get_text_embedding
+from utils.scoring_utils import cosine_similarity, classify_score
+
+def verify_image(
+    model,
+    processor,
+    image,
+    company_domain_text
+):
+    image_emb = get_image_embedding(model, processor, image)
+    domain_emb = get_text_embedding(model, processor, company_domain_text)
+
+    score = cosine_similarity(image_emb, domain_emb)
+    decision = classify_score(score)
+
+    return {
+        "similarity_score": round(score, 4),
+        "decision": decision
+    }
+
+
+FILE: app.py
+--------------------------------------------------------------------------------
+from flask import Flask, render_template, request
+from PIL import Image
+import io
+
+from models.clip_model import load_clip
+from pipelines.verification_pipeline import verify_image
+
+app = Flask(__name__)
+
+# Load model ONCE at startup
+model, processor = load_clip()
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    result = None
+    error = None
+
+    if request.method == "POST":
+        try:
+            domain_text = request.form["domain"]
+            image_file = request.files["image"]
+
+            if not domain_text or not image_file:
+                raise ValueError("Domain text and image are required.")
+
+            image = Image.open(io.BytesIO(image_file.read())).convert("RGB")
+
+            result = verify_image(
+                model=model,
+                processor=processor,
+                image=image,
+                company_domain_text=domain_text
+            )
+
+        except Exception as e:
+            error = str(e)
+
+    return render_template("index.html", result=result, error=error)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+FILE: demo/evaluate_dataset.py
+--------------------------------------------------------------------------------
+import json
+from collections import defaultdict
+
+from models.clip_model import load_clip
+from pipelines.verification_pipeline import verify_image
+from utils.image_utils import load_images_by_category
+from config.company_domains import COMPANY_DOMAINS
+
+DATA_DIR = "data"
+OUTPUT_FILE = "output/evaluation_results.json"
+
+def main():
+    model, processor = load_clip()
+    company_domain = COMPANY_DOMAINS["furniture_company"]
+
+    dataset = load_images_by_category(DATA_DIR)
+
+    results = defaultdict(list)
+
+    for category, images in dataset.items():
+        print(f"Processing category: {category} ({len(images)} images)")
+        for img in images:
+            result = verify_image(
+                model=model,
+                processor=processor,
+                image=img,
+                company_domain_text=company_domain
+            )
+            results[category].append(result)
+
+    summary = {}
+
+    for category, entries in results.items():
+        in_count = sum(1 for e in entries if e["decision"] == "IN_DOMAIN")
+        near_count = sum(1 for e in entries if e["decision"] == "NEAR_DOMAIN")
+        out_count = sum(1 for e in entries if e["decision"] == "OUT_OF_DOMAIN")
+
+        summary[category] = {
+            "total_images": len(entries),
+            "IN_DOMAIN": in_count,
+            "NEAR_DOMAIN": near_count,
+            "OUT_OF_DOMAIN": out_count
+        }
+
+    with open(OUTPUT_FILE, "w") as f:
+        json.dump(summary, f, indent=2)
+
+    print("\nEvaluation Summary:")
+    print(json.dumps(summary, indent=2))
+
+
+if __name__ == "__main__":
+    main()
+
+
+FILE: demo/run_demo.py
+--------------------------------------------------------------------------------
+import json
+import os
+
+from models.clip_model import load_clip
+from pipelines.verification_pipeline import verify_image
+from utils.image_utils import load_images_by_category
+from config.company_domains import COMPANY_DOMAINS
+
+OUTPUT_PATH = "output/results.json"
+
+def run_demo():
+    model, processor = load_clip()
+
+    company = "tv_company"
+    company_domain = COMPANY_DOMAINS[company]
+
+    test_images = {
+        "tv": "data/samples/tv/1.jpg",
+        "tshirt": "data/samples/tshirt/1.jpg",
+        "sofa": "data/samples/sofa/1.jpg"
+    }
+
+    results = {}
+
+    for label, path in test_images.items():
+        image = load_images_by_category(path)
+        result = verify_image(
+            model,
+            processor,
+            image,
+            company_domain
+        )
+        results[label] = result
+
+    os.makedirs("output", exist_ok=True)
+    with open(OUTPUT_PATH, "w") as f:
+        json.dump(results, f, indent=2)
+
+    print(json.dumps(results, indent=2))
+
+
+if __name__ == "__main__":
+    run_demo()
+
+
+FILE: static/style.css
+--------------------------------------------------------------------------------
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 6px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 15px;
+    background: #e6f7ff;
+    border-radius: 4px;
+}
+
+.error {
+    margin-top: 20px;
+    color: red;
+}
+
+
+FILE: templates/index.html
+--------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Domain Verification</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Product Domain Verification</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label>Company Domain (text)</label>
+        <textarea name="domain" placeholder="e.g. television, smart tv, home entertainment electronics" required></textarea>
+
+        <label>Upload Product Image</label>
+        <input type="file" name="image" accept="image/*" required>
+
+        <button type="submit">Verify Product</button>
+    </form>
+
+    {% if result %}
+        <div class="result">
+            <h2>Result</h2>
+            <p><strong>Similarity Score:</strong> {{ result.similarity_score }}</p>
+            <p><strong>Decision:</strong> {{ result.decision }}</p>
+        </div>
+    {% endif %}
+
+    {% if error %}
+        <div class="error">
+            <p>{{ error }}</p>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
+
+
+================================================================================
+PROJECT DESCRIPTION & KEY COMPONENTS
+================================================================================
+
+1. MAIN APPLICATION (app.py)
+   - Flask web application serving as the main interface
+   - Routes POST/GET requests to index page
+   - Accepts domain text and product image
+   - Loads CLIP model once at startup for efficiency
+   - Returns verification results (similarity score and decision)
+
+2. MODELS (models/clip_model.py)
+   - Loads pre-trained CLIP model from OpenAI
+   - Uses "openai/clip-vit-base-patch32" variant
+   - Returns both model and processor for handling images and text
+
+3. UTILITIES
+   
+   a) embedding_utils.py
+      - get_image_embedding(): Converts images to embeddings
+      - get_text_embedding(): Converts text to embeddings
+      - Both functions normalize embeddings for cosine similarity
+
+   b) image_utils.py
+      - load_images_by_category(): Loads images from directory structure
+      - Supports JPG format only
+      - Returns dictionary with categories as keys and lists of PIL Images as values
+
+   c) scoring_utils.py
+      - cosine_similarity(): Calculates similarity between image and text embeddings
+      - classify_score(): Classifies score into three categories:
+        * IN_DOMAIN (score >= 0.30)
+        * NEAR_DOMAIN (score >= 0.20 and < 0.30)
+        * OUT_OF_DOMAIN (score < 0.20)
+
+4. PIPELINE (pipelines/verification_pipeline.py)
+   - Main verification workflow
+   - Takes model, processor, image, and domain text
+   - Generates embeddings for both image and text
+   - Calculates similarity score
+   - Returns decision and similarity score as JSON
+
+5. CONFIGURATION (config/company_domains.py)
+   - Defines company domains with semantic descriptions:
+     * fashion_company: clothing, apparel, fashion garments, etc.
+     * furniture_company: sofa, furniture, home seating products
+     * tv_company: television, smart tv, led tv, home entertainment electronics
+
+6. DEMO SCRIPTS
+   
+   a) run_demo.py
+      - Tests single images from tv, tshirt, and sofa categories
+      - Verifies against tv_company domain
+      - Outputs results to output/results.json
+
+   b) evaluate_dataset.py
+      - Batch processes all images in data/ directory
+      - Tests against furniture_company domain
+      - Generates summary statistics
+      - Outputs results to output/evaluation_results.json
+
+7. WEB INTERFACE
+   
+   a) templates/index.html
+      - HTML form with textarea for domain description
+      - File input for image upload
+      - Displays results and errors dynamically
+      
+   b) static/style.css
+      - Professional styling for the web interface
+      - Responsive design with centered container
+      - Color-coded results and error sections
+
+================================================================================
+DEPENDENCIES
+================================================================================
+- torch: Deep learning framework
+- torchvision: Computer vision tools
+- transformers: Pre-trained model library
+- Pillow: Image processing
+- numpy: Numerical computing
+- scikit-learn: Machine learning utilities
+- Flask: Web framework (implicitly required by app.py)
+
+
+================================================================================
+HOW IT WORKS
+================================================================================
+
+1. User submits a product image and domain description via web interface
+2. Flask app receives the request and loads the pre-trained CLIP model
+3. Pipeline processes the image:
+   - Extracts visual embeddings from the image
+   - Extracts semantic embeddings from domain text
+   - Calculates cosine similarity between embeddings
+4. Score is classified into one of three categories
+5. Result is displayed back to user with score and decision
+
+The CLIP model (Contrastive Language-Image Pre-training) enables semantic
+understanding without task-specific training, making it ideal for this use case.
+
+
+================================================================================
+DATA DIRECTORIES
+================================================================================
+data/
+├── jeans/        - Sample jeans product images
+├── sofa/         - Sample sofa product images
+├── tshirt/       - Sample t-shirt product images
+└── tv/           - Sample TV product images
+
+output/
+├── evaluation_results.json  - Results from dataset evaluation
+└── results.json             - Results from demo run
+
+
+================================================================================
+END OF DOCUMENTATION
+================================================================================

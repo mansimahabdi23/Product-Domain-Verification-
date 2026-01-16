@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Domain Verification</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Product Domain Verification</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label>Company Domain (text)</label>
+        <textarea name="domain" placeholder="e.g. television, smart tv, home entertainment electronics" required></textarea>
+
+        <label>Upload Product Image</label>
+        <input type="file" name="image" accept="image/*" required>
+
+        <button type="submit">Verify Product</button>
+    </form>
+
+    {% if result %}
+        <div class="result">
+            <h2>Result</h2>
+            <p><strong>Similarity Score:</strong> {{ result.similarity_score }}</p>
+            <p><strong>Decision:</strong> {{ result.decision }}</p>
+        </div>
+    {% endif %}
+
+    {% if error %}
+        <div class="error">
+            <p>{{ error }}</p>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
