@@ -1,6 +1,6 @@
 import torch.nn.functional as F
 
-IN_DOMAIN_THRESHOLD = 0.30
+IN_DOMAIN_THRESHOLD = 0.25
 NEAR_DOMAIN_THRESHOLD = 0.20
 
 def cosine_similarity(img_emb, text_emb):

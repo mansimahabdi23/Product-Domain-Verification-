@@ -2,25 +2,25 @@
   "jeans": {
     "total_images": 199,
     "IN_DOMAIN": 0,
-    "NEAR_DOMAIN": 34,
-    "OUT_OF_DOMAIN": 165
+    "NEAR_DOMAIN": 199,
+    "OUT_OF_DOMAIN": 0
   },
   "sofa": {
     "total_images": 199,
-    "IN_DOMAIN": 169,
-    "NEAR_DOMAIN": 30,
+    "IN_DOMAIN": 199,
+    "NEAR_DOMAIN": 0,
     "OUT_OF_DOMAIN": 0
   },
   "tshirt": {
     "total_images": 199,
     "IN_DOMAIN": 0,
-    "NEAR_DOMAIN": 16,
-    "OUT_OF_DOMAIN": 183
+    "NEAR_DOMAIN": 197,
+    "OUT_OF_DOMAIN": 2
   },
   "tv": {
     "total_images": 199,
-    "IN_DOMAIN": 0,
-    "NEAR_DOMAIN": 129,
-    "OUT_OF_DOMAIN": 70
+    "IN_DOMAIN": 1,
+    "NEAR_DOMAIN": 197,
+    "OUT_OF_DOMAIN": 1
   }
 }
