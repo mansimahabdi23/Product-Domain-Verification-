@@ -2,7 +2,7 @@ import joblib
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-model = joblib.load("flipkart_domain_classifier.pkl")
+model = joblib.load("model/flipkart_domain_classifier.pkl")
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 def clean_text(text):
     return str(text).lower().strip()
