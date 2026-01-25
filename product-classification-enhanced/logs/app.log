@@ -1,0 +1,35 @@
+2026-01-25 12:00:56,201 - __main__ - INFO - Starting up application...
+2026-01-25 12:00:56,201 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:00:56,202 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:00:56,693 - __main__ - ERROR - Failed to load model: 
+2026-01-25 12:00:58,187 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2026-01-25 12:00:58,188 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-25 12:00:58,243 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-25 12:01:20,845 - __main__ - INFO - Starting up application...
+2026-01-25 12:01:20,845 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:01:20,846 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:01:21,280 - __main__ - ERROR - Failed to load model: 
+2026-01-25 12:01:21,315 - werkzeug - WARNING -  * Debugger is active!
+2026-01-25 12:01:21,351 - werkzeug - INFO -  * Debugger PIN: 424-083-849
+2026-01-25 12:01:41,236 - werkzeug - INFO -  * Detected change in 'C:\\Python313\\Lib\\encodings\\unicode_escape.py', reloading
+2026-01-25 12:01:41,254 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:01:41] "GET / HTTP/1.1" 200 -
+2026-01-25 12:01:41,769 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:01:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-25 12:01:41,772 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:01:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-01-25 12:01:42,044 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:01:42] "GET /api/health HTTP/1.1" 200 -
+2026-01-25 12:01:44,997 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-25 12:02:11,398 - __main__ - INFO - Starting up application...
+2026-01-25 12:02:11,400 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:02:11,401 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:02:12,048 - __main__ - ERROR - Failed to load model: 
+2026-01-25 12:02:12,089 - werkzeug - WARNING -  * Debugger is active!
+2026-01-25 12:02:12,108 - werkzeug - INFO -  * Debugger PIN: 424-083-849
+2026-01-25 12:02:12,699 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:02:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-25 12:04:06,365 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:04:06] "[31m[1mPOST /classify HTTP/1.1[0m" 400 -
+2026-01-25 12:04:17,172 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:04:17] "POST /classify HTTP/1.1" 200 -
+2026-01-25 12:04:47,221 - __main__ - INFO - Cache hit for classification
+2026-01-25 12:04:47,222 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:04:47] "POST /classify HTTP/1.1" 200 -
+2026-01-25 12:05:14,431 - __main__ - INFO - Cache hit for classification
+2026-01-25 12:05:14,433 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:05:14] "POST /classify HTTP/1.1" 200 -

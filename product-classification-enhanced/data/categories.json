@@ -1,0 +1,48 @@
+{
+  "electronics": [
+    "television", "smartphone", "laptop", "tablet", "camera",
+    "headphones", "speakers", "smartwatch", "gaming console",
+    "router", "monitor", "keyboard", "mouse", "printer", "scanner"
+  ],
+  "furniture": [
+    "sofa", "bed", "table", "chair", "desk", "wardrobe",
+    "shelf", "cabinet", "ottoman", "bookshelf", "dresser",
+    "nightstand", "bench", "stool", "armchair"
+  ],
+  "clothing": [
+    "t-shirt", "jeans", "dress", "jacket", "shirt", "pants",
+    "shorts", "skirt", "sweater", "hoodie", "coat", "suit",
+    "blouse", "sweatshirt", "cardigan", "tank top", "leggings"
+  ],
+  "kitchen_appliances": [
+    "refrigerator", "oven", "microwave", "blender", "toaster",
+    "coffee maker", "dishwasher", "mixer", "air fryer",
+    "rice cooker", "slow cooker", "food processor", "kettle"
+  ],
+  "home_decor": [
+    "lamp", "rug", "curtain", "painting", "vase", "mirror",
+    "clock", "candle", "pillow", "wall art", "plant", "frame",
+    "sculpture", "throw", "blanket"
+  ],
+  "sports": [
+    "basketball", "football", "tennis racket", "golf clubs",
+    "bicycle", "treadmill", "yoga mat", "dumbbells",
+    "soccer ball", "baseball bat", "hockey stick", "skateboard"
+  ],
+  "books": [
+    "novel", "textbook", "magazine", "comic", "ebook",
+    "audiobook", "journal", "notebook", "dictionary"
+  ],
+  "toys": [
+    "doll", "action figure", "lego", "puzzle", "board game",
+    "car toy", "stuffed animal", "building blocks", "robot toy"
+  ],
+  "beauty": [
+    "perfume", "makeup", "skincare", "shampoo", "cosmetics",
+    "lotion", "serum", "cleanser", "moisturizer", "foundation"
+  ],
+  "automotive": [
+    "car", "tire", "battery", "tool", "accessory",
+    "engine part", "brake pad", "filter", "light", "mirror"
+  ]
+}

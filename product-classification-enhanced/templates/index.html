@@ -1,0 +1,411 @@
+{% extends "base.html" %}
+
+{% block title %}Product Classifier - Home{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="display-4 mb-3">
+                <i class="fas fa-search text-primary"></i> Product Classifier
+            </h1>
+            <p class="lead">
+                Upload a product image to classify it or verify if it belongs to a specific domain.
+            </p>
+        </div>
+
+        <!-- Mode Selection -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-cogs"></i> Select Analysis Mode
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-md-6 mb-3">
+                        <button id="classifyMode" class="btn btn-outline-primary btn-lg w-100 mode-btn active">
+                            <i class="fas fa-tags"></i><br>
+                            Classify Product
+                        </button>
+                        <small class="text-muted">Automatically detect product category</small>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <button id="verifyMode" class="btn btn-outline-success btn-lg w-100 mode-btn">
+                            <i class="fas fa-check-circle"></i><br>
+                            Verify Domain
+                        </button>
+                        <small class="text-muted">Check if product matches specific domain</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upload Form -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-upload"></i> Upload Product Image
+                </h5>
+            </div>
+            <div class="card-body">
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <!-- Image Upload -->
+                    <div class="mb-3">
+                        <label for="imageUpload" class="form-label">Product Image</label>
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="imageUpload" name="image" accept="image/*"
+                                required>
+                            <button class="btn btn-outline-secondary" type="button" id="cameraBtn">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                        </div>
+                        <div class="form-text">
+                            Supported formats: JPG, PNG, GIF, WebP. Max size: 10MB.
+                        </div>
+                    </div>
+
+                    <!-- Image Preview -->
+                    <div class="mb-3 text-center" id="imagePreviewContainer" style="display: none;">
+                        <img id="imagePreview" class="img-thumbnail" style="max-height: 300px;">
+                        <div class="mt-2">
+                            <button type="button" class="btn btn-sm btn-danger" id="removeImage">
+                                <i class="fas fa-trash"></i> Remove Image
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Domain Input (Hidden by default) -->
+                    <div id="domainSection" style="display: none;">
+                        <div class="mb-3">
+                            <label for="domainText" class="form-label">Domain Description</label>
+                            <textarea class="form-control" id="domainText" name="domain_text" rows="3"
+                                placeholder="e.g., electronics, gadgets, smartphones"></textarea>
+                            <div class="form-text">
+                                Describe the company's product domain. Separate terms with commas.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="companyName" class="form-label">Company Name (Optional)</label>
+                            <input type="text" class="form-control" id="companyName" name="company_name"
+                                placeholder="e.g., TechCorp Inc.">
+                        </div>
+                    </div>
+
+                    <!-- Classification Options -->
+                    <div id="classifyOptions">
+                        <div class="mb-3">
+                            <label for="topK" class="form-label">Number of Results</label>
+                            <select class="form-select" id="topK" name="top_k">
+                                <option value="1">Top 1</option>
+                                <option value="3" selected>Top 3</option>
+                                <option value="5">Top 5</option>
+                                <option value="10">Top 10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+                            <i class="fas fa-search"></i> Analyze Product
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="card" id="resultsCard" style="display: none;">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-chart-bar"></i> Analysis Results
+                </h5>
+            </div>
+            <div class="card-body">
+                <div id="resultsContent">
+                    <!-- Results will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Alert -->
+        <div class="alert alert-danger mt-3" id="errorAlert" style="display: none;">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span id="errorMessage"></span>
+        </div>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="row mt-5" id="features">
+    <div class="col-12">
+        <h2 class="text-center mb-4">Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                        <h4>AI-Powered</h4>
+                        <p>Uses CLIP vision-language model for accurate classification.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-bolt fa-3x text-success mb-3"></i>
+                        <h4>Fast Processing</h4>
+                        <p>Quick analysis with caching for repeated queries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-shield-alt fa-3x text-warning mb-3"></i>
+                        <h4>Reliable</h4>
+                        <p>Input validation and error handling for robust operation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Mode selection
+        const classifyBtn = document.getElementById('classifyMode');
+        const verifyBtn = document.getElementById('verifyMode');
+        const domainSection = document.getElementById('domainSection');
+        const classifyOptions = document.getElementById('classifyOptions');
+        const modeButtons = document.querySelectorAll('.mode-btn');
+
+        let currentMode = 'classify';
+
+        // Mode button click handlers
+        classifyBtn.addEventListener('click', function () {
+            setMode('classify');
+        });
+
+        verifyBtn.addEventListener('click', function () {
+            setMode('verify');
+        });
+
+        function setMode(mode) {
+            currentMode = mode;
+
+            // Update button states
+            modeButtons.forEach(btn => btn.classList.remove('active'));
+            if (mode === 'classify') {
+                classifyBtn.classList.add('active');
+                domainSection.style.display = 'none';
+                classifyOptions.style.display = 'block';
+            } else {
+                verifyBtn.classList.add('active');
+                domainSection.style.display = 'block';
+                classifyOptions.style.display = 'none';
+            }
+        }
+
+        // Image preview
+        const imageUpload = document.getElementById('imageUpload');
+        const imagePreview = document.getElementById('imagePreview');
+        const imagePreviewContainer = document.getElementById('imagePreviewContainer');
+        const removeImageBtn = document.getElementById('removeImage');
+
+        imageUpload.addEventListener('change', function (e) {
+            if (e.target.files.length > 0) {
+                const file = e.target.files[0];
+                const reader = new FileReader();
+
+                reader.onload = function (event) {
+                    imagePreview.src = event.target.result;
+                    imagePreviewContainer.style.display = 'block';
+                };
+
+                reader.readAsDataURL(file);
+            }
+        });
+
+        removeImageBtn.addEventListener('click', function () {
+            imageUpload.value = '';
+            imagePreviewContainer.style.display = 'none';
+        });
+
+        // Form submission
+        const uploadForm = document.getElementById('uploadForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const resultsCard = document.getElementById('resultsCard');
+        const resultsContent = document.getElementById('resultsContent');
+        const errorAlert = document.getElementById('errorAlert');
+        const errorMessage = document.getElementById('errorMessage');
+
+        uploadForm.addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            // Reset previous results/errors
+            errorAlert.style.display = 'none';
+            resultsCard.style.display = 'none';
+
+            // Show loading state
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Analyzing...';
+            submitBtn.disabled = true;
+
+            try {
+                const formData = new FormData(uploadForm);
+                formData.append('mode', currentMode);
+
+                const response = await fetch('/classify', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Analysis failed');
+                }
+
+                // Display results
+                displayResults(data);
+                resultsCard.style.display = 'block';
+
+            } catch (error) {
+                errorMessage.textContent = error.message;
+                errorAlert.style.display = 'block';
+            } finally {
+                // Reset button
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }
+        });
+
+        function displayResults(data) {
+            let html = '';
+
+            if (data.mode === 'classification') {
+                html = `
+                    <div class="text-center mb-4">
+                        <h4><i class="fas fa-tags text-primary"></i> Classification Results</h4>
+                        <p class="text-muted">Processing time: ${data.processing_time_seconds}s</p>
+                    </div>
+                `;
+
+                data.classifications.forEach((item, index) => {
+                    const confidenceColor = getConfidenceColor(item.confidence);
+                    const similarityPercent = (item.similarity * 100).toFixed(1);
+
+                    html += `
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8">
+                                        <h5>#${index + 1}: ${item.category}</h5>
+                                        <p class="mb-2">${item.description}</p>
+                                        <div class="d-flex align-items-center">
+                                            <span class="badge bg-${confidenceColor} me-2">${item.confidence}</span>
+                                            <span class="text-muted">Similarity: ${similarityPercent}%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="progress" style="height: 20px;">
+                                            <div class="progress-bar bg-${confidenceColor}" 
+                                                 role="progressbar" 
+                                                 style="width: ${similarityPercent}%">
+                                                ${similarityPercent}%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+            } else if (data.mode === 'verification') {
+                const verification = data.verification;
+                const decisionColor = getDecisionColor(verification.decision);
+                const similarityPercent = (verification.best_similarity * 100).toFixed(1);
+
+                html = `
+                    <div class="text-center mb-4">
+                        <h4><i class="fas fa-check-circle text-success"></i> Domain Verification</h4>
+                        <p class="text-muted">Processing time: ${data.processing_time_seconds}s</p>
+                    </div>
+                    
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h2 class="display-4 text-${decisionColor} mb-3">
+                                ${verification.decision}
+                            </h2>
+                            <p class="lead">${verification.explanation}</p>
+                            
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h6><i class="fas fa-chart-line"></i> Best Match</h6>
+                                            <h3>${similarityPercent}%</h3>
+                                            <small class="text-muted">Similarity Score</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h6><i class="fas fa-tachometer-alt"></i> Confidence</h6>
+                                            <h3>${verification.confidence}</h3>
+                                            <small class="text-muted">Confidence Level</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i>
+                        Based on ${verification.prompts_used} different prompt variations.
+                        ${data.cached ? '<br><small><i class="fas fa-database"></i> Served from cache</small>' : ''}
+                    </div>
+                `;
+            }
+
+            resultsContent.innerHTML = html;
+        }
+
+        function getConfidenceColor(confidence) {
+            const colors = {
+                'VERY_HIGH': 'success',
+                'HIGH': 'success',
+                'MEDIUM': 'warning',
+                'LOW': 'warning',
+                'VERY_LOW': 'danger'
+            };
+            return colors[confidence] || 'secondary';
+        }
+
+        function getDecisionColor(decision) {
+            const colors = {
+                'IN_DOMAIN': 'success',
+                'NEAR_DOMAIN': 'warning',
+                'OUT_OF_DOMAIN': 'danger'
+            };
+            return colors[decision] || 'secondary';
+        }
+
+        // Camera button (future enhancement)
+        const cameraBtn = document.getElementById('cameraBtn');
+        cameraBtn.addEventListener('click', function () {
+            alert('Camera capture feature coming soon!');
+        });
+    });
+</script>
+{% endblock %}
