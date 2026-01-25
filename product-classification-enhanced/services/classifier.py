@@ -1,14 +1,15 @@
 import json
 import os
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 from PIL import Image
 import logging
 from pathlib import Path
+import torch
+import torch.nn.functional as F
 
-from models.embeddings import EmbeddingGenerator
+from models.clip_manager import clip_manager
 from core.config import Config
 from core.constants import CONFIDENCE_LEVELS, DECISIONS, DEFAULT_CATEGORIES
-from models.clip_manager import clip_manager
 
 logger = logging.getLogger(__name__)
 
@@ -17,15 +18,18 @@ class ProductClassifier:
     
     def __init__(self, categories_file: str = None):
         self.config = Config()
-        self.clip_manager = clip_manager # Pass the global instance or initialize one
-        self.embedding_generator = EmbeddingGenerator(self.clip_manager)
+        
+        # Initialize model
+        self.model, self.processor = clip_manager.get_model()
+        self.device = clip_manager.device
         
         # Load or create categories
         self.categories_file = categories_file or self.config.CATEGORIES_FILE
         self.categories = self._load_categories()
         
         # Precompute category embeddings
-        self.category_embeddings = self._precompute_embeddings()
+        self.category_embeddings = {}
+        self._precompute_embeddings()
     
     def _load_categories(self) -> Dict:
         """Load categories from file or create default"""
@@ -33,15 +37,37 @@ class ProductClassifier:
             try:
                 with open(self.categories_file, 'r') as f:
                     categories = json.load(f)
-                logger.info(f"Loaded categories from {self.categories_file}")
+                logger.info(f"✅ Loaded {len(categories)} categories from {self.categories_file}")
                 return categories
             except Exception as e:
-                logger.warning(f"Failed to load categories: {e}. Creating default.")
+                logger.warning(f"❌ Failed to load categories: {e}. Creating default.")
         
         # Create default categories
         default_categories = {
-            category: [f"{category}_item_{i}" for i in range(1, 6)]
-            for category in DEFAULT_CATEGORIES
+            "electronics": [
+                "television", "smartphone", "laptop", "tablet", "camera",
+                "headphones", "speakers", "smartwatch", "gaming console"
+            ],
+            "furniture": [
+                "sofa", "bed", "table", "chair", "desk", "wardrobe",
+                "shelf", "cabinet", "ottoman"
+            ],
+            "clothing": [
+                "t-shirt", "jeans", "dress", "jacket", "shirt", "pants",
+                "shorts", "skirt", "sweater", "hoodie"
+            ],
+            "kitchen_appliances": [
+                "refrigerator", "oven", "microwave", "blender", "toaster",
+                "coffee maker", "dishwasher", "mixer"
+            ],
+            "home_decor": [
+                "lamp", "rug", "curtain", "painting", "vase", "mirror",
+                "clock", "candle", "pillow"
+            ],
+            "sports": [
+                "basketball", "football", "tennis racket", "golf clubs",
+                "bicycle", "treadmill", "yoga mat", "dumbbells"
+            ]
         }
         
         # Save default categories
@@ -54,39 +80,89 @@ class ProductClassifier:
             os.makedirs(os.path.dirname(self.categories_file), exist_ok=True)
             with open(self.categories_file, 'w') as f:
                 json.dump(categories, f, indent=2)
-            logger.info(f"Saved categories to {self.categories_file}")
+            logger.info(f"✅ Saved {len(categories)} categories to {self.categories_file}")
         except Exception as e:
-            logger.error(f"Failed to save categories: {e}")
+            logger.error(f"❌ Failed to save categories: {e}")
     
-    def _precompute_embeddings(self) -> Dict:
+    def _precompute_embeddings(self):
         """Precompute embeddings for all categories"""
-        embeddings = {}
+        logger.info(f"🔄 Precomputing embeddings for {len(self.categories)} categories...")
         
         for category, subcategories in self.categories.items():
             # Create descriptive text for the category
-            category_text = f"{category} products including {', '.join(subcategories[:3])}"
+            if subcategories and len(subcategories) > 0:
+                # Use first 3 subcategories for description
+                description = f"{category} products including {', '.join(subcategories[:3])}"
+            else:
+                description = f"{category} products"
             
             # Generate embedding
             try:
-                emb = self.embedding_generator.get_text_embedding(category_text)
-                embeddings[category] = emb
-                logger.debug(f"Precomputed embedding for category: {category}")
+                inputs = self.processor(text=[description], return_tensors="pt", padding=True).to(self.device)
+                with torch.no_grad():
+                    emb = self.model.get_text_features(**inputs)
+                    emb = F.normalize(emb, dim=-1)
+                
+                self.category_embeddings[category] = emb.cpu()
+                logger.debug(f"  ✓ Precomputed embedding for: {category}")
+                
             except Exception as e:
-                logger.error(f"Failed to precompute embedding for {category}: {e}")
+                logger.error(f"  ✗ Failed to precompute embedding for {category}: {e}")
+                # Create a zero embedding as fallback
+                self.category_embeddings[category] = torch.zeros(1, 512)
         
-        logger.info(f"Precomputed embeddings for {len(embeddings)} categories")
-        return embeddings
+        logger.info(f"✅ Precomputed embeddings for {len(self.category_embeddings)} categories")
     
-    def classify(self, image: Image.Image, top_k: int = 3) -> List[Dict]:
+    def _get_image_embedding(self, image: Image.Image) -> torch.Tensor:
+        """Generate embedding for a single image"""
+        try:
+            # Process image
+            inputs = self.processor(images=image, return_tensors="pt").to(self.device)
+            
+            # Generate embedding
+            with torch.no_grad():
+                embedding = self.model.get_image_features(**inputs)
+                embedding = F.normalize(embedding, dim=-1)
+            
+            return embedding.cpu()  # Move to CPU for consistency
+            
+        except Exception as e:
+            logger.error(f"❌ Failed to generate image embedding: {e}")
+            # Return zero embedding as fallback
+            return torch.zeros(1, 512)
+    
+    def _get_text_embedding(self, text: str) -> torch.Tensor:
+        """Generate embedding for text"""
+        try:
+            inputs = self.processor(text=[text], return_tensors="pt", padding=True).to(self.device)
+            
+            with torch.no_grad():
+                embedding = self.model.get_text_features(**inputs)
+                embedding = F.normalize(embedding, dim=-1)
+            
+            return embedding.cpu()
+            
+        except Exception as e:
+            logger.error(f"❌ Failed to generate text embedding: {e}")
+            return torch.zeros(1, 512)
+    
+    def classify(self, image: Image.Image, top_k: int = 3, min_score: float = 0.1) -> List[Dict]:
         """Classify a product image"""
+        logger.info(f"🔍 Starting classification (top_k={top_k})")
+        
         try:
             # Generate image embedding
-            image_emb = self.embedding_generator.get_image_embedding(image)
+            image_emb = self._get_image_embedding(image)
             
             # Calculate similarity with all categories
             results = []
             for category, category_emb in self.category_embeddings.items():
-                similarity = self.embedding_generator.get_similarity(image_emb, category_emb)
+                # Calculate cosine similarity
+                similarity = F.cosine_similarity(image_emb, category_emb).item()
+                
+                # Skip if below minimum score
+                if similarity < min_score:
+                    continue
                 
                 # Determine confidence level
                 confidence = self._get_confidence_level(similarity)
@@ -95,90 +171,140 @@ class ProductClassifier:
                     'category': category,
                     'similarity': round(similarity, 4),
                     'confidence': confidence,
-                    'description': f"Likely a {category} product"
+                    'description': f"Likely a {category} product",
+                    'score_percent': round(similarity * 100, 1)
                 })
             
             # Sort by similarity (highest first)
             results.sort(key=lambda x: x['similarity'], reverse=True)
             
+            # Log results
+            if results:
+                logger.info(f"✅ Classification successful. Top result: {results[0]['category']} ({results[0]['score_percent']}%)")
+                for i, result in enumerate(results[:top_k]):
+                    logger.info(f"  {i+1}. {result['category']}: {result['similarity']:.3f} ({result['confidence']})")
+            else:
+                logger.warning("⚠️ No categories matched with sufficient similarity")
+                # Return default "unknown" result
+                results.append({
+                    'category': 'unknown',
+                    'similarity': 0.0,
+                    'confidence': 'VERY_LOW',
+                    'description': 'Cannot determine product category',
+                    'score_percent': 0.0
+                })
+            
             # Return top K results
             return results[:top_k]
             
         except Exception as e:
-            logger.error(f"Classification failed: {e}")
+            logger.error(f"❌ Classification failed: {e}")
             raise
     
     def verify_domain(self, image: Image.Image, domain_text: str, company_name: str = None) -> Dict:
         """Verify if product belongs to a specific domain"""
+        logger.info(f"🔍 Starting domain verification")
+        
         try:
             # Generate image embedding
-            image_emb = self.embedding_generator.get_image_embedding(image)
+            image_emb = self._get_image_embedding(image)
             
             # Create multiple prompts for better matching
             prompts = self._create_domain_prompts(domain_text, company_name)
+            logger.debug(f"Generated {len(prompts)} prompts for domain verification")
             
             # Calculate similarity with all prompts
             similarities = []
-            for prompt in prompts:
-                text_emb = self.embedding_generator.get_text_embedding(prompt)
-                similarity = self.embedding_generator.get_similarity(image_emb, text_emb)
+            for i, prompt in enumerate(prompts):
+                text_emb = self._get_text_embedding(prompt)
+                similarity = F.cosine_similarity(image_emb, text_emb).item()
                 similarities.append(similarity)
+                logger.debug(f"  Prompt {i+1}: {similarity:.3f} - '{prompt[:50]}...'")
             
-            # Get the best match
-            best_similarity = max(similarities) if similarities else 0.0
-            avg_similarity = sum(similarities) / len(similarities) if similarities else 0.0
-            
-            # Make decision
-            decision, confidence = self._make_verification_decision(best_similarity)
-            
-            return {
-                'best_similarity': round(best_similarity, 4),
-                'average_similarity': round(avg_similarity, 4),
-                'decision': decision,
-                'confidence': confidence,
-                'explanation': DECISIONS.get(decision, 'Unknown'),
-                'prompts_used': len(prompts)
-            }
+            # Get statistics
+            if similarities:
+                best_similarity = max(similarities)
+                avg_similarity = sum(similarities) / len(similarities)
+                
+                # Make decision based on thresholds
+                decision, confidence = self._make_verification_decision(best_similarity)
+                
+                logger.info(f"✅ Domain verification: {decision} (best: {best_similarity:.3f}, avg: {avg_similarity:.3f})")
+                
+                return {
+                    'best_similarity': round(best_similarity, 4),
+                    'average_similarity': round(avg_similarity, 4),
+                    'decision': decision,
+                    'confidence': confidence,
+                    'explanation': DECISIONS.get(decision, 'Unknown'),
+                    'prompts_used': len(prompts),
+                    'score_percent': round(best_similarity * 100, 1)
+                }
+            else:
+                logger.warning("⚠️ No prompts generated for domain verification")
+                return {
+                    'best_similarity': 0.0,
+                    'average_similarity': 0.0,
+                    'decision': 'OUT_OF_DOMAIN',
+                    'confidence': 'VERY_LOW',
+                    'explanation': 'No valid prompts generated',
+                    'prompts_used': 0,
+                    'score_percent': 0.0
+                }
             
         except Exception as e:
-            logger.error(f"Domain verification failed: {e}")
+            logger.error(f"❌ Domain verification failed: {e}")
             raise
     
     def _create_domain_prompts(self, domain_text: str, company_name: str = None) -> List[str]:
         """Create multiple prompts for domain verification"""
         prompts = []
         
-        # Basic domain text
+        # Clean the domain text
+        domain_text = domain_text.strip()
+        if not domain_text:
+            logger.warning("Domain text is empty")
+            return prompts
+        
+        # Basic domain text variations
         prompts.append(domain_text)
+        prompts.append(f"products: {domain_text}")
+        prompts.append(f"a photo of {domain_text}")
+        prompts.append(f"product image: {domain_text}")
         
         # If company name is provided, add company-specific prompts
-        if company_name:
-            prompts.extend([
-                f"{company_name} products: {domain_text}",
-                f"Products sold by {company_name}: {domain_text}",
-                f"{company_name}'s {domain_text}"
-            ])
+        if company_name and company_name.strip():
+            company_name = company_name.strip()
+            prompts.append(f"{company_name} products: {domain_text}")
+            prompts.append(f"products sold by {company_name}: {domain_text}")
+            prompts.append(f"{company_name}'s {domain_text}")
         
         # Extract main terms from domain text
-        domain_terms = [term.strip() for term in domain_text.split(',')]
+        domain_terms = [term.strip() for term in domain_text.split(',') if term.strip()]
         if domain_terms:
             main_term = domain_terms[0]
             
-            # Add descriptive prompts
+            # Add more specific prompts
             prompts.extend([
-                f"a photo of {main_term}",
-                f"product image: {main_term}",
-                f"commercial product: {main_term}",
+                f"a {main_term} product",
+                f"commercial {main_term}",
                 f"{main_term} for sale",
                 f"photo showing {main_term}"
             ])
         
-        # Add combination prompts
+        # Add combination prompts if multiple terms
         if len(domain_terms) > 1:
             prompts.append(f"{domain_terms[0]} and {domain_terms[1]}")
         
-        # Remove duplicates
-        return list(set(prompts))
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_prompts = []
+        for prompt in prompts:
+            if prompt not in seen:
+                seen.add(prompt)
+                unique_prompts.append(prompt)
+        
+        return unique_prompts
     
     def _get_confidence_level(self, similarity: float) -> str:
         """Get confidence level based on similarity score"""
@@ -193,7 +319,7 @@ class ProductClassifier:
         else:
             return 'VERY_LOW'
     
-    def _make_verification_decision(self, similarity: float) -> tuple:
+    def _make_verification_decision(self, similarity: float) -> Tuple[str, str]:
         """Make verification decision based on similarity"""
         if similarity >= self.config.IN_DOMAIN_THRESHOLD:
             decision = 'IN_DOMAIN'
@@ -211,10 +337,14 @@ class ProductClassifier:
         self._save_categories(self.categories)
         
         # Update embeddings
-        category_text = f"{category_name} products including {', '.join(subcategories[:3])}"
-        emb = self.embedding_generator.get_text_embedding(category_text)
+        if subcategories:
+            category_text = f"{category_name} products including {', '.join(subcategories[:3])}"
+        else:
+            category_text = f"{category_name} products"
+            
+        emb = self._get_text_embedding(category_text)
         self.category_embeddings[category_name] = emb
-        logger.info(f"Added new category: {category_name}")
+        logger.info(f"✅ Added new category: {category_name}")
 
 
 # Global instance

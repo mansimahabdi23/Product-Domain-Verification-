@@ -33,3 +33,445 @@
 2026-01-25 12:04:47,222 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:04:47] "POST /classify HTTP/1.1" 200 -
 2026-01-25 12:05:14,431 - __main__ - INFO - Cache hit for classification
 2026-01-25 12:05:14,433 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:05:14] "POST /classify HTTP/1.1" 200 -
+2026-01-25 12:23:13,779 - models.clip_manager - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2026-01-25 12:23:13,779 - models.clip_manager - INFO - Loading model...
+2026-01-25 12:23:17,610 - models.clip_manager - INFO - Loading processor...
+2026-01-25 12:23:20,400 - models.clip_manager - INFO - Moving model to cpu...
+2026-01-25 12:23:20,451 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:23:20,616 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.113424777984619, 4.766305923461914] which cannot be converted to uint8.
+
+2026-01-25 12:23:23,384 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2026-01-25 12:23:23,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-25 12:23:23,444 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-25 12:24:02,502 - models.clip_manager - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2026-01-25 12:24:02,502 - models.clip_manager - INFO - Loading model...
+2026-01-25 12:24:06,164 - models.clip_manager - INFO - Loading processor...
+2026-01-25 12:24:09,140 - models.clip_manager - INFO - Moving model to cpu...
+2026-01-25 12:24:09,157 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:09,193 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.2435173988342285, 4.198525905609131] which cannot be converted to uint8.
+
+2026-01-25 12:24:10,337 - werkzeug - WARNING -  * Debugger is active!
+2026-01-25 12:24:10,365 - werkzeug - INFO -  * Debugger PIN: 424-083-849
+2026-01-25 12:24:11,356 - werkzeug - INFO -  * Detected change in 'C:\\Users\\kaust\\AppData\\Roaming\\Python\\Python313\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2026-01-25 12:24:11,439 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:11,441 - werkzeug - INFO -  * Detected change in 'C:\\Users\\kaust\\AppData\\Roaming\\Python\\Python313\\site-packages\\werkzeug\\serving.py', reloading
+2026-01-25 12:24:11,441 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:11,443 - werkzeug - INFO -  * Detected change in 'C:\\Python313\\Lib\\socketserver.py', reloading
+2026-01-25 12:24:11,444 - werkzeug - INFO -  * Detected change in 'C:\\Python313\\Lib\\threading.py', reloading
+2026-01-25 12:24:11,493 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.4731340408325195, 4.082024574279785] which cannot be converted to uint8.
+
+2026-01-25 12:24:11,545 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:11] "GET / HTTP/1.1" 200 -
+2026-01-25 12:24:11,595 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:11,596 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:11,731 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.404972076416016, 4.423798084259033] which cannot be converted to uint8.
+
+2026-01-25 12:24:11,759 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:11,793 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:11,796 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:11,798 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:11,834 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:11] "GET / HTTP/1.1" 200 -
+2026-01-25 12:24:12,059 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.385818004608154, 4.295006275177002] which cannot be converted to uint8.
+
+2026-01-25 12:24:12,148 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.587470054626465, 4.19530725479126] which cannot be converted to uint8.
+
+2026-01-25 12:24:12,719 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-25 12:24:12,756 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-01-25 12:24:12,822 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:12,825 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:12,876 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:13,243 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:13,247 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.304836750030518, 4.761586666107178] which cannot be converted to uint8.
+
+2026-01-25 12:24:13,324 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:13,345 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:13,384 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-25 12:24:13,492 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.3493804931640625, 4.355687618255615] which cannot be converted to uint8.
+
+2026-01-25 12:24:13,571 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.238677024841309, 4.659579277038574] which cannot be converted to uint8.
+
+2026-01-25 12:24:13,631 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-01-25 12:24:13,659 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:13] "GET /api/health HTTP/1.1" 200 -
+2026-01-25 12:24:13,710 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:24:13,711 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:24:13,830 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-5.050487995147705, 4.1829657554626465] which cannot be converted to uint8.
+
+2026-01-25 12:24:13,889 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:24:13] "GET /api/health HTTP/1.1" 200 -
+2026-01-25 12:24:17,653 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-25 12:24:55,186 - models.clip_manager - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2026-01-25 12:24:55,187 - models.clip_manager - INFO - Loading model...
+2026-01-25 12:24:58,177 - models.clip_manager - INFO - Loading processor...
+2026-01-25 12:25:00,888 - models.clip_manager - INFO - Moving model to cpu...
+2026-01-25 12:25:00,905 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:25:00,942 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.77829647064209, 4.695519924163818] which cannot be converted to uint8.
+
+2026-01-25 12:25:02,184 - werkzeug - WARNING -  * Debugger is active!
+2026-01-25 12:25:02,207 - werkzeug - INFO -  * Debugger PIN: 424-083-849
+2026-01-25 12:25:03,124 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:25:03,125 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:25:03,161 - models.clip_manager - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\Projects\product-classification\product-classification-enhanced\models\clip_manager.py", line 103, in warmup
+    image_inputs = processor(images=dummy_image, return_tensors="pt").to(self.device)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\processing_clip.py", line 109, in __call__
+    image_features = self.image_processor(images, return_tensors=return_tensors, **image_processor_kwargs)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_processing_utils.py", line 44, in __call__
+    return self.preprocess(images, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 327, in preprocess
+    image = self.resize(image=image, size=size, resample=resample, input_data_format=input_data_format)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\models\clip\image_processing_clip.py", line 193, in resize
+    return resize(
+        image,
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 373, in resize
+    do_rescale = _rescale_for_pil_conversion(image)
+  File "C:\Users\kaust\AppData\Roaming\Python\Python313\site-packages\transformers\image_transforms.py", line 155, in _rescale_for_pil_conversion
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The image to be converted to a PIL image contains values outside the range [0, 1], got [-4.634177207946777, 4.4679646492004395] which cannot be converted to uint8.
+
+2026-01-25 12:25:04,155 - services.classifier - INFO -   1. automotive: 0.246 (LOW)
+2026-01-25 12:25:04,156 - services.classifier - INFO -   2. beauty: 0.245 (LOW)
+2026-01-25 12:25:04,157 - services.classifier - INFO -   3. clothing: 0.226 (LOW)
+2026-01-25 12:25:04,168 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:25:04] "POST /classify HTTP/1.1" 200 -
+2026-01-25 12:26:56,869 - werkzeug - INFO -  * Detected change in 'D:\\Projects\\product-classification\\product-classification-enhanced\\models\\clip_manager.py', reloading
+2026-01-25 12:26:56,880 - werkzeug - INFO -  * Detected change in 'D:\\Projects\\product-classification\\product-classification-enhanced\\models\\clip_manager.py', reloading
+2026-01-25 12:26:58,628 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-25 12:27:20,959 - models.clip_manager - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2026-01-25 12:27:20,960 - models.clip_manager - INFO - Loading model...
+2026-01-25 12:27:23,195 - models.clip_manager - INFO - Loading processor...
+2026-01-25 12:27:25,501 - models.clip_manager - INFO - Moving model to cpu...
+2026-01-25 12:27:25,513 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:27:27,221 - werkzeug - WARNING -  * Debugger is active!
+2026-01-25 12:27:27,248 - werkzeug - INFO -  * Debugger PIN: 424-083-849
+2026-01-25 12:29:43,073 - models.clip_manager - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2026-01-25 12:29:43,073 - models.clip_manager - INFO - Loading model...
+2026-01-25 12:29:44,165 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:29:44,166 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:29:44,956 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:29:44,957 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:29:45,658 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:29:45] "GET /api/categories HTTP/1.1" 200 -
+2026-01-25 12:29:46,273 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:29:46] "GET / HTTP/1.1" 200 -
+2026-01-25 12:29:46,582 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:29:46,600 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:29:46,602 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:29:46,602 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:29:47,749 - models.clip_manager - INFO - Loading processor...
+2026-01-25 12:29:50,459 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:29:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-01-25 12:29:50,473 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:29:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-25 12:29:51,641 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:29:51,682 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:29:51,687 - models.clip_manager - INFO - Moving model to cpu...
+2026-01-25 12:29:51,908 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:29:54,447 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:29:54] "GET /api/health HTTP/1.1" 200 -
+2026-01-25 12:29:58,259 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2026-01-25 12:29:58,260 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-25 12:29:58,324 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-25 12:30:02,576 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:02,577 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:03,204 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:03] "GET / HTTP/1.1" 200 -
+2026-01-25 12:30:03,324 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:03,345 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:03,346 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:03,347 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:04,579 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-25 12:30:04,630 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-01-25 12:30:04,761 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:04,763 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:06,075 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:06] "GET /api/health HTTP/1.1" 200 -
+2026-01-25 12:30:11,023 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:11,024 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:11,657 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:11] "GET / HTTP/1.1" 200 -
+2026-01-25 12:30:11,792 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:11,827 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:11,828 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:11,829 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:13,247 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-25 12:30:13,356 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-01-25 12:30:13,413 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:13,418 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:14,380 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:14] "GET /api/health HTTP/1.1" 200 -
+2026-01-25 12:30:30,325 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:30:30,326 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:31,937 - services.classifier - INFO -   1. agriculture: 0.274 (MEDIUM)
+2026-01-25 12:30:31,938 - services.classifier - INFO -   2. healthcare_and_fitness: 0.269 (MEDIUM)
+2026-01-25 12:30:31,939 - services.classifier - INFO -   3. other_industries: 0.240 (LOW)
+2026-01-25 12:30:31,944 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:30:31] "POST /classify HTTP/1.1" 200 -
+2026-01-25 12:30:35,410 - models.clip_manager - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2026-01-25 12:30:35,411 - models.clip_manager - INFO - Loading model...
+2026-01-25 12:30:38,081 - models.clip_manager - INFO - Loading processor...
+2026-01-25 12:30:40,820 - models.clip_manager - INFO - Moving model to cpu...
+2026-01-25 12:30:40,835 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:30:42,967 - werkzeug - WARNING -  * Debugger is active!
+2026-01-25 12:30:43,020 - werkzeug - INFO -  * Debugger PIN: 424-083-849
+2026-01-25 12:31:37,639 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:31:37,640 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:31:38,795 - services.classifier - INFO -   1. other_industries: 0.236 (LOW)
+2026-01-25 12:31:38,796 - services.classifier - INFO -   2. consumer_goods: 0.235 (LOW)
+2026-01-25 12:31:38,797 - services.classifier - INFO -   3. hardware_and_construction: 0.227 (LOW)
+2026-01-25 12:31:38,802 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:31:38] "POST /classify HTTP/1.1" 200 -
+2026-01-25 12:32:10,709 - models.clip_manager - INFO - Model already loaded, returning cached instance
+2026-01-25 12:32:10,710 - models.clip_manager - INFO - Warming up model...
+2026-01-25 12:32:12,765 - werkzeug - INFO - 127.0.0.1 - - [25/Jan/2026 12:32:12] "POST /classify HTTP/1.1" 200 -

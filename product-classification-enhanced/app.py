@@ -7,7 +7,6 @@ import os
 
 from core.config import Config
 from models.clip_manager import clip_manager
-from services.classifier import classifier
 from services.cache import cache
 from utils.image_processor import image_processor
 from utils.validation import validator
@@ -30,19 +29,36 @@ app.config.from_object(Config)
 # Initialize application
 Config.init_app()
 
+# Global flag to track if model is ready
+model_ready = False
+
+@app.before_request
 def startup():
     """Initialize on first request"""
-    logger.info("Starting up application...")
+    global model_ready
+    logger.info("🚀 Starting up application...")
+    
     try:
+        # Load model
         clip_manager.load_model()
+        
+        # Warm up model
         clip_manager.warmup()
-        logger.info("Model loaded and warmed up successfully")
+        
+        # Initialize classifier (this will precompute embeddings)
+        from services.classifier import classifier
+        logger.info("✅ Model loaded and classifier initialized successfully")
+        model_ready = True
+        
     except Exception as e:
-        logger.error(f"Failed to load model: {e}")
+        logger.error(f"❌ Failed to initialize model: {e}")
+        logger.error("⚠️ Application will start but classification may not work")
+        model_ready = False
 
-# Run startup initialization
+# Fallback in case before_first_request is not triggered or deprecated
 with app.app_context():
-    startup()
+    if not model_ready:
+        startup()
 
 @app.route('/', methods=['GET'])
 def index():
@@ -52,9 +68,20 @@ def index():
 @app.route('/classify', methods=['POST'])
 def classify():
     """Classify product image"""
+    global model_ready
+    
+    if not model_ready:
+        return jsonify({
+            'error': 'Model not initialized',
+            'message': 'Please wait for model to load or restart the application'
+        }), 503
+    
     start_time = datetime.now()
     
     try:
+        # Lazy import to avoid circular dependencies if any
+        from services.classifier import classifier
+
         # Get uploaded file
         if 'image' not in request.files:
             return jsonify({'error': 'No image file provided'}), 400
@@ -62,6 +89,12 @@ def classify():
         file = request.files['image']
         if file.filename == '':
             return jsonify({'error': 'No image selected'}), 400
+        
+        # Check file extension
+        allowed_extensions = {'png', 'jpg', 'jpeg', 'gif', 'webp'}
+        if '.' not in file.filename or \
+           file.filename.rsplit('.', 1)[1].lower() not in allowed_extensions:
+            return jsonify({'error': 'Invalid file type. Use PNG, JPG, GIF, or WebP.'}), 400
         
         # Read image data
         image_data = file.read()
@@ -74,16 +107,16 @@ def classify():
         # Process image
         image = image_processor.process_image(image_data)
         
-        # Get parameters
-        mode = request.form.get('mode', 'classify')
-        top_k = int(request.form.get('top_k', 3))
+        # Get parameters with defaults
+        mode = request.form.get('mode', 'classify').lower()
+        top_k = min(int(request.form.get('top_k', 3)), 10)  # Max 10 results
         
         # Generate cache key
         cache_key = f"{mode}_{hash(image_data)}_{top_k}"
         
         # Check cache first
         if cache.get(cache_key):
-            logger.info("Cache hit for classification")
+            logger.info("💾 Cache hit for classification")
             result = cache.get(cache_key)
             result['cached'] = True
             return jsonify(result)
@@ -96,7 +129,8 @@ def classify():
             result = {
                 'mode': 'classification',
                 'classifications': classifications,
-                'timestamp': datetime.now().isoformat()
+                'timestamp': datetime.now().isoformat(),
+                'status': 'success'
             }
         
         elif mode == 'verify':
@@ -104,26 +138,28 @@ def classify():
             domain_text = request.form.get('domain_text', '').strip()
             company_name = request.form.get('company_name', '').strip()
             
+            # Validate domain text
+            if not domain_text:
+                return jsonify({'error': 'Domain text is required for verification mode'}), 400
+            
             # Validate inputs
             is_valid, error_msg = validator.validate_domain_text(domain_text)
             if not is_valid:
                 return jsonify({'error': error_msg}), 400
             
-            is_valid, error_msg = validator.validate_company_name(company_name)
-            if not is_valid:
-                return jsonify({'error': error_msg}), 400
+            if company_name:
+                is_valid, error_msg = validator.validate_company_name(company_name)
+                if not is_valid:
+                    return jsonify({'error': error_msg}), 400
             
             # Perform verification
-            verification = classifier.verify_domain(
-                image, 
-                domain_text, 
-                company_name
-            )
+            verification = classifier.verify_domain(image, domain_text, company_name)
             
             result = {
                 'mode': 'verification',
                 'verification': verification,
-                'timestamp': datetime.now().isoformat()
+                'timestamp': datetime.now().isoformat(),
+                'status': 'success'
             }
         
         else:
@@ -140,13 +176,18 @@ def classify():
         return jsonify(result)
         
     except Exception as e:
-        logger.error(f"Classification error: {str(e)}", exc_info=True)
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"❌ Classification error: {str(e)}", exc_info=True)
+        return jsonify({
+            'error': 'Classification failed',
+            'message': str(e),
+            'status': 'error'
+        }), 500
 
 @app.route('/api/categories', methods=['GET'])
 def get_categories():
     """Get all available categories"""
     try:
+        from services.classifier import classifier
         return jsonify({
             'categories': list(classifier.categories.keys()),
             'count': len(classifier.categories)
@@ -158,22 +199,31 @@ def get_categories():
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
+    global model_ready
+    
     try:
-        # Check model status
-        model_loaded = clip_manager._model is not None
-        
-        # Get cache stats
+        # Check cache stats
         cache_stats = cache.get_stats()
         
-        return jsonify({
-            'status': 'healthy',
-            'model_loaded': model_loaded,
+        health_data = {
+            'status': 'healthy' if model_ready else 'degraded',
+            'model_ready': model_ready,
             'cache_stats': cache_stats,
-            'timestamp': datetime.now().isoformat()
-        })
+            'timestamp': datetime.now().isoformat(),
+            'version': '1.0.0'
+        }
+        
+        status_code = 200 if model_ready else 503
+        
+        return jsonify(health_data), status_code
+        
     except Exception as e:
-        logger.error(f"Health check failed: {e}")
-        return jsonify({'status': 'unhealthy', 'error': str(e)}), 500
+        logger.error(f"❌ Health check failed: {e}")
+        return jsonify({
+            'status': 'unhealthy',
+            'error': str(e),
+            'timestamp': datetime.now().isoformat()
+        }), 500
 
 @app.route('/api/cache/clear', methods=['POST'])
 def clear_cache():

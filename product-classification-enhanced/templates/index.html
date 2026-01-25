@@ -253,6 +253,16 @@
             errorAlert.style.display = 'none';
             resultsCard.style.display = 'none';
 
+            // Validate required fields for verify mode
+            if (currentMode === 'verify') {
+                const domainText = document.getElementById('domainText').value.trim();
+                if (!domainText) {
+                    errorMessage.textContent = 'Domain text is required for verification mode';
+                    errorAlert.style.display = 'block';
+                    return;
+                }
+            }
+
             // Show loading state
             const originalText = submitBtn.innerHTML;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Analyzing...';
@@ -270,7 +280,11 @@
                 const data = await response.json();
 
                 if (!response.ok) {
-                    throw new Error(data.error || 'Analysis failed');
+                    let errorMsg = data.error || 'Analysis failed';
+                    if (data.message) {
+                        errorMsg += `: ${data.message}`;
+                    }
+                    throw new Error(errorMsg);
                 }
 
                 // Display results
@@ -290,79 +304,128 @@
         function displayResults(data) {
             let html = '';
 
-            if (data.mode === 'classification') {
+            if (data.status === 'error') {
+                html = `
+                    <div class="alert alert-danger">
+                        <h4><i class="fas fa-exclamation-triangle"></i> Error</h4>
+                        <p>${data.message || 'Unknown error occurred'}</p>
+                    </div>
+                `;
+            } else if (data.mode === 'classification') {
                 html = `
                     <div class="text-center mb-4">
                         <h4><i class="fas fa-tags text-primary"></i> Classification Results</h4>
                         <p class="text-muted">Processing time: ${data.processing_time_seconds}s</p>
+                        ${data.cached ? '<span class="badge bg-info">Cached Result</span>' : ''}
                     </div>
                 `;
 
-                data.classifications.forEach((item, index) => {
-                    const confidenceColor = getConfidenceColor(item.confidence);
-                    const similarityPercent = (item.similarity * 100).toFixed(1);
+                if (data.classifications && data.classifications.length > 0) {
+                    data.classifications.forEach((item, index) => {
+                        const confidenceColor = getConfidenceColor(item.confidence);
+                        const similarityPercent = item.score_percent || (item.similarity * 100).toFixed(1);
 
-                    html += `
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-8">
-                                        <h5>#${index + 1}: ${item.category}</h5>
-                                        <p class="mb-2">${item.description}</p>
-                                        <div class="d-flex align-items-center">
-                                            <span class="badge bg-${confidenceColor} me-2">${item.confidence}</span>
-                                            <span class="text-muted">Similarity: ${similarityPercent}%</span>
+                        html += `
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h5>#${index + 1}: ${item.category.toUpperCase()}</h5>
+                                            <p class="mb-2 text-muted">${item.description}</p>
+                                            <div class="d-flex align-items-center">
+                                                <span class="badge bg-${confidenceColor} me-2">${item.confidence}</span>
+                                                <span class="text-muted">Confidence: ${similarityPercent}%</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="progress" style="height: 20px;">
-                                            <div class="progress-bar bg-${confidenceColor}" 
-                                                 role="progressbar" 
-                                                 style="width: ${similarityPercent}%">
-                                                ${similarityPercent}%
+                                        <div class="col-md-4">
+                                            <div class="progress" style="height: 25px;">
+                                                <div class="progress-bar bg-${confidenceColor}" 
+                                                     role="progressbar" 
+                                                     style="width: ${Math.min(similarityPercent, 100)}%"
+                                                     aria-valuenow="${similarityPercent}" 
+                                                     aria-valuemin="0" 
+                                                     aria-valuemax="100">
+                                                    ${similarityPercent}%
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        `;
+                    });
+
+                    // Add interpretation
+                    const topResult = data.classifications[0];
+                    html += `
+                        <div class="alert alert-info">
+                            <h6><i class="fas fa-lightbulb"></i> Interpretation</h6>
+                            <p class="mb-0">
+                                The image is most likely <strong>${topResult.category}</strong> 
+                                with ${topResult.confidence.toLowerCase()} confidence 
+                                (${topResult.score_percent}% match).
+                            </p>
                         </div>
                     `;
-                });
+
+                } else {
+                    html += `
+                        <div class="alert alert-warning">
+                            <h6><i class="fas fa-question-circle"></i> No Clear Classification</h6>
+                            <p class="mb-0">Unable to confidently classify this image into any known category.</p>
+                        </div>
+                    `;
+                }
 
             } else if (data.mode === 'verification') {
                 const verification = data.verification;
                 const decisionColor = getDecisionColor(verification.decision);
-                const similarityPercent = (verification.best_similarity * 100).toFixed(1);
+                const similarityPercent = verification.score_percent || (verification.best_similarity * 100).toFixed(1);
 
                 html = `
                     <div class="text-center mb-4">
                         <h4><i class="fas fa-check-circle text-success"></i> Domain Verification</h4>
                         <p class="text-muted">Processing time: ${data.processing_time_seconds}s</p>
+                        ${data.cached ? '<span class="badge bg-info">Cached Result</span>' : ''}
                     </div>
                     
                     <div class="card mb-4">
                         <div class="card-body text-center">
-                            <h2 class="display-4 text-${decisionColor} mb-3">
-                                ${verification.decision}
-                            </h2>
-                            <p class="lead">${verification.explanation}</p>
+                            <div class="mb-4">
+                                <span class="badge bg-${decisionColor} fs-5 p-3">
+                                    ${verification.decision.replace('_', ' ')}
+                                </span>
+                            </div>
+                            
+                            <p class="lead mb-4">${verification.explanation}</p>
                             
                             <div class="row mt-4">
-                                <div class="col-md-6">
+                                <div class="col-md-4 mb-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <h6><i class="fas fa-chart-line"></i> Best Match</h6>
-                                            <h3>${similarityPercent}%</h3>
+                                            <h2 class="text-${decisionColor}">${similarityPercent}%</h2>
                                             <small class="text-muted">Similarity Score</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4 mb-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <h6><i class="fas fa-tachometer-alt"></i> Confidence</h6>
-                                            <h3>${verification.confidence}</h3>
+                                            <h2 class="text-${getConfidenceColor(verification.confidence)}">
+                                                ${verification.confidence.replace('_', ' ')}
+                                            </h2>
                                             <small class="text-muted">Confidence Level</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h6><i class="fas fa-cogs"></i> Analysis</h6>
+                                            <h2>${verification.prompts_used}</h2>
+                                            <small class="text-muted">Prompts Analyzed</small>
                                         </div>
                                     </div>
                                 </div>
@@ -370,10 +433,13 @@
                         </div>
                     </div>
                     
-                    <div class="alert alert-info">
-                        <i class="fas fa-info-circle"></i>
-                        Based on ${verification.prompts_used} different prompt variations.
-                        ${data.cached ? '<br><small><i class="fas fa-database"></i> Served from cache</small>' : ''}
+                    <div class="alert alert-secondary">
+                        <h6><i class="fas fa-info-circle"></i> How this works:</h6>
+                        <p class="mb-0">
+                            The system compared your image with ${verification.prompts_used} different text descriptions 
+                            of the domain. The highest similarity score was ${similarityPercent}%.
+                            ${similarityPercent < 20 ? 'Scores below 20% typically indicate no meaningful match.' : ''}
+                        </p>
                     </div>
                 `;
             }

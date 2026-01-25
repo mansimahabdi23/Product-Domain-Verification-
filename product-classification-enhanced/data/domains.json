@@ -1,11 +1,12 @@
 {
-    "fashion_company": "clothing, apparel, fashion garments, t-shirts, pants, jeans, shorts, tops, dresses, skirts, jackets, coats, sweaters, hoodies",
-    "furniture_company": "sofa, couch, sectional, loveseat, chaise lounge, furniture, home seating, living room furniture, upholstery",
-    "electronics_company": "television, smart TV, LED TV, LCD TV, OLED TV, electronics, gadgets, devices, home entertainment",
-    "sports_company": "sports equipment, athletic gear, exercise equipment, fitness products, gym equipment, sports accessories",
-    "kitchen_company": "kitchen appliances, cooking equipment, food preparation tools, kitchen gadgets, home appliances",
-    "book_store": "books, novels, textbooks, magazines, reading materials, publications, literature",
-    "toy_store": "toys, games, children's products, playthings, educational toys, stuffed animals",
-    "beauty_store": "beauty products, cosmetics, skincare, makeup, personal care, grooming products",
-    "auto_parts": "automotive parts, car accessories, vehicle components, auto supplies, car care products"
+    "agriculture_company": "agriculture, farming, organic products, fertilizers, seeds, farming equipment, agrochemicals",
+    "hardware_store": "hardware, tools, construction materials, paints, civil engineering supplies, electrical, plumbing",
+    "tech_company": "electronics, technology, computers, laptops, mobiles, smartphones, gadgets, telecommunication",
+    "consumer_retail": "consumer goods, clothing, groceries, home appliances, kitchenware, personal care, toys, books, stationary",
+    "healthcare_provider": "healthcare, pharmaceuticals, medicines, medical devices, fitness products, supplements, wellness",
+    "sports_brand": "sports, athletics, gym equipment, sports gear, sportswear, outdoor activities",
+    "automotive_company": "automobiles, cars, bikes, electric vehicles, vehicle parts, automotive accessories, heavy vehicles",
+    "service_provider": "services, banking, finance, insurance, real estate, education, travel, hospitality, media, software, consultancy",
+    "energy_company": "energy, utilities, renewable energy, solar, power, electricity, sustainable energy",
+    "construction_company": "construction, architecture, civil engineering, real estate, building materials"
 }

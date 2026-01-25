@@ -1,48 +1,125 @@
 {
-  "electronics": [
-    "television", "smartphone", "laptop", "tablet", "camera",
-    "headphones", "speakers", "smartwatch", "gaming console",
-    "router", "monitor", "keyboard", "mouse", "printer", "scanner"
+  "agriculture": [
+    "organic agriculture products",
+    "inorganic agriculture products",
+    "agriculture equipment",
+    "fertilizers",
+    "seeds",
+    "farming tools",
+    "pesticides",
+    "irrigation equipment"
   ],
-  "furniture": [
-    "sofa", "bed", "table", "chair", "desk", "wardrobe",
-    "shelf", "cabinet", "ottoman", "bookshelf", "dresser",
-    "nightstand", "bench", "stool", "armchair"
+  "hardware_and_construction": [
+    "tools",
+    "paints",
+    "civil engineering products",
+    "construction materials",
+    "cement",
+    "bricks",
+    "plumbing supplies",
+    "electrical supplies",
+    "hardware tools"
   ],
-  "clothing": [
-    "t-shirt", "jeans", "dress", "jacket", "shirt", "pants",
-    "shorts", "skirt", "sweater", "hoodie", "coat", "suit",
-    "blouse", "sweatshirt", "cardigan", "tank top", "leggings"
+  "electronics_and_tech": [
+    "television",
+    "laptop",
+    "computer",
+    "telecommunication accessories",
+    "mobile phones",
+    "mobile accessories",
+    "smartphones",
+    "chargers",
+    "headphones",
+    "smartwatch",
+    "monitors",
+    "routers"
   ],
-  "kitchen_appliances": [
-    "refrigerator", "oven", "microwave", "blender", "toaster",
-    "coffee maker", "dishwasher", "mixer", "air fryer",
-    "rice cooker", "slow cooker", "food processor", "kettle"
+  "consumer_goods": [
+    "clothing men",
+    "clothing women",
+    "clothing unisex",
+    "clothing kids",
+    "groceries fresh",
+    "groceries packed",
+    "home appliances",
+    "kitchen utensils",
+    "snacks",
+    "personal care",
+    "cosmetics",
+    "skincare",
+    "derma products",
+    "footwear",
+    "books",
+    "stationary",
+    "video games",
+    "kids toys"
   ],
-  "home_decor": [
-    "lamp", "rug", "curtain", "painting", "vase", "mirror",
-    "clock", "candle", "pillow", "wall art", "plant", "frame",
-    "sculpture", "throw", "blanket"
+  "healthcare_and_fitness": [
+    "electronic healthcare devices",
+    "physical healthcare products",
+    "pharmaceuticals",
+    "medicines",
+    "medical appliances",
+    "fitness clothing",
+    "fitness supplements",
+    "gym equipment"
   ],
   "sports": [
-    "basketball", "football", "tennis racket", "golf clubs",
-    "bicycle", "treadmill", "yoga mat", "dumbbells",
-    "soccer ball", "baseball bat", "hockey stick", "skateboard"
+    "sports kits",
+    "sports equipment",
+    "cricket gear",
+    "football gear",
+    "tennis racket",
+    "athletic wear",
+    "outdoor sports gear"
   ],
-  "books": [
-    "novel", "textbook", "magazine", "comic", "ebook",
-    "audiobook", "journal", "notebook", "dictionary"
+  "automobile": [
+    "two wheelers ice",
+    "two wheelers ev",
+    "four wheelers ice",
+    "four wheelers ev",
+    "multi utility vehicles",
+    "heavy duty vehicles",
+    "automobile spareparts",
+    "automobile accessories",
+    "car tires",
+    "bike helmet"
   ],
-  "toys": [
-    "doll", "action figure", "lego", "puzzle", "board game",
-    "car toy", "stuffed animal", "building blocks", "robot toy"
+  "services": [
+    "banking services",
+    "law enforcement",
+    "ngo and non profit",
+    "software development",
+    "architecture services",
+    "civil engineering services",
+    "education",
+    "physical education",
+    "fintech",
+    "capital market",
+    "insurance",
+    "real estate",
+    "travel and tourism",
+    "hospitality",
+    "event organization",
+    "media services",
+    "transport services",
+    "b2b services"
   ],
-  "beauty": [
-    "perfume", "makeup", "skincare", "shampoo", "cosmetics",
-    "lotion", "serum", "cleanser", "moisturizer", "foundation"
+  "energy_and_utilities": [
+    "renewable energy",
+    "non renewable energy",
+    "utilities",
+    "solar panels",
+    "electricity services",
+    "water supply"
   ],
-  "automotive": [
-    "car", "tire", "battery", "tool", "accessory",
-    "engine part", "brake pad", "filter", "light", "mirror"
+  "other_industries": [
+    "military and ammunition",
+    "furniture",
+    "jewellery",
+    "packaging industry",
+    "addictions products",
+    "alcohol",
+    "tobacco"
   ]
 }
