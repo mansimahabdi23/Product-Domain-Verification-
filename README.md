@@ -6,9 +6,13 @@ This project implements an end-to-end Machine Learning pipeline to classify prod
 # 🎯 Problem Statement
 E-commerce and enterprise product catalogs often contain noisy or ambiguous product information. Accurately identifying the correct domain of a product is critical for:
 -Search and recommendation systems
+
 -Product analytics
+
 -Catalog organization
+
 -Automated decision systems
+
 This project solves the problem by training a text-based domain classifier using curated and generated product data.
 
 # 🧠 Solution Approach
