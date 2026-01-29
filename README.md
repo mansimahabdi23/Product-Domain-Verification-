@@ -114,7 +114,7 @@ This will:
 
 -Save the trained model to the model/ directory
 
-#🔍 Using the Trained Model (Inference)
+# 🔍 Using the Trained Model (Inference)
 
 import joblib
 
