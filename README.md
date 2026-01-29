@@ -100,7 +100,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-🚀 Training the Model
+# 🚀 Training the Model
 
 Run the training pipeline from the project root:
 
@@ -108,13 +108,13 @@ python src/train_classifier.py
 
 This will:
 
-Load and preprocess training data
+-Load and preprocess training data
 
-Train the domain classification model
+-Train the domain classification model
 
-Save the trained model to the model/ directory
+-Save the trained model to the model/ directory
 
-🔍 Using the Trained Model (Inference)
+#🔍 Using the Trained Model (Inference)
 
 import joblib
 
@@ -126,7 +126,7 @@ print(prediction)
 
 ⚠️ Ensure the same preprocessing logic and library versions are used during inference.
 
-📦 Dependencies
+# 📦 Dependencies
 
 Key libraries used:
 
@@ -142,12 +142,12 @@ sentence-transformers
 
 All dependencies are pinned in requirements.txt for reproducibility.
 
-🧪 Experiments
+# 🧪 Experiments
 
 Exploratory analysis and rapid experimentation are performed in Jupyter notebooks located in the notebooks/ directory.
 Notebooks are not considered production code.
 
-🛡️ Reproducibility & Best Practices
+# 🛡️ Reproducibility & Best Practices
 
 One virtual environment per project
 
@@ -157,7 +157,7 @@ Modular pipeline design
 
 Separation of data, code, and models
 
-📈 Future Improvements
+# 📈 Future Improvements
 
 Add deep learning–based text embeddings
 
