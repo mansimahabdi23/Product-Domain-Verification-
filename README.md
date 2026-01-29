@@ -34,41 +34,72 @@ The trained model is serialized and stored for reuse in inference pipelines.
 
 # 🗂️ Project Structure
 PS-03/
+
 │
+
 ├── .venv/ # Python virtual environment (ignored in Git)
+
 │
+
 ├── data/ # Datasets
+
 │ ├── combined_products.csv
+
 │ ├── flipkart_cleaned_data.csv
+
 │ └── generated_products.csv
+
 │
+
 ├── model/ # Trained ML models
+
 │ └── flipkart_domain_classifier.pkl
+
 │
+
 ├── notebooks/ # Experiments & analysis
+
 │ └── ml_pipeline.ipynb
+
 │
+
 ├── src/ # Source code
+
 │ ├── concatenate.py
+
 │ ├── data_generation.py
+
 │ ├── domain_name_classifier.py
+
 │ 
+
 ├── requirements.txt # Python dependencies
+
 ├── .gitignore
+
 ├── .gitattributes
+
 └── README.md
 
 # ⚙️ Environment Setup
 1️⃣ Create virtual environment
+
 python -m venv .venv
+
 2️⃣ Activate environment
+
 # Windows
+
 .venv\Scripts\activate
 
 # macOS / Linux
+
 source .venv/bin/activate
+
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
+
 🚀 Training the Model
 
 Run the training pipeline from the project root:
@@ -78,16 +109,23 @@ python src/train_classifier.py
 This will:
 
 Load and preprocess training data
+
 Train the domain classification model
+
 Save the trained model to the model/ directory
+
 🔍 Using the Trained Model (Inference)
 
 import joblib
+
 model = joblib.load("model/flipkart_domain_classifier.pkl")
+
 prediction = model.predict(["Biometric fingerprint authentication device"])
+
 print(prediction)
 
 ⚠️ Ensure the same preprocessing logic and library versions are used during inference.
+
 📦 Dependencies
 
 Key libraries used:
