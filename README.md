@@ -129,26 +129,40 @@ print(prediction)
 📦 Dependencies
 
 Key libraries used:
+
 Python 3.x
+
 pandas
+
 scikit-learn
+
 joblib
-sentence-transformers (optional / extended NLP)
+
+sentence-transformers 
+
 All dependencies are pinned in requirements.txt for reproducibility.
 
 🧪 Experiments
+
 Exploratory analysis and rapid experimentation are performed in Jupyter notebooks located in the notebooks/ directory.
 Notebooks are not considered production code.
 
 🛡️ Reproducibility & Best Practices
+
 One virtual environment per project
+
 Frozen dependencies using requirements.txt
+
 Modular pipeline design
+
 Separation of data, code, and models
 
 📈 Future Improvements
 
 Add deep learning–based text embeddings
+
 Introduce model versioning
+
 Add evaluation metrics logging
+
 Expose inference via REST API
