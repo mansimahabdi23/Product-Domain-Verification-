@@ -1,10 +1,6 @@
 product_name,description,product_category_tree
-Organic neem fertilizer for crops,Organic neem fertilizer for crops designed for professional and commercial use.,Agriculture > Fertilizers > Organic
-Bio compost fertilizer for soil health,Bio compost fertilizer for soil health designed for professional and commercial use.,Agriculture > Fertilizers > Organic
-Natural organic manure for farming,Natural organic manure for farming designed for professional and commercial use.,Agriculture > Fertilizers > Organic
-Online mental health counseling session,Online mental health counseling session designed for professional and commercial use.,Services > Healthcare > Mental Health
-Stress management therapy program,Stress management therapy program designed for professional and commercial use.,Services > Healthcare > Mental Health
-Psychological wellness consultation,Psychological wellness consultation designed for professional and commercial use.,Services > Healthcare > Mental Health
-Cloud-based code deployment platform,Cloud-based code deployment platform designed for professional and commercial use.,Software > Developer Tools
-API monitoring and debugging software,API monitoring and debugging software designed for professional and commercial use.,Software > Developer Tools
-DevOps automation tool,DevOps automation tool designed for professional and commercial use.,Software > Developer Tools
+products,products designed for professional and commercial use.,Finance > Banking
+products,products designed for professional and commercial use.,Software > SaaS
+products,products designed for professional and commercial use.,Agriculture > Equipment
+products,products designed for professional and commercial use.,Healthcare > Services
+products,products designed for professional and commercial use.,NGO > Social Services
