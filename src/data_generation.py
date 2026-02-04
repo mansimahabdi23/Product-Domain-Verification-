@@ -1,5 +1,5 @@
-import pandas as pd
-import random
+# import pandas as pd
+# import random
 
 DOMAINS = {
    "Finance > Banking": {
@@ -75,18 +75,18 @@ DOMAINS = {
    }
 }
 
-samples_per_domain = 50
-rows = []
+# samples_per_domain = 50
+# rows = []
  
 
-for category, samples in DOMAINS.items():
-    for s in samples:
-        rows.append({
-            "product_name": s,
-            "description": f"{s} designed for professional and commercial use.",
-            "product_category_tree": category
-        })
+# for category, samples in DOMAINS.items():
+#     for s in samples:
+#         rows.append({
+#             "product_name": s,
+#             "description": f"{s} designed for professional and commercial use.",
+#             "product_category_tree": category
+#         })
 
-df = pd.DataFrame(rows)
-df.to_csv("../data/generated_products.csv", index=False)
-print("Generated synthetic domain products.")
+# df = pd.DataFrame(rows)
+# df.to_csv("../data/generated_products.csv", index=False)
+# print("Generated synthetic domain products.")
