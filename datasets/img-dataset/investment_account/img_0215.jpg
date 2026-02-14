@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>404 Page Not Found | IBKR Guides</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,400,300" rel="stylesheet" type="text/css">
+
+ 
+
+<style>
+h1{
+font-size:12.5rem;
+line-height: 9rem;
+font-weight:400;
+text-align:center;
+font-family: 'Open Sans', sans-serif;
+color: #666;
+margin-bottom: 75px
+}
+h2
+{
+font-size:1.875re;
+line-height: 2rem;
+font-weight:300;
+text-align:center;
+font-family: 'Open Sans', sans-serif;
+margin-top:-40px;
+}
+p{
+text-align:center;
+font-family: 'Open Sans', sans-serif;
+font-size:12px;
+}
+
+ 
+
+[style*="Open Sans"] {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif !important
+}
+hr {
+margin: 20px 0px;
+border: 0px;
+border-top: 1px solid #666;
+opacity: 1;
+}
+.logo {text-align: left; margin: 0 auto;padding-top:20px;}
+
+ 
+
+.container
+{
+max-width:550px;
+margin: 0 auto;
+margin-top:15%;
+}
+	
+/* MOBILE STYLES */
+@media screen and (max-width: 800px) {
+	h1{
+font-size:8rem;
+		line-height: 9rem;}
+	
+	}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>404</h1>
+<h2>ERROR - Page Not Found</h2>
+<p>Something went wrong or that page doesn't exist anymore. <br>
+    Click <a href="https://www.interactivebrokers.com/en/search/index.php" target="_blank"> here</a> to search our site.</p>
+<hr/>
+<p class="logo"><img src="https://ibkrguides.com/releasenotes/resources/images/ib_logo_userguide%20dark.png" alttext="Interactive Brokers Logo" ></p>
+</div>
+</body>
+</html>
