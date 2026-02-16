@@ -76,7 +76,7 @@ download_btn = st.button("🚀 Create Dataset")
 # DOWNLOAD FUNCTION
 # =====================================================
 def download_images(keyword, max_images, ml_mode, progress_bar, status):
-    base_dir = "dataset" if ml_mode else "downloads"
+    base_dir = "datasets\img-dataset" if ml_mode else "downloads"
     class_name = keyword.replace(" ", "_").lower()
     save_dir = os.path.join(base_dir, class_name)
 
