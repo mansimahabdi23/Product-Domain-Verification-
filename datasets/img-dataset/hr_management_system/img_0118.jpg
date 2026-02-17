@@ -1,0 +1,346 @@
+<!DOCTYPE HTML><html lang="en-US" class="no-js">
+   <head><!-- PAGE HEAD -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <title>Page not available - University Information Technology - The University of Utah</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="robots" content="index,follow">
+      <link rel="icon" href="//templates.utah.edu/_main-v3-1/images/template/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" href="//templates.utah.edu/_main-v3-1/images/template/apple-touch-icon.png">
+      <link rel="stylesheet" href="//templates.utah.edu/_main-v3-1/css/main.min.css" type="text/css"><noscript>
+         <link rel="stylesheet" href="//templates.utah.edu/_main-v3-1/css/assets/fontawesome/css/all.min.css" type="text/css"></noscript><link href="/_resources/css/custom.css" rel="stylesheet" type="text/css">
+      <script src="//templates.utah.edu/_main-v3-1/js/head-code.min.js"></script>
+      <!-- HEAD CODE -->
+      
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K9JSWF');</script>
+<!-- End Google Tag Manager -->      
+      <!-- END HEAD CODE -->
+      <!-- END PAGE HEAD -->
+      </head>
+   <body class="has-headernav"><!-- PAGE BODY -->
+      <a class="uu-skip-link" href="#skip-link-target">Skip to content</a>
+      <!-- BODY TOP CODE -->
+      
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9JSWF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->      <!-- END BODY TOP CODE -->
+      
+      <div id="uu-top-target" class="uu-site"><!-- SEARCH -->
+         <div class="uu-search" role="search">
+    <div class="uu-search__container">
+        <!-- SITE SEARCH -->
+        <form method="get" id="search-site" class="uu-search__form" action="/search/index.php">
+
+            <label for="inputSearchSite" class="sr-only">Search Site:</label>
+            <input type="text" id="inputSearchSite" name="q" value="" placeholder="Search Site" />
+            <input type="hidden" name="gcse_action" value="site" />
+
+            <div class="form-powered-by">
+                <span>Powered by</span> 
+                <img src="https://templates.utah.edu/_main-v3-1/images/template/google-logo.png" alt="Google Search">
+            </div>
+
+        </form>
+        <!-- END SITE SEARCH -->
+        <!-- CAMPUS SEARCH -->
+        <form method="get" id="search-campus" class="uu-search__form" action="/search/index.php">
+
+            <label for="inputSearchCampus" class="sr-only">Search Campus:</label>
+            <input type="text" id="inputSearchCampus" name="q" value="" placeholder="Search Campus" />
+            <input type="hidden" name="gcse_action" value="campus" />
+
+            <div class="form-powered-by">
+                <span>Powered by</span> 
+                <img src="https://templates.utah.edu/_main-v3-1/images/template/google-logo.png" alt="Google Search">
+            </div>
+        </form>
+        <!-- END CAMPUS SEARCH -->
+
+        <!-- SEARCH TYPE TOGGLE -->
+        <div class="search-type-toggle">
+            <label class="uu-switch" for="search_campus_checkbox">
+                <input type="checkbox" name="search_campus_checkbox" value="" id="search_campus_checkbox">
+                <span class="uu-switch-slider"></span>
+                <span class="uu-switch-label">Search Campus</span>
+            </label>
+        </div>
+        <!-- END SEARCH TYPE TOGGLE -->
+
+    </div>
+</div><!-- END SEARCH -->
+         <!-- HEADER -->
+         
+         <header class="uu-header">
+            <div class="uu-header__container">
+               <!-- ALERT AREA -->
+               <div id="alert_bar" class="uu-alert-bar"> 
+	<a href="https://alert.utah.edu/">Campus Alert <span class="far fa-long-arrow-alt-right"></span></a>
+</div><!-- END ALERT AREA -->
+               
+               <div class="uu-header__top"> <a href="https://www.utah.edu" class="uu-header__logo"><span class="sr-only">The University of Utah</span></a>                  <div class="uu-header__middle">
+                     <!-- HEADER TITLE -->
+                     
+
+<div class="uu-header__title">
+	<h2><a href="/">University Information Technology (UIT)</a></h2>
+<!-- 	<h3><a href="/">Sub Title</a></h3> -->
+</div><!-- END HEADER TITLE -->
+                     <!-- HEADER NAVIGATION -->
+                     <!-- change preview display by adding custom classe(s) to table (header nav = has-headernav, duel branding = duel-brand, red header = u-red-header) --><nav class="uu-header__nav" aria-label="header">
+   <ul>
+      <li class="has-sub "><a href="#" aria-expanded="false">IT Help Desk</a><ul class="sub-menu">
+            <li><a href="/help/index.php">About</a></li>
+            <li><a href="/help/resources/it_guides/index.php">IT guides</a></li>
+            <li><a href="/help/resources/account-access-settings.php">Account access and IT security settings</a></li>
+            <li><a href="/help/resources/two-factor-authentication.php">U of U two-factor authentication</a></li>
+            <li><a href="/help/resources/password-tester.php">Password tester</a></li>
+            <li><a href="/help/resources/start-of-semester-help.php">Start-of-semester help</a></li>
+         </ul>
+      </li>
+      <li class="has-sub "><a href="#" aria-expanded="false">Services</a><ul class="sub-menu">
+            <li><a href="https://uofu.service-now.com/it?id=sc" target="_blank" rel="noopener">Service Catalog</a></li>
+            <li><a href="http://box.utah.edu" target="_blank" rel="noopener">Box</a></li>
+            <li><a href="http://cis.utah.edu" target="_blank" rel="noopener">CIS</a></li>
+            <li><a href="https://google.utah.edu/">Google Workspace</a></li>
+            <li><a href="https://microsoft.utah.edu/">Microsoft 365 (UMAIL)</a></li>
+            <li><a href="/service-portal.php">Service Quick Links</a></li>
+         </ul>
+      </li>
+      <li class=""><a href="/cio/strategic-plans/index.php">Strategic Plans</a></li>
+      <li class="has-sub "><a href="#" aria-expanded="false">Governance</a><ul class="sub-menu">
+            <li><a href="/cio/it-governance-overview.php">overview</a></li>
+            <li><a href="/cio/it-governance-committees/index.php">Committees</a></li>
+         </ul>
+      </li>
+      <li class="has-sub "><a href="#" aria-expanded="false">CIO Office</a><ul class="sub-menu">
+            <li><a href="/cio/index.php">About the CIO</a></li>
+            <li><a href="/cio/uit-leadership.php">Uit Leadership</a></li>
+            <li><a href="/cio/support-staff.php">Support Staff</a></li>
+         </ul>
+      </li>
+      <li class=""><a href="/departments/index.php">Departments</a></li>
+      <li class="has-sub "><a href="#" aria-expanded="false">About</a><ul class="sub-menu">
+            <li><a href="/about/index.php">About</a></li>
+            <li><a href="/orgcharts/index.php">ORG Charts</a></li>
+            <li><a href="#">Job Openings</a><ul>
+                  <li><a href="/about/jobs.php">Job Openings</a></li>
+                  <li><a href="https://sudo.utah.edu/" target="_blank" rel="noopener">Student Program</a></li>
+               </ul>
+            </li>
+            <li><a href="/policies/index.php">IT Policies</a></li>
+            <li><a href="/committees/index.php">Committees</a></li>
+            <li><a href="/about/memberships.php">IT Organization Memberships</a></li>
+         </ul>
+      </li>
+      <li class=""><a href="/node4/index.php">Node 4</a></li>
+   </ul>
+</nav><!-- END HEADER NAVIGATION -->
+                     </div>
+                  <div class="uu-search-toggle"><button class="uu-search__trigger"><span class="far fa-search" aria-hidden="true"></span><span class="sr-only">Search</span></button></div><button id="jsNavTrigger" class="uu-nav__trigger" aria-expanded="false"><span class="sr-only">Reveal Menu</span><span></span></button></div>
+            </div>
+         </header>
+         <!-- END HEADER -->
+         <!-- PUSH NAVIGATION -->
+         
+         <section class="uu-nav">
+            <div class="uu-nav__container"><button id="jsMobileNavTrigger" class="uu-nav__trigger" aria-expanded="false"><span class="sr-only">Reveal Menu</span><span></span></button><header class="uu-nav__header">
+                  <h2 class="sr-only">Main Navigation</h2>
+                  <!-- Navigation Logo -->
+<a href="https://utah.edu/" class="uu-nav__logo">
+	<img src="https://templates.utah.edu/_main-v3-1/images/template/university-of-utah-logo.svg" alt="The University of Utah"/>
+</a></header>
+               <nav class="uu-menu" aria-label="main"><h2 class="uu-menu__title">Main Menu</h2><hr><ul class="uu-menu__level1 uu-menu__list--icons">
+   <li><a href="/"><span class="fal fa-home" aria-hidden="true"></span>Home</a></li>
+   <li class="has-sublist"><a href="#"><span class="fal fa-headset" aria-hidden="true"></span>IT Help Desk</a><ul class="uu-menu__level2">
+         <li><a href="/help/index.php">About</a></li>
+         <li><a href="/help/resources/it_guides/index.php">IT guides</a></li>
+         <li><a href="/help/resources/account-access-settings.php">Account access and IT security settings</a></li>
+         <li><a href="/help/resources/two-factor-authentication.php">U of U two-factor authentication</a></li>
+         <li><a href="/help/resources/password-tester.php">Password tester</a></li>
+         <li><a href="/help/resources/start-of-semester-help.php">Start-of-semester help</a></li>
+      </ul>
+   </li>
+   <li class="has-sublist"><a href="#"><span class="fal fa-clipboard-check" aria-hidden="true"></span>Services</a><ul class="uu-menu__level2">
+         <li><a href="https://uofu.service-now.com/it?id=sc" target="_blank" rel="noopener">Service Catalog</a></li>
+         <li><a href="http://box.utah.edu" target="_blank" rel="noopener">Box</a></li>
+         <li><a href="http://cis.utah.edu" target="_blank" rel="noopener">CIS</a></li>
+         <li><a href="https://gcloud.utah.edu/index.php">Google Workspace</a></li>
+         <li><a href="https://o365cloud.utah.edu/index.php">Microsoft 365 (UMail)</a></li>
+         <li><a href="/service-portal.php">Service Quick Links</a></li>
+      </ul>
+   </li>
+   <li><a href="/cio/strategic-plans/index.php"><span class="fal fa-compass" aria-hidden="true"></span>Strategic Plans</a></li>
+   <li class="has-sublist"><a href="#"><span class="fal fa-globe" aria-hidden="true"></span>Governance</a><ul class="uu-menu__level2">
+         <li><a href="/cio/it-governance-overview.php">Overview</a></li>
+         <li><a href="/cio/it-governance-committees/index.php">Committees</a></li>
+      </ul>
+   </li>
+   <li class="has-sublist"><a href="#"><span class="fal fa-analytics" aria-hidden="true"></span>CIO Office</a><ul class="uu-menu__level2">
+         <li><a href="/cio/index.php">About the CIO</a></li>
+         <li><a href="/cio/uit-leadership.php">UIT Leadership</a></li>
+         <li><a href="/cio/support-staff.php">Support Staff</a></li>
+      </ul>
+   </li>
+   <li><a href="/departments/index.php"><span class="fal fa-briefcase" aria-hidden="true"></span>Departments</a></li>
+   <li class="has-sublist"><a href="#"><span class="fal fa-user-friends" aria-hidden="true"></span>About</a><ul class="uu-menu__level2">
+         <li><a href="/about/index.php">About</a></li>
+         <li><a href="/orgcharts/index.php">Org Charts</a></li>
+         <li class="has-sublist"><a href="#">Job Openings</a><ul class="uu-menu__level3">
+               <li><a href="/about/jobs.php">Job Openings</a></li>
+               <li><a href="https://sudo.utah.edu/" target="_blank" rel="noopener">Student Program</a></li>
+            </ul>
+         </li>
+         <li><a href="/policies/index.php">IT Policies</a></li>
+         <li><a href="/committees/index.php">Committees</a></li>
+         <li><a href="/about/memberships.php">IT Organization Memberships</a></li>
+      </ul>
+   </li>
+   <li><a href="/node4/index.php"><span class="fal fa-bullseye" aria-hidden="true"></span>Node 4</a></li>
+   <li><a href="https://app.e2ma.net/app2/audience/signup/1951190/1769366/" target="_blank">Subscribe to UIT News</a></li>
+</ul></nav>
+            </div>
+         </section>
+         <!-- END PUSH NAVIGATION -->
+         
+         <!-- MAIN CONTENT -->
+         <main class="uu-main" id="skip-link-target">
+            <nav aria-label="breadcrumb" class="uu-breadcrumb">
+               <ol>
+                  <li><a href="/">Home</a></li>
+                  <li><span class="sr-only">current page: </span>Page not available</li>
+               </ol>
+            </nav>
+            <!-- SECTION 1 -->
+            
+            <section class="uu-section bg-white text-default uu-section--region-1" style="">
+               <div class="uu-section__container"><!-- SECTION HEADER -->
+                  
+                  <div class="uu-section__header  ">
+                     <h1>AAAAAAAAHHHHHHHHHH!!!</h1>
+                  </div>
+                  <!-- END SECTION HEADER -->
+                  <!-- REGION 1 -->
+                  
+                  <div class="uu-section__region bg-white text-default no-border">
+                     <h2><span class="text-bold">The page you are looking for has left the nest!</span></h2>
+                     <p><img class="img-float-left" src="/_resources/images/Swoop2_cut.png" alt="swoop" width="455" height="650"></p>
+                     <p>Sometimes, you just have to let it go.</p>
+                     <p>When University Information Technology overhauled this website, we swept away a lot
+                        of outdated material. Nearly everything that was still relevant and accurate was moved
+                        to our new site. If you can't find what you're looking for in the links below, email
+                        <a href="mailto:webmaster@it.utah.edu">webmaster@it.utah.edu</a> and we'll have a look.</p>
+                     <h3 class="h4"><a href="https://it.utah.edu/help/index.php">Search the IT Knowledge Base.</a></h3>
+                     <h3 class="h4"><a href="https://uofu.service-now.com/it?id=sc">Access a list of UIT services.</a></h3>
+                     <h3 class="h4"><a href="/index.php">Go to the new UIT homepage.</a></h3>
+                  </div>
+                  <!-- END REGION 1 -->
+                  <!-- SECTION FOOTER -->
+                  
+                  <div class="uu-section__footer  ">
+                     <p></p>
+                  </div>
+                  <!-- END SECTION FOOTER -->
+                  </div>
+            </section>
+            <!-- END SECTION 1 -->
+            <!-- SECTION 2 -->
+            <!-- END SECTION 2 -->
+            <!-- SECTION 3 -->
+            <!-- END SECTION 3 -->
+            <!-- SECTION 4 -->
+            <!-- END SECTION 4 -->
+            <!-- SECTION 5 -->
+            <!-- END SECTION 5 -->
+            </main>
+         <!-- END MAIN CONTENT -->
+         <!-- FOOTER -->
+         
+         <footer class="uu-footer"><div class="uu-footer__top">
+   <div class="uu-footer__top-container">
+      <div class="uu-footer__top-col1"><a href="https://www.utah.edu"><img src="https://templates.utah.edu/_main-v3-1/images/template/uu-logo-vertical.svg" alt="The University of Utah" class="uu-block-logo"></a><div class="department-name">
+            <h2>University Information Technology</h2>
+         </div>
+         <div class="department-address">
+            <p>The University of Utah<br>102 S 200 E STE. 110<br>Salt Lake City, UT 84111<br>801-581-4000</p>
+         </div>
+      </div>
+      <div class="uu-footer__top-col2">
+         <h2 class="footer-heading">Stay in Touch</h2>
+         <hr>
+         <ul>
+            <li><a href="https://bit.ly/2ZHO7FM">Find Us</a></li>
+            <li><a href="mailto:helpdesk@utah.edu">Contact Us</a></li>
+            <li><a href="mailto:helpdesk@utah.edu">Webmaster</a></li>
+         </ul>
+      </div>
+      <div class="uu-footer__top-col5">
+         <h2 class="footer-heading">Quick Links</h2>
+         <hr>
+         <ul>
+            <li><a href="https://www.utah.edu/a-z/">A-Z Index</a></li>
+            <li><a href="https://people.utah.edu/uWho/basic.hml">Campus Directory</a></li>
+            <li><a href="https://www.map.utah.edu">Campus Map</a></li>
+            <li><a href="https://map.utah.edu/?allshuttle=on">Shuttle Tracker </a></li>
+            <li><a href="https://cis.utah.edu/">CIS</a></li>
+            <li><a href="https://www.umail.utah.edu/">UMail</a></li>
+            <li><a href="https://attheu.utah.edu/">@ The U</a></li>
+         </ul>
+      </div>
+   </div>
+</div><div class="uu-footer__bottom">
+   <div class="uu-footer__bottom-container">
+      <div class="uu-footer__bottom-col1"><a href="https://www.utah.edu/"><img src="https://templates.utah.edu/_main-v3-1/images/template/university-of-utah-logo.svg" alt="The University of Utah" class="uu-site-logo"></a></div>
+      <div class="uu-footer__bottom-col2">
+         <div class="legal">
+            <p>© 2026 The University of Utah</p>
+            <ul>
+               <li><a href="https://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a></li>
+               <li><a href="https://www.utah.edu/disclaimer/">Disclaimer</a></li>
+               <li><a href="https://www.utah.edu/privacy/">Privacy</a></li>
+               <li><a href="https://www.utah.edu/credits-v3.php">Credits &amp; Attributions</a></li>
+               <li><a href="https://about.utah.edu">About the U</a></li>
+               <li><a href="https://attheu.utah.edu/media-contacts/">Media Contacts</a></li>
+               <li><span id="directedit"></span></li>
+            </ul>
+         </div>
+      </div>
+      <div class="uu-footer__bottom-col3">
+         <ul class="uu-social-list">
+            <li><a href="https://twitter.com/uutah"><span class="fa-brands fa-x-twitter" aria-hidden="true"></span><span class="sr-only">X</span></a></li>
+            <li><a href="https://www.facebook.com/universityofutah"><span class="fab fa-facebook" aria-hidden="true"></span><span class="sr-only">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/universityofutah/"><span class="fab fa-instagram" aria-hidden="true"></span><span class="sr-only">Instagram</span></a></li>
+            <li><a href="https://www.youtube.com/user/theuniversityofutah"><span class="fab fa-youtube" aria-hidden="true"></span><span class="sr-only">Youtube</span></a></li>
+         </ul>
+      </div>
+   </div>
+</div></footer>
+         <!-- END FOOTER -->
+         </div>
+      <!-- FOOT CODE -->
+      <script src="//templates.utah.edu/_main-v3-1/js/main.min.js"></script>
+      
+      
+      
+      
+      
+      
+      
+      <script src="//templates.utah.edu/_main-v3-1/js/directedit.js"></script><script><!--
+window.onload = function(){ directedit(); }
+//
+			--></script>
+      <script src="/_resources/js/custom.js"></script>
+            
+      <!-- END FOOT CODE -->
+      
+      <div id="hidden"><a id="de" href="https://a.cms.omniupdate.com/11/?skin=utah&amp;account=utah_home&amp;site=uit2&amp;action=de&amp;path=/error.pcf">Last Updated: 7/29/25</a></div>
+      <!-- END PAGE BODY -->
+      </body>
+</html>
