@@ -1,0 +1,2217 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval' 'unsafe-inline' * blob: data: filesystem:; connect-src 'self' * https://privacyportal.onetrust.com https://*.onetrust.com https://geolocation.onetrust.com; object-src 'none';"/>
+
+  
+
+  
+
+  <title>Thoughtworks: A Global Software Consultancy | Thoughtworks </title>
+
+  
+
+    
+
+    
+
+    
+
+    
+
+    
+    <meta name="description" content="Error"/>
+    
+    <meta name="template" content="basic-page"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta name="google-site-verification" content="AA43W6MsN2rMNjvAWJThG_C2DdiFIbwn2xf0J8Vd2eE"/>
+<meta name="google-site-verification" content="kiO_CiGIcZKuyAwkoZIXjBOUAWRv57hnbTDbaHyvrV0"/>
+
+
+    
+
+
+    
+    <meta content="Error" itemprop="name"/>
+    <meta content="Error" itemprop="description"/>
+    <meta content="https://www.thoughtworks.com/content/dam/thoughtworks/asset.jpg" itemprop="image"/>
+
+    <meta content="Error" property="og:title"/>
+    <meta content="Error" property="og:description"/>
+    <meta content="https://www.thoughtworks.com/content/dam/thoughtworks/asset.jpg" property="og:image"/>
+    <meta content="Thoughtworks" property="og:site_name"/>
+    <meta content="https://www.thoughtworks.com/error/404-page" property="og:url"/>
+
+    
+    
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="Error" name="twitter:title"/>
+    <meta content="Error" name="twitter:description"/>
+    <meta content="https://www.thoughtworks.com/content/dam/thoughtworks/asset.jpg" name="twitter:image:src"/>
+    <meta content="23009949" name="twitter:account_id"/>
+
+    <meta content="[117154494974817]" property="fb:app_id"/>
+
+
+  
+
+    <link rel="canonical" href="https://www.thoughtworks.com/error/404-page"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-au/error/404-page" hreflang="en-au"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-br/error/404-page" hreflang="en-br"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/pt-br/error/404-page" hreflang="pt-br"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-ca/error/404-page" hreflang="en-ca"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-cl/error/404-page" hreflang="en-cl"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/es-cl/error/404-page" hreflang="es-cl"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-cn/error/404-page" hreflang="en-cn"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/zh-cn/error/404-page" hreflang="zh-cn"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-ec/error/404-page" hreflang="en-ec"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/es-ec/error/404-page" hreflang="es-ec"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-de/error/404-page" hreflang="en-de"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/de-de/error/404-page" hreflang="de-de"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-in/error/404-page" hreflang="en-in"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-sg/error/404-page" hreflang="en-sg"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-es/error/404-page" hreflang="en-es"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/es-es/error/404-page" hreflang="es-es"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-th/error/404-page" hreflang="en-th"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-gb/error/404-page" hreflang="en-gb"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/en-us/error/404-page" hreflang="en-us"/>
+    
+        <link rel="alternate" href="https://www.thoughtworks.com/error/404-page" hreflang="x-default"/>
+    
+
+
+
+  
+  
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/favicon.ico" rel="shortcut icon"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/favicon.ico" rel="icon"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/favicon16x16.png" rel="icon" sizes="16x16"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/favicon32x32.png" rel="icon" sizes="32x32"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/android-chrome-192x192.png" rel="icon" sizes="192x192"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/android-chrome-512x512.png" rel="icon" sizes="512x512"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/touch-icon-iphone.png" rel="apple-touch-icon"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/touch-icon-ipad.png" rel="apple-touch-icon" sizes="72x72"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/touch-icon-iphone-retina.png" rel="apple-touch-icon" sizes="114x114"/>
+    <link class="favicon-image" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/touch-icon-ipad-retina.png" rel="apple-touch-icon" sizes="144x144"/>
+  
+  
+
+  
+
+
+    
+        
+    
+<script src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-lazysizes.min.ACSHASH6f887d71f12e3ea05b69013c2eb77ce2.js"></script>
+
+
+
+    
+
+    
+    
+
+    
+    <meta name="tw_country_locale" content="en-global"/>
+
+
+
+
+        
+        
+
+    
+
+    <noscript>
+        <div id="js-disabled-banner-wrapper">
+            <div class="js-disabled-banner-text grid__cell" id="notification-banner-text">
+                Enable javascript in your browser for better experience. Need to know to enable it?
+                <a class="cookie-banner-link no-underline pop-out" href="https://www.enable-javascript.com/" target="_blank" aria-label="This is an external link. Opens in new tab">Go
+                    here.</a>
+            </div>
+        </div>
+    </noscript>
+
+    
+    
+    <script src="/rest/viewers/response" async></script>
+
+    
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" crossorigin="anonymous" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="0672e960-ebfc-4d35-9282-95d501a3a4c1" async>
+    </script>
+    
+
+    
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM\u002DP97X8B');</script>
+    
+
+    <script type="text/plain" class="optanon-category-C0003" async>
+        function OptanonWrapper(){
+            window.wistia_cookie_mannager && window.wistia_cookie_mannager.apply_to_page();
+        };
+    </script>
+
+
+
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-base.min.ACSHASH37d9264e43bf2356f162956df3d89a6f.css" type="text/css">
+
+
+
+
+    
+
+
+    <meta name="shareaholic:site_id" content="6b2351f5b26249ba68dff4ebf816c023"/>
+    <script data-cfasync="false" async src="https://cdn.shareaholic.net/assets/pub/shareaholic.js" class="optanon-category-C0004" type="text/plain"></script>
+
+
+
+
+
+  
+    
+    
+
+    
+
+    
+
+
+        <script type="text/javascript" src="//assets.adobedtm.com/84cc8abb68ee/66379ea41ec7/launch-05a268c45e15.min.js" async></script>
+
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site.min.ACSHASHf72a8bdcc11f5e00f5d7caa7c71daab1.css" type="text/css">
+
+
+
+    
+
+  
+
+  
+</head>
+    <body class="page basicpage main-content" id="page-61e4b9384f">
+        
+        
+        
+            
+
+
+
+
+            
+
+
+
+            
+
+<div class="root responsivegrid">
+     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+          
+               
+                    
+                         
+                              <div class="experiencefragment_2084540797 experiencefragment">
+<div class="cmp-experiencefragment-wrapper aem-Grid padding-styles">
+
+  <div class="cmp-experiencefragment-container" style="color: #000000">
+    <div class="expanding-background-animation" style="background-color: #ffffff"></div>
+    
+  <div class="cmp-experiencefragment cmp-experiencefragment--header ">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="header aem-GridColumn aem-GridColumn--default--12"><header class="cmp-header sticky-header">
+    <div class="cmp-header__logo-section">
+        <a class="cmp-header__logo" href="/" tabindex="0" title="Thoughtworks">
+            <img alt="Thoughtworks" id="tw-logo" width="136px" height="24px" src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/thoughtworks-logo.svg" title="Thoughtworks"/>
+        </a>
+    </div>
+    <div class="cmp-header__icon">
+        <a id="cmp-header__icon__button--open" role="button" aria-expanded="false">Menu<span class="hamburger-menu-icon"></span></a>
+    </div>
+    <div class="cmp-header__icon--close">
+        <a id="cmp-header__icon__button--close" role="button" aria-expanded="true">Close <span class="close-mark"></span></a>
+    </div>
+    <div class="cmp-header__language-section">
+        
+<div class=" cmp-language-navigation cmp-language-navigation--default">
+    <div class="cmp-language-navigation__toggle aem-responsive-grid">
+        <button aria-label="Language navigation dropdown, Worldwide, English selected" class="global" data-current-country="global" aria-controls="language-menu" aria-expanded="false" id="langNavToggleHeader">
+            
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg' alt title/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg" alt title class="flag-image lazyload"/>
+  
+
+            <span class="nav-button-text">Worldwide | English</span>
+        </button>
+    </div>
+    <div id="languagenavigation-86b15f2895" class="cmp-language-navigation__nav" aria-label="country and language selector">
+    <ul class="cmp-language-navigation__nav__list" id="language-menu">
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-AU cmp-language-navigation__nav__list-item--langcode-en-AU cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-AU">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/au.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/au.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Australia</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-au/error/404-page" hreflang="en" lang="en" locale-country="en-au" rel="alternate" title="English" aria-label="Language navigation, Australia, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-au/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-BR cmp-language-navigation__nav__list-item--langcode-en-BR cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-BR">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/br.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/br.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Brazil</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-br/error/404-page" hreflang="en" lang="en" locale-country="en-br" rel="alternate" title="English" aria-label="Language navigation, Brazil, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-br/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/pt-br/error/404-page" hreflang="pt" lang="pt" locale-country="pt-br" rel="alternate" title="Português" aria-label="Language navigation, Brazil, Português" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Português&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/pt-br/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Português" tabindex="0">Português</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-CA cmp-language-navigation__nav__list-item--langcode-en-CA cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-CA">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ca.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ca.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Canada</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-ca/error/404-page" hreflang="en" lang="en" locale-country="en-ca" rel="alternate" title="English" aria-label="Language navigation, Canada, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-ca/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-CL cmp-language-navigation__nav__list-item--langcode-en-CL cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-CL">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cl.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cl.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Chile</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-cl/error/404-page" hreflang="en" lang="en" locale-country="en-cl" rel="alternate" title="English" aria-label="Language navigation, Chile, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-cl/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/es-cl/error/404-page" hreflang="es" lang="es" locale-country="es-cl" rel="alternate" title="Español" aria-label="Language navigation, Chile, Español" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Español&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/es-cl/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Español" tabindex="0">Español</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-CN cmp-language-navigation__nav__list-item--langcode-en-CN cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-CN">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cn.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cn.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">China</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-cn/error/404-page" hreflang="en" lang="en" locale-country="en-cn" rel="alternate" title="English" aria-label="Language navigation, China, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-cn/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/zh-cn/error/404-page" hreflang="zh" lang="zh" locale-country="zh-cn" rel="alternate" title="Chinese" aria-label="Language navigation, China, Chinese" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Chinese&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/zh-cn/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Chinese" tabindex="0">Chinese</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-EC cmp-language-navigation__nav__list-item--langcode-en-EC cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-EC">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ec.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ec.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Ecuador</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-ec/error/404-page" hreflang="en" lang="en" locale-country="en-ec" rel="alternate" title="English" aria-label="Language navigation, Ecuador, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-ec/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/es-ec/error/404-page" hreflang="es" lang="es" locale-country="es-ec" rel="alternate" title="Español" aria-label="Language navigation, Ecuador, Español" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Español&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/es-ec/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Español" tabindex="0">Español</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-DE cmp-language-navigation__nav__list-item--langcode-en-DE cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-DE">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/de.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/de.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Germany</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-de/error/404-page" hreflang="en" lang="en" locale-country="en-de" rel="alternate" title="English" aria-label="Language navigation, Germany, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-de/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/de-de/error/404-page" hreflang="de" lang="de" locale-country="de-de" rel="alternate" title="Deutsch" aria-label="Language navigation, Germany, Deutsch" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Deutsch&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/de-de/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Deutsch" tabindex="0">Deutsch</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-IN cmp-language-navigation__nav__list-item--langcode-en-IN cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-IN">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/in.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/in.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">India</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-in/error/404-page" hreflang="en" lang="en" locale-country="en-in" rel="alternate" title="English" aria-label="Language navigation, India, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-in/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-SG cmp-language-navigation__nav__list-item--langcode-en-SG cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-SG">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/sg.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/sg.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Singapore</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-sg/error/404-page" hreflang="en" lang="en" locale-country="en-sg" rel="alternate" title="English" aria-label="Language navigation, Singapore, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-sg/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-ES cmp-language-navigation__nav__list-item--langcode-en-ES cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-ES">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/es.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/es.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Spain</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-es/error/404-page" hreflang="en" lang="en" locale-country="en-es" rel="alternate" title="English" aria-label="Language navigation, Spain, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-es/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/es-es/error/404-page" hreflang="es" lang="es" locale-country="es-es" rel="alternate" title="Español" aria-label="Language navigation, Spain, Español" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Español&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/es-es/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Español" tabindex="0">Español</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-TH cmp-language-navigation__nav__list-item--langcode-en-TH cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-TH">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/th.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/th.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Thailand</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-th/error/404-page" hreflang="en" lang="en" locale-country="en-th" rel="alternate" title="English" aria-label="Language navigation, Thailand, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-th/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-GB cmp-language-navigation__nav__list-item--langcode-en-GB cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-GB">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/gb.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/gb.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">United Kingdom</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-gb/error/404-page" hreflang="en" lang="en" locale-country="en-gb" rel="alternate" title="English" aria-label="Language navigation, United Kingdom, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-gb/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-US cmp-language-navigation__nav__list-item--langcode-en-US cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-US">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/us.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/us.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">United States</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-us/error/404-page" hreflang="en" lang="en" locale-country="en-us" rel="alternate" title="English" aria-label="Language navigation, United States, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-us/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--langcode-en cmp-language-navigation__nav__list-item--level-0 cmp-language-navigation__nav__list-item--active">
+        
+    <div class="country-flag">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Worldwide</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                active-lang" href="/error/404-page" hreflang="en" lang="en" locale-country="en-global" rel="alternate" title="English" aria-label="Language navigation, Worldwide, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    </ul>
+</div>
+</div>
+
+    
+
+
+    </div>
+    <div class="cmp-header__navigation-section">
+        <div class="cmp-header__right-section mobile-action-section">
+            
+                
+    <div class="search-form">
+        <div class="search-btn">
+            <button id="search-submit-btn" class="search-submit-button">Search</button>
+        </div>
+        <div class="standalone-search-box-wrapper" data-search-config-api-url='https://www.thoughtworks.com/rest/search/config' data-search-placeholder="Type to search..." data-popular-searches="Popular searches" data-search-text="Search" data-country-locale="en-global" data-search-page-path="https://www.thoughtworks.com/search" data-title="Enter any search keyword to search thoughtworks.com">
+        </div>
+        <div class="reset-btn">
+            <button id="search-reset-btn">Close</button>
+        </div>
+    </div>
+
+
+            
+            
+                <div class="tai-search aem-responsive-grid">
+                    <a href="https://www.thoughtworks.com/tai" id="tai-search-btn" aria-label="Ask Tai, the Thoughtworks AI assistant" class="tai-search-button">Ask Tai
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </div>
+            
+            <div class="cmp-header__language-section mobile-language-nav">
+                
+<div class=" cmp-language-navigation cmp-language-navigation--default">
+    <div class="cmp-language-navigation__toggle aem-responsive-grid">
+        <button aria-label="Language navigation dropdown, Worldwide, English selected" class="global" data-current-country="global" aria-controls="language-menu" aria-expanded="false" id="langNavToggleHeader">
+            
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg' alt title/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg" alt title class="flag-image lazyload"/>
+  
+
+            <span class="nav-button-text">Worldwide | English</span>
+        </button>
+    </div>
+    <div id="languagenavigation-86b15f2895" class="cmp-language-navigation__nav" aria-label="country and language selector">
+    <ul class="cmp-language-navigation__nav__list" id="language-menu">
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-AU cmp-language-navigation__nav__list-item--langcode-en-AU cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-AU">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/au.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/au.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Australia</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-au/error/404-page" hreflang="en" lang="en" locale-country="en-au" rel="alternate" title="English" aria-label="Language navigation, Australia, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-au/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-BR cmp-language-navigation__nav__list-item--langcode-en-BR cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-BR">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/br.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/br.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Brazil</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-br/error/404-page" hreflang="en" lang="en" locale-country="en-br" rel="alternate" title="English" aria-label="Language navigation, Brazil, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-br/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/pt-br/error/404-page" hreflang="pt" lang="pt" locale-country="pt-br" rel="alternate" title="Português" aria-label="Language navigation, Brazil, Português" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Português&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/pt-br/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Português" tabindex="0">Português</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-CA cmp-language-navigation__nav__list-item--langcode-en-CA cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-CA">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ca.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ca.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Canada</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-ca/error/404-page" hreflang="en" lang="en" locale-country="en-ca" rel="alternate" title="English" aria-label="Language navigation, Canada, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-ca/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-CL cmp-language-navigation__nav__list-item--langcode-en-CL cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-CL">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cl.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cl.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Chile</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-cl/error/404-page" hreflang="en" lang="en" locale-country="en-cl" rel="alternate" title="English" aria-label="Language navigation, Chile, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-cl/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/es-cl/error/404-page" hreflang="es" lang="es" locale-country="es-cl" rel="alternate" title="Español" aria-label="Language navigation, Chile, Español" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Español&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/es-cl/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Español" tabindex="0">Español</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-CN cmp-language-navigation__nav__list-item--langcode-en-CN cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-CN">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cn.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/cn.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">China</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-cn/error/404-page" hreflang="en" lang="en" locale-country="en-cn" rel="alternate" title="English" aria-label="Language navigation, China, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-cn/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/zh-cn/error/404-page" hreflang="zh" lang="zh" locale-country="zh-cn" rel="alternate" title="Chinese" aria-label="Language navigation, China, Chinese" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Chinese&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/zh-cn/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Chinese" tabindex="0">Chinese</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-EC cmp-language-navigation__nav__list-item--langcode-en-EC cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-EC">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ec.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/ec.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Ecuador</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-ec/error/404-page" hreflang="en" lang="en" locale-country="en-ec" rel="alternate" title="English" aria-label="Language navigation, Ecuador, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-ec/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/es-ec/error/404-page" hreflang="es" lang="es" locale-country="es-ec" rel="alternate" title="Español" aria-label="Language navigation, Ecuador, Español" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Español&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/es-ec/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Español" tabindex="0">Español</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-DE cmp-language-navigation__nav__list-item--langcode-en-DE cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-DE">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/de.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/de.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Germany</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-de/error/404-page" hreflang="en" lang="en" locale-country="en-de" rel="alternate" title="English" aria-label="Language navigation, Germany, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-de/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/de-de/error/404-page" hreflang="de" lang="de" locale-country="de-de" rel="alternate" title="Deutsch" aria-label="Language navigation, Germany, Deutsch" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Deutsch&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/de-de/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Deutsch" tabindex="0">Deutsch</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-IN cmp-language-navigation__nav__list-item--langcode-en-IN cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-IN">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/in.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/in.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">India</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-in/error/404-page" hreflang="en" lang="en" locale-country="en-in" rel="alternate" title="English" aria-label="Language navigation, India, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-in/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-SG cmp-language-navigation__nav__list-item--langcode-en-SG cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-SG">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/sg.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/sg.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Singapore</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-sg/error/404-page" hreflang="en" lang="en" locale-country="en-sg" rel="alternate" title="English" aria-label="Language navigation, Singapore, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-sg/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-ES cmp-language-navigation__nav__list-item--langcode-en-ES cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-ES">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/es.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/es.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Spain</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-es/error/404-page" hreflang="en" lang="en" locale-country="en-es" rel="alternate" title="English" aria-label="Language navigation, Spain, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-es/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            <span class="vertical-pipe">|</span>
+        
+    
+        
+            <a class="country-language ce-module-tracking
+                " href="/es-es/error/404-page" hreflang="es" lang="es" locale-country="es-es" rel="alternate" title="Español" aria-label="Language navigation, Spain, Español" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;Español&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/es-es/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="Español" tabindex="0">Español</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-TH cmp-language-navigation__nav__list-item--langcode-en-TH cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-TH">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/th.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/th.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Thailand</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-th/error/404-page" hreflang="en" lang="en" locale-country="en-th" rel="alternate" title="English" aria-label="Language navigation, Thailand, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-th/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-GB cmp-language-navigation__nav__list-item--langcode-en-GB cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-GB">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/gb.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/gb.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">United Kingdom</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-gb/error/404-page" hreflang="en" lang="en" locale-country="en-gb" rel="alternate" title="English" aria-label="Language navigation, United Kingdom, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-gb/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--countrycode-US cmp-language-navigation__nav__list-item--langcode-en-US cmp-language-navigation__nav__list-item--level-0">
+        
+    <div class="country-flag" lang="en-US">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/us.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/us.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">United States</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                " href="/en-us/error/404-page" hreflang="en" lang="en" locale-country="en-us" rel="alternate" title="English" aria-label="Language navigation, United States, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/en-us/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    
+        
+    <li class="cmp-language-navigation__nav__list-item cmp-language-navigation__nav__list-item--langcode-en cmp-language-navigation__nav__list-item--level-0 cmp-language-navigation__nav__list-item--active">
+        
+    <div class="country-flag">
+        
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg' alt title height="20px" width="20px"/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/global.svg" alt title class=" lazyload" height="20px" width="20px"/>
+  
+
+        <span class="country-name">Worldwide</span>
+    </div>
+    <div class="country-languages">
+        
+            <a class="country-language ce-module-tracking
+                active-lang" href="/error/404-page" hreflang="en" lang="en" locale-country="en-global" rel="alternate" title="English" aria-label="Language navigation, Worldwide, English" data-event-action="Country-locale selector" data-link-click="{&#34;eventCategory&#34;:&#34;/content/thoughtworks/global/en/error/404-page&#34;,&#34;eventAction&#34;:&#34;Country-locale selector&#34;,&#34;eventLabel&#34;:&#34;English&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/error/404-page&#34;}" data-event-category="/error/404-page" data-event-label="English" tabindex="0">English</a>
+            
+        
+    </div>
+
+    </li>
+
+    </ul>
+</div>
+</div>
+
+    
+
+
+            </div>
+        </div>
+        
+            <nav class="cmp-navigation main-header menu-item__content-link" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="main menu">
+    <div class="nav-header-wrapper root-header">
+        <div class="cmp-navigation__group-wrapper">
+            
+               
+                  
+                  
+               
+            
+            <ul class="cmp-navigation__group ">
+                
+                
+                
+                
+                
+                
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/what-we-do" title="What we do" aria-label="What we do" role="button" aria-expanded="false" data-event-label="What we do" data-event-category="/error/404-page" class="cmp-navigation__item-link menu-item__link  " generic-tracking-disabled="true">What we do
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    <div class="nav-header-wrapper ">
+        <div class="cmp-navigation__group-wrapper">
+            
+               
+                  
+                  
+               
+            
+            <ul class="cmp-navigation__group what-we-do-menu">
+                <li class="cmp-navigation__item overview-cta">
+                    <a href="/what-we-do" data-event-action="what_we_do" data-event-category="/error/404-page" data-event-label="Go to overview" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;What we do&#34;,&#34;eventLabel&#34;:&#34;Go to Overview&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/what-we-do&#34;}">
+                        <span class="overview-cta-text">Go to overview</span>
+                        <span class="group-arrow-icon"></span>
+                    </a>
+                </li>
+                
+    <div class='text-loader loading'><span></span></div>
+
+                
+                
+                
+                    
+    <ul class="cmp-navigation__whatWeDo content">
+    </ul>
+    <script id="navigationTopicTemplate" type="text/x-jsrender">
+        <li  class="cmp-navigation__item cmp-navigation__item--level-1 {{:className}}">
+            {{if title}}<h3 class="nav-topic-title">{{:title}}</h3>{{/if}}
+            <ul>
+                {{for navigations}}
+                <li class="navigation-item">
+                    <a class="menu-item__link"
+                       data-event-action="{{:navigationParent}}"
+                       data-event-label="{{:label}}"
+                       data-event-category="{{:url}}"
+                       data-link-click='{{:dataLayerLinkClickData}}'
+                       href="{{:url}}"
+                       role="link"
+                       title="{{:label}}"
+                       aria-label="{{:label}}">
+                        {{:label}}
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                    {{if description}}<p class="nav-description">{{:description}}</p>{{/if}}
+                </li>
+                {{/for}}
+            </ul>
+        </li>
+    </script>
+
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/ai/works" title="AI/works™" aria-label="AI/works™" role="link" data-event-label="AI/works™" data-event-category="/error/404-page" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;AI/works™&#34;,&#34;eventLabel&#34;:&#34;AI/works™&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/ai/works&#34;}">AI/works™
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/clients" title="Who we work with" aria-label="Who we work with" role="button" aria-expanded="false" data-event-label="Who we work with" data-event-category="/error/404-page" class="cmp-navigation__item-link menu-item__link  " generic-tracking-disabled="true">Who we work with
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    <div class="nav-header-wrapper ">
+        <div class="cmp-navigation__group-wrapper">
+            
+               
+                  
+                  
+               
+            
+            <ul class="cmp-navigation__group ">
+                <li class="cmp-navigation__item overview-cta">
+                    <a href="/clients" data-event-action="who_we_work_with" data-event-category="/error/404-page" data-event-label="Go to overview" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Go to Overview&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients&#34;}">
+                        <span class="overview-cta-text">Go to overview</span>
+                        <span class="group-arrow-icon"></span>
+                    </a>
+                </li>
+                
+                
+                
+                
+                
+                    
+    <ul class="cmp-navigation__nav-group">
+        <li class="cmp-navigation__item cmp-navigation__item--level-1">
+            <h3>Industries</h3>
+            <ul>
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Automotive" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Automotive&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/automotive&#34;}" href="/clients/automotive" aria-label="Automotive">
+                        Automotive
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Public Sector" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Public Sector&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/public-sector&#34;}" href="/clients/public-sector" aria-label="Public Sector">
+                        Public Sector
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Energy " data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Energy &#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/cleantech-energy-utilities&#34;}" href="/clients/cleantech-energy-utilities" aria-label="Energy ">
+                        Energy 
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Media and Publishing" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Media and Publishing&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/media-publishing&#34;}" href="/clients/media-publishing" aria-label="Media and Publishing">
+                        Media and Publishing
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Retail and E-commerce" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Retail and E-commerce&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/retail-ecommerce&#34;}" href="/clients/retail-ecommerce" aria-label="Retail and E-commerce">
+                        Retail and E-commerce
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Financial Services and Insurance" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Financial Services and Insurance&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/financial-services-insurance&#34;}" href="/clients/financial-services-insurance" aria-label="Financial Services and Insurance">
+                        Financial Services and Insurance
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Not-for-profit" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Not-for-profit&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/not-for-profit&#34;}" href="/clients/not-for-profit" aria-label="Not-for-profit">
+                        Not-for-profit
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Travel and Transport" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Travel and Transport&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/travel-transport&#34;}" href="/clients/travel-transport" aria-label="Travel and Transport">
+                        Travel and Transport
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Healthcare and Life Sciences" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Healthcare and Life Sciences&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/healthcare-and-life-sciences&#34;}" href="/clients/healthcare-and-life-sciences" aria-label="Healthcare and Life Sciences">
+                        Healthcare and Life Sciences
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Utilities" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Utilities&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/power-and-utilities&#34;}" href="/clients/power-and-utilities" aria-label="Utilities">
+                        Utilities
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="menu-item__link" data-event-action="insights" data-event-label="Manufacturing and Engineering" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Who we work with&#34;,&#34;eventLabel&#34;:&#34;Manufacturing and Engineering&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/clients/manufacturing-and-engineering&#34;}" href="/clients/manufacturing-and-engineering" aria-label="Manufacturing and Engineering">
+                        Manufacturing and Engineering
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+                
+                
+            </ul>
+        </div>
+    </div>
+
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/insights" title="Insights" aria-label="Insights" role="button" aria-expanded="false" data-event-label="Insights" data-event-category="/error/404-page" class="cmp-navigation__item-link menu-item__link  " generic-tracking-disabled="true">Insights
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    <div class="nav-header-wrapper ">
+        <div class="cmp-navigation__group-wrapper">
+            
+               
+                  
+                  
+               
+            
+            <ul class="cmp-navigation__group insights-menu">
+                <li class="cmp-navigation__item overview-cta">
+                    <a href="/insights" data-event-action="insights" data-event-category="/error/404-page" data-event-label="Go to overview" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Go to Overview&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/insights&#34;}">
+                        <span class="overview-cta-text">Go to overview</span>
+                        <span class="group-arrow-icon"></span>
+                    </a>
+                </li>
+                
+    <div class='text-loader loading'><span></span></div>
+
+                
+                    
+    
+        <ul class="cmp-navigation__insights" data-nav-api-path="/rest/navigation/{{countryLocale}}">
+            
+                <li class="cmp-navigation__item cmp-navigation__item--level-1">
+                    <h3>Publications and Tools</h3>
+                    <ul>
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Technology Radar" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Technology Radar&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/radar&#34;}" href="/radar" aria-label="Technology Radar">
+                                Technology Radar
+                                <p>An opinionated guide to today&#39;s technology landscape</p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Perspectives" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Perspectives&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/perspectives&#34;}" href="/perspectives" aria-label="Perspectives">
+                                Perspectives
+                                <p>A no-nonsense publication for digital leaders</p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Decoder" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Decoder&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/insights/decoder&#34;}" href="/insights/decoder" aria-label="Decoder">
+                                Decoder
+                                <p>The business execs&#39; A-Z guide to technology</p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Looking Glass" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Looking Glass&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/insights/looking-glass&#34;}" href="/insights/looking-glass" aria-label="Looking Glass">
+                                Looking Glass
+                                <p>Bringing the tech-led business changes into focus</p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            
+                <li class="cmp-navigation__item cmp-navigation__item--level-1">
+                    <h3>All Insights</h3>
+                    <ul>
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Articles" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Articles&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/insights/articles&#34;}" href="/insights/articles" aria-label="Articles">
+                                Articles
+                                <p>In-depth insights to help your business grow</p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Blogs" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Blogs&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/insights/blog&#34;}" href="/insights/blog" aria-label="Blogs">
+                                Blogs
+                                <p>Expert advice on design, engineering, AI and careers </p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Books" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Books&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/insights/books&#34;}" href="/insights/books" aria-label="Books">
+                                Books
+                                <p>Explore our extensive library to keep learning</p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="insights-item">
+                            <a class="menu-item__link" data-event-action="insights" data-event-label="Podcasts" data-event-category="/error/404-page" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Insights&#34;,&#34;eventLabel&#34;:&#34;Podcasts&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/insights/podcasts&#34;}" href="/insights/podcasts" aria-label="Podcasts">
+                                Podcasts
+                                <p>Conversations on the latest in business and tech</p>
+                                <span class="item-content-arrow-icon"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            
+        </ul>
+    
+
+                
+                
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/engineering" title="Engineering" aria-label="Engineering" role="link" data-event-label="Engineering" data-event-category="/error/404-page" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Engineering&#34;,&#34;eventLabel&#34;:&#34;Engineering&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/engineering&#34;}">Engineering
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/careers" title="Careers" aria-label="Careers" role="button" aria-expanded="false" data-event-label="Careers" data-event-category="/error/404-page" class="cmp-navigation__item-link menu-item__link  " generic-tracking-disabled="true">Careers
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    <div class="nav-header-wrapper ">
+        <div class="cmp-navigation__group-wrapper">
+            
+               
+                  
+                  
+               
+            
+            <ul class="cmp-navigation__group ">
+                <li class="cmp-navigation__item overview-cta">
+                    <a href="/careers" data-event-action="careers" data-event-category="/error/404-page" data-event-label="Go to overview" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Go to Overview&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers&#34;}">
+                        <span class="overview-cta-text">Go to overview</span>
+                        <span class="group-arrow-icon"></span>
+                    </a>
+                </li>
+                
+                
+                
+                
+                
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    
+        <a href="/careers/our-process" title="Application Process" aria-label="Application Process" role="link" data-event-label="Application Process" data-event-category="/error/404-page" data-event-action="careers" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Application Process&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers/our-process&#34;}">Application Process
+            <p>What to expect as you interview with us</p>
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    
+        <a href="/careers/consultant-life" title="Consultant Life" aria-label="Consultant Life" role="link" data-event-label="Consultant Life" data-event-category="/error/404-page" data-event-action="careers" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Consultant Life&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers/consultant-life&#34;}">Consultant Life
+            <p>Learn what life is like as a Thoughtworker</p>
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    
+        <a href="/careers/graduates" title="Graduates and Career Changers" aria-label="Graduates and Career Changers" role="link" data-event-label="Graduates and Career Changers" data-event-category="/error/404-page" data-event-action="careers" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Graduates and Career Changers&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers/graduates&#34;}">Graduates and Career Changers
+            <p>Thoughtworks University: Preparing future leaders</p>
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    
+        <a href="/careers/jobs" title="Search Jobs" aria-label="Search Jobs" role="link" data-event-label="Search Jobs" data-event-category="/error/404-page" data-event-action="careers" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Search Jobs&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers/jobs&#34;}">Search Jobs
+            <p>Find open positions in your region</p>
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    
+        <a href="/careers/access" title="Stay Connected" aria-label="Stay Connected" role="link" data-event-label="Stay Connected" data-event-category="/error/404-page" data-event-action="careers" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Stay Connected&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers/access&#34;}">Stay Connected
+            <p>Sign up for our monthly newsletter</p>
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    
+        <a href="/careers/learning-and-development" title="Learning and Development" aria-label="Learning and Development" role="link" data-event-label="Learning and Development" data-event-category="/error/404-page" data-event-action="careers" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Learning and Development&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers/learning-and-development&#34;}">Learning and Development
+            <p>Explore how we support career growth</p>
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    
+        <a href="/careers/benefits" title="Benefits" aria-label="Benefits" role="link" data-event-label="Benefits" data-event-category="/error/404-page" data-event-action="careers" class="cmp-navigation__item-link menu-item__link  " data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Careers&#34;,&#34;eventLabel&#34;:&#34;Benefits&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/careers/benefits&#34;}">Benefits
+            <p>See how we take care of our people</p>
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+            </ul>
+        </div>
+    </div>
+
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/about-us" title="About" aria-label="About" role="button" aria-expanded="false" data-event-label="About" data-event-category="/error/404-page" class="cmp-navigation__item-link menu-item__link  " generic-tracking-disabled="true">About
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    <div class="nav-header-wrapper ">
+        <div class="cmp-navigation__group-wrapper">
+            
+               
+                  
+                  
+               
+            
+            <ul class="cmp-navigation__group about-menu">
+                <li class="cmp-navigation__item overview-cta">
+                    <a href="/about-us" data-event-action="about" data-event-category="/error/404-page" data-event-label="Go to overview" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;About&#34;,&#34;eventLabel&#34;:&#34;Go to Overview&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/about-us&#34;}">
+                        <span class="overview-cta-text">Go to overview</span>
+                        <span class="group-arrow-icon"></span>
+                    </a>
+                </li>
+                
+    <div class='text-loader loading'><span></span></div>
+
+                
+                
+                    
+    <ul class="cmp-navigation__aboutUs content">
+    </ul>
+    <script id="navigationTopicTemplate" type="text/x-jsrender">
+        <li  class="cmp-navigation__item cmp-navigation__item--level-1 {{:className}}">
+            {{if title}}<h3 class="nav-topic-title">{{:title}}</h3>{{/if}}
+            <ul>
+                {{for navigations}}
+                <li class="navigation-item">
+                    <a class="menu-item__link"
+                       data-event-action="{{:navigationParent}}"
+                       data-event-label="{{:label}}"
+                       data-event-category="{{:url}}"
+                       data-link-click='{{:dataLayerLinkClickData}}'
+                       href="{{:url}}"
+                       role="link"
+                       title="{{:label}}"
+                       aria-label="{{:label}}">
+                        {{:label}}
+                        <span class="item-content-arrow-icon"></span>
+                    </a>
+                    {{if description}}<p class="nav-description">{{:description}}</p>{{/if}}
+                </li>
+                {{/for}}
+            </ul>
+        </li>
+    </script>
+
+                
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+
+    </li>
+
+                
+                    
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    
+        <a href="/contact-us" title="Contact" aria-label="Contact" role="link" data-event-label="Contact" data-event-category="/error/404-page" data-event-action="contact" class="cmp-navigation__item-link menu-item__link   contact" data-link-click="{&#34;eventCategory&#34;:&#34;Mega Menu Clicks&#34;,&#34;eventAction&#34;:&#34;Contact&#34;,&#34;eventLabel&#34;:&#34;Contact&#34;,&#34;eventDestination&#34;:&#34;https://www.thoughtworks.com/contact-us&#34;}">Contact
+            
+            <span class="item-content-arrow-icon"></span>
+        </a>
+    
+
+        
+    </li>
+
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+
+
+        
+        <div class="cmp-header__right-section aem-responsive-grid">
+            
+                
+    <div class="search-form">
+        <div class="search-btn">
+            <button id="search-submit-btn" class="search-submit-button">Search</button>
+        </div>
+        <div class="standalone-search-box-wrapper" data-search-config-api-url='https://www.thoughtworks.com/rest/search/config' data-search-placeholder="Type to search..." data-popular-searches="Popular searches" data-search-text="Search" data-country-locale="en-global" data-search-page-path="https://www.thoughtworks.com/search" data-title="Enter any search keyword to search thoughtworks.com">
+        </div>
+        <div class="reset-btn">
+            <button id="search-reset-btn">Close</button>
+        </div>
+    </div>
+
+
+            
+            
+                <div class="tai-search">
+                    <a href="https://www.thoughtworks.com/tai" id="tai-search-btn" aria-label="Ask Tai, the Thoughtworks AI assistant" class="tai-search-button">Ask Tai</a>
+                </div>
+            
+        </div>
+    </div>
+</header>
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div></div>
+  </div>
+</div>
+
+    
+</div>
+
+                              <main class="compensate-header-height--long placeholder-content-height">
+                         
+                         
+                         
+                    
+               
+                    
+                         
+                         
+                              <div class="responsivegrid main-content">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="error aem-GridColumn aem-GridColumn--default--12"><div class="aem-Grid cmp-error-component ">
+    <div class="aem-responsive-grid">
+        <div class="aem-responsive-grid-text-block text-typography">
+            <div class="generic error-message">
+                <h1><b>Page not found</b></h1>
+<p> </p>
+<p>Oops! It seems like the page you were trying to find isn't around anymore (or at least isn't here).</p>
+<p> </p>
+<p> </p>
+<h2><b>What next? </b></h2>
+<p> </p>
+<p>Try checking the URL for errors, or hit the back button on your browser.</p>
+<p> </p>
+<p>Maybe you were looking:</p>
+<ul>
+<li style="margin-left: 40.0px;">to learn <a href="/about-us">about Thoughtworks</a>?</li>
+<li style="margin-left: 40.0px;">to <a href="/contact-us">find a local office</a>?</li>
+<li style="margin-left: 40.0px;">to <a href="/careers">join us</a>?</li>
+<li style="margin-left: 40.0px;">to <a href="/what-we-do">see what we do</a>?</li>
+<li style="margin-left: 40.0px;">to <a href="/clients">see who we work with</a>?</li>
+</ul>
+
+            </div>
+            <div class="no-job error-message" data-redirect-url="https://www.thoughtworks.com/careers/jobs" data-timer="8">
+                <h2><b>Job not found</b></h2>
+<h2> </h2>
+<p>Oops! The job you were looking for is no longer available. You will be redirected to our jobs search page shortly. </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+</div>
+
+    
+</div>
+</div>
+
+                         
+                         
+                    
+               
+                    
+                         
+                         
+                         
+                              </main>
+                              <div class="experiencefragment">
+<div class="cmp-experiencefragment-wrapper aem-Grid padding-styles">
+
+  <div class="cmp-experiencefragment-container" style="color: #000000">
+    <div class="expanding-background-animation" style="background-color: #ffffff"></div>
+    
+  <div class="cmp-experiencefragment cmp-experiencefragment--footer ">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="footer aem-GridColumn aem-GridColumn--default--12"><footer class="footer__container">
+    <div class="footer-links" aria-label="footer links" role="navigation">
+        <div class="footer__list-wrapper aem-Grid aem-responsive-grid aem-Grid--large--10 aem-Grid--small--12">
+            <section class="footer__list aem-GridColumn aem-GridColumn--large--2 aem-GridColumn--small--12">
+
+                <h2 class="footer__list__heading footer__list--alignment">Company</h2>
+                <ul class="footer__list__content" data-toggle="#toggle">
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/about-us" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="About us">About us</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/what-we-do" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="What we do">What we do</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/about-us/partnerships" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Partnerships">Partnerships</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/clients" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Who we work with">Who we work with</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/about-us/news" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="News">News</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/about-us/diversity-and-inclusion" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Diversity, Equity and Inclusion">Diversity, Equity and Inclusion</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/careers" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Careers">Careers</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/contact-us" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Contact us">Contact us</a>
+                        </li>
+                    
+                </ul>
+            </section>
+        
+            <section class="footer__list aem-GridColumn aem-GridColumn--large--2 aem-GridColumn--small--12">
+
+                <h2 class="footer__list__heading footer__list--alignment">Insights</h2>
+                <ul class="footer__list__content" data-toggle="#toggle">
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/insights/preference-center" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Preference center">Preference center</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/insights/articles" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Articles">Articles</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/insights/blog" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Blogs">Blogs</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/insights/books" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Books">Books</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/insights/podcasts" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Podcasts">Podcasts</a>
+                        </li>
+                    
+                </ul>
+            </section>
+        
+            <section class="footer__list aem-GridColumn aem-GridColumn--large--2 aem-GridColumn--small--12">
+
+                <h2 class="footer__list__heading footer__list--alignment">Site info</h2>
+                <ul class="footer__list__content" data-toggle="#toggle">
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/about-us/privacy-policy" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Privacy policy">Privacy policy</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/about-us/accessibility" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Accessibility statement">Accessibility statement</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/content/dam/thoughtworks/documents/guide/tw_guide_modern_slavery_statement.pdf" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Modern slavery statement" target="_blank">Modern slavery statement</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/content/dam/thoughtworks/documents/guide/tw_guide_code_of_conduct_en_2025.pdf" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Code of conduct" target="_blank">Code of conduct</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="https://integrity.thoughtworks.com" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Integrity helpline">Integrity helpline</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/content/dam/thoughtworks/documents/guide/tw_guide_sustainable_procurement_policy.pdf" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Sustainable procurement policy" target="_blank">Sustainable procurement policy</a>
+                        </li>
+                    
+                        <li class="footer__list__content-links">
+                            <a class="ce-module-tracking footer__list__content-link" href="/content/dam/thoughtworks/documents/guide/tw_guide_speak_up_policy_en_2024.pdf" data-event-action="Footer Navigation" data-event-category="/error/404-page" data-event-label="Speak up policy" target="_blank">Speak up policy</a>
+                        </li>
+                    
+                </ul>
+            </section>
+        </div>
+    </div>
+    <h2 class="footer__connect-with-us">Connect with us</h2>
+    
+  <ul class="social-icons">
+    <li class="social-icons__item">
+      <a class="social-icons__icon" id="linkedin-link" href="https://www.linkedin.com/company/thoughtworks/" target="_blank" data-event-label="linkedin-link" rel="noreferrer" title="Read Thoughtworks company news on LinkedIn" generic-tracking-disabled>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.048" height="21.182" viewBox="0 0 19.048 18.182">
+          <g data-name="LinkedIN_Color" transform="translate(51 110)">
+            <path d="M10.667,18.182H6.584c0-.1.054-11.114,0-12.266h4.084V7.652a4.081,4.081,0,0,1,3.68-2.026,4.422,4.422,0,0,1,3.358,1.348,5.963,5.963,0,0,1,1.343,4.174V18.18H14.965V11.618c0-1.265-.359-2.773-2.069-2.773A2.231,2.231,0,0,0,10.8,10.336a2.694,2.694,0,0,0-.135.994v6.851Zm-6.342,0H.242V5.913H4.325V18.18ZM2.283,4.239H2.257A2.125,2.125,0,1,1,2.31,0a2.126,2.126,0,1,1-.027,4.239Z" transform="translate(-51 -110)" fill="#bd4257"/>
+          </g>
+        </svg>
+      </a>
+    </li>
+
+    <li class="social-icons__item">
+      <a class="social-icons__icon" id="facebook-link" href="https://www.facebook.com/Thoughtworks" data-event-label="facebook-link" rel="noreferrer" target="_blank" title="Visit Thoughtworks on Facebook" generic-tracking-disabled>
+        <svg xmlns="http://www.w3.org/2000/svg" width="9.585" height="22" viewBox="0 0 8.585 18">
+          <path d="M5.708,18V9h2.54l.337-3.1H5.708l0-1.552c0-.809.079-1.242,1.266-1.242H8.567V0H6.027C2.976,0,1.9,1.5,1.9,4.035V5.9H0V9H1.9v9Z" fill="#bd4257"/>
+        </svg>
+      </a>
+    </li>
+
+    <li class="social-icons__item">
+      <a class="social-icons__icon" id="twitter-link" href="https://x.com/thoughtworks/" rel="noreferrer" data-event-label="twitter-link" target="_blank" title="Follow @thoughtworks on twitter" generic-tracking-disabled>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.642" height="22.001" viewBox="0 0 18.642 17.001">
+          <path d="M22.89,8.7H25.7l-6.331,7.152L26.642,25.7H20.78l-4.573-5.98L10.931,25.7H8.352l6.683-7.621L8,8.7h5.98l4.1,5.393ZM21.718,24.059h1.641l-10.318-13.6H11.4Z" transform="translate(-8 -8.7)" fill="#bd4257"/>
+        </svg>
+      </a>
+    </li>
+
+    <li class="social-icons__item">
+      <a class="js_open_wechat_modal social-icons__icon" id="wechat-link" href="javascript:" data-target="#wechat-modal" data-toggle="modal" title="Thoughtworks China WeChat subscription account QR code" data-event-label="wechat-link" generic-tracking-disabled>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20" width="26" height="22">
+          <style type="text/css">
+            .st0 {
+              fill: #bd4257;
+            }
+          </style>
+          <g data-name="LinkedIN_Color" transform="translate(-1 -3)">
+            <path class="st0" d="M8.7,11.5c-0.7,0-1.3-0.6-1.3-1.3c0-0.7,0.6-1.3,1.3-1.3c0.7,0,1.3,0.6,1.3,1.3C10,10.9,9.4,11.5,8.7,11.5z
+               M15.3,11.5c-0.7,0-1.3-0.6-1.3-1.3c0-0.7,0.6-1.3,1.3-1.3s1.3,0.6,1.3,1.3C16.6,10.9,16.1,11.5,15.3,11.5z M6.8,19.2l0.7-0.4
+              c0.8-0.5,1.8-0.7,2.7-0.5c0.2,0,0.4,0.1,0.5,0.1c0.4,0.1,0.8,0.1,1.2,0.1c4.4,0,7.9-3,7.9-6.6c0-3.6-3.5-6.6-7.9-6.6
+              c-4.4,0-7.9,3-7.9,6.6c0,1.4,0.5,2.7,1.4,3.8c0,0.1,0.1,0.1,0.2,0.2c0.8,0.8,1.2,2,1.1,3.1L6.8,19.2z M6.2,21.9
+              c-0.2,0.1-0.4,0.2-0.6,0.1c-0.6,0-1-0.5-0.9-1.1l0.2-2.3c0-0.6-0.2-1.1-0.6-1.6C4.2,17.1,4.1,17,4,16.9c-1.2-1.4-1.9-3.2-1.9-5.1
+              c0-4.7,4.4-8.6,9.9-8.6c5.5,0,9.9,3.9,9.9,8.6c0,4.7-4.4,8.6-9.9,8.6c-0.5,0-1,0-1.5-0.1c-0.2,0-0.3,0-0.6-0.1
+              c-0.5-0.1-0.9,0-1.4,0.3L6.2,21.9z"/>
+          </g>
+        </svg>
+      </a>
+
+      
+    </li>
+
+    <li class="social-icons__item">
+      <a class="social-icons__icon" id="youtube-link" href="https://www.youtube.com/user/thoughtworks" data-event-label="youtube-link" rel="noreferrer" target="_blank" title="Watch Thoughtworks videos on YouTube" generic-tracking-disabled>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24.048" height="22.182" viewBox="0 0 24.048 20.182">
+          <style type="text/css">
+            .st0 {
+              fill: #bd4257;
+            }
+          </style>
+          <g transform="scale(1.2) translate(-2 -4)">
+            <path class="st0" d="M19.6,7c-0.1-0.3-0.3-0.5-0.5-0.6C18.6,6.3,16.5,6,12,6C7.5,6,5.4,6.3,4.9,6.4C4.7,6.5,4.5,6.7,4.4,7
+	C4.3,7.4,4,9.2,4,12c0,2.8,0.3,4.6,0.4,5c0.1,0.3,0.3,0.5,0.5,0.6C5.4,17.7,7.5,18,12,18c4.5,0,6.6-0.3,7.1-0.4
+	c0.2-0.1,0.5-0.3,0.5-0.6c0.1-0.4,0.4-2.2,0.4-5S19.7,7.4,19.6,7z M21.5,6.5C22,8.3,22,12,22,12s0,3.7-0.5,5.5c-0.3,1-1,1.8-1.9,2
+	C17.9,20,12,20,12,20s-5.9,0-7.6-0.5c-0.9-0.3-1.7-1-1.9-2C2,15.7,2,12,2,12s0-3.7,0.5-5.5c0.3-1,1-1.8,1.9-2C6.1,4,12,4,12,4
+	s5.9,0,7.6,0.5C20.6,4.7,21.3,5.5,21.5,6.5z M10,15.5v-7l6,3.5L10,15.5z"/>
+          </g>
+        </svg>
+      </a>
+    </li>
+
+    <li class="social-icons__item">
+      <a class="social-icons__icon" id="instagram-link" href="https://www.instagram.com/thoughtworks/" data-event-label="instagram-link" rel="noreferrer" target="_blank" title="Follow Thoughtworks on Instagram" generic-tracking-disabled>
+        <svg id="instagram_icon" xmlns="http://www.w3.org/2000/svg" width="24.048" height="22.182" viewBox="0 0 24.048 23">
+          <g transform="scale(1.2)">
+            <defs>
+              <clipPath>
+                <rect id="Rectangle_6550" data-name="Rectangle 6550" width="18.109" height="18.182" fill="#bd4257"/>
+              </clipPath>
+            </defs>
+            <g data-name="Group 61708" clip-path="url(#clip-path)">
+              <path data-name="Path 27349" d="M13.8,3.161a1.229,1.229,0,0,0-1.083,1.076,1.079,1.079,0,1,0,2.158,0A1.014,1.014,0,0,0,13.8,3.161M9.055,6.322a2.607,2.607,0,0,1,2.66,2.66,2.624,2.624,0,0,1-2.66,2.732,2.7,2.7,0,1,1,0-5.392m0-1.795a4.491,4.491,0,1,0,0,8.982,4.448,4.448,0,0,0,4.454-4.527A4.387,4.387,0,0,0,9.055,4.527m0-2.732a19.921,19.921,0,0,1,3.6.145,4.578,4.578,0,0,1,1.576.218,2.878,2.878,0,0,1,1.011.647,5.05,5.05,0,0,1,.646,1,4.6,4.6,0,0,1,.283,1.584c.073,1,.073,1.359.073,3.59,0,2.3,0,2.587-.073,3.589a5.464,5.464,0,0,1-.283,1.657,3.147,3.147,0,0,1-.646.93,3.737,3.737,0,0,1-1.011.646,3.229,3.229,0,0,1-1.576.291c-1.011.073-1.366.073-3.6.073s-2.587,0-3.589-.073A3.757,3.757,0,0,1,3.808,15.8a2.082,2.082,0,0,1-.929-.646,2.586,2.586,0,0,1-.647-.93,3.763,3.763,0,0,1-.291-1.657c-.073-1-.073-1.294-.073-3.589,0-2.231,0-2.587.073-3.59a3.25,3.25,0,0,1,.291-1.584,2.166,2.166,0,0,1,.647-1,6.429,6.429,0,0,1,.929-.647A5.379,5.379,0,0,1,5.465,1.94a20.767,20.767,0,0,1,3.589-.145M9.055,0A19.759,19.759,0,0,0,5.393.146,6.994,6.994,0,0,0,3.234.574,5.537,5.537,0,0,0,1.585,1.649,4.168,4.168,0,0,0,.5,3.234,5.507,5.507,0,0,0,.073,5.392C0,6.322,0,6.685,0,9.127,0,11.5.073,11.787.073,12.79A13.369,13.369,0,0,0,.5,14.948a6.084,6.084,0,0,0,1.083,1.576,3.192,3.192,0,0,0,1.649,1.083,4.174,4.174,0,0,0,2.158.5c.857.073,1.221.073,3.662.073s2.66-.073,3.662-.073a9.962,9.962,0,0,0,2.158-.5,6.686,6.686,0,0,0,1.658-1.083,4.155,4.155,0,0,0,1.075-1.576,5.359,5.359,0,0,0,.429-2.158c.073-.93.073-1.294.073-3.662,0-2.442-.073-2.733-.073-3.736a12.524,12.524,0,0,0-.429-2.158,6.456,6.456,0,0,0-1.075-1.584A3.946,3.946,0,0,0,14.875.574,4.173,4.173,0,0,0,12.717.146,19.285,19.285,0,0,0,9.055,0" transform="translate(0 0)" fill="#bd4257" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </svg>
+      </a>
+    </li>
+  </ul>
+
+
+    
+    <div class="footer__copyright">© 2026 Thoughtworks, Inc.</div>
+    <div class="social__modal fade hidden" id="wechat-modal" role="dialog">
+        <div class="social__modal-wrapper">
+          <div class="social__modal__dialog">
+            <div class="social__modal__content">
+              <div class="social__modal__header">
+                <a class="social__modal__close" data-dismiss="modal" data-target="#wechat-modal" href="javascript:void(0);">×</a>
+                <label class="social__modal__title">WeChat</label>
+              </div>
+              <div class="social__modal__body">
+               
+                                
+  
+  <noscript>
+    <img src='/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/wechat_qr_code.jpg' alt='QR code to Thoughtworks China WeChat subscription account' title='Thoughtworks China WeChat QR code'/>
+  </noscript>
+  <img data-src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site/resources/images/wechat_qr_code.jpg" alt='QR code to Thoughtworks China WeChat subscription account' title='Thoughtworks China WeChat QR code' class=" lazyload"/>
+  
+
+                            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</footer>
+<div id="alertContainer" role="alert" aria-live="polite" style="position: absolute; left: -9999px;"></div>
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div></div>
+  </div>
+</div>
+
+    
+</div>
+
+                         
+                    
+               
+          
+     </div>
+</div>
+            
+    
+    
+<script src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-dependencies.min.ACSHASH98b303aa154c88d2e4ebb4d69e017a8c.js"></script>
+<script src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-site.min.ACSHASH76ac522e50294c7848430314bc904e1b.js"></script>
+
+
+
+    
+
+    
+    
+<script src="/etc.clientlibs/thoughtworks/clientlibs/clientlib-base.min.ACSHASHf9816d61b342165f0b90f08fc29debf4.js"></script>
+
+
+
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P97X8B" title="GTM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script type="text/javascript" async>
+        window.dataLayer = window.dataLayer || [];
+        function getCookie(name) {
+            return document.cookie.split('; ').reduce((r, v) => {
+                const parts = v.split('=')
+                return parts[0] === name ? decodeURIComponent(parts[1]) : r
+            }, '')
+        }
+        window.dataLayer.push({
+            isChina: getCookie("visiting-country") === "CN"
+        });
+    </script>
+
+
+
+    <script id="munchkin-js" class="optanon-category-C0003" type="text/plain" async>
+        $.ajax({
+            url: document.location.protocol + '//munchkin.marketo.net/munchkin.js',
+            dataType: 'script',
+            cache: true,
+            success: function() {
+            Munchkin.init('199-QDE-291');
+            }
+        });
+    </script>
+
+
+<script id="page-data" type="application/json">
+    {
+        "page": {
+            "pageInfo": {
+                "pageName": "en\u002Dglobal|error|404 page",
+                "country": "global",
+                "language": "en"
+            },
+            "category": {
+                "pageTemplateType": "error page",
+                "serviceLine": "n\/a",
+                "subServiceLine": "n\/a",
+                "sitesection1": "error page",
+                "sitesection2": "error page",
+                "sitesection3": "error page"
+            }
+        }
+    }
+</script>
+<script id="error-data" type="application/json">
+    {
+        "errorDetails": {
+            "errorCode": "404",
+            "errorName": "Not Found",
+            "error404": "true"
+        }
+    }
+</script>
+
+
+
+
+    
+    <script>
+        MathJax = {
+            options : {
+                enableMenu: false,
+                a11y: {
+                    speech: false,
+                    braille: false
+                }
+            }
+        };
+    </script>
+    <style>
+        .MathJax {
+            overflow-x: scroll;
+            overflow-y: hidden;
+            height: 100%;
+        }
+        .MathJax:not([display="true"]) {
+            display: inline-flex !important;
+            max-width: 100%;
+        }
+    </style>
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+    
+    
+
+            
+
+        
+    </body>
+</html>

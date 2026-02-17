@@ -1,0 +1,706 @@
+<!DOCTYPE html><!-- Last Published: Thu Jan 22 2026 06:36:03 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.gnani.ai" data-wf-page="6848bfb15c1067d1b767cef3" data-wf-site="6848bfb15c1067d1b767ceb1" lang="en"><head><meta charset="utf-8"/><title>Page Not Found | Gnani.ai</title><meta content="The page you’re looking for doesn’t exist. Return to the Gnani.ai homepage or explore our products and resources." name="description"/><meta content="Page Not Found | Gnani.ai" property="og:title"/><meta content="The page you’re looking for doesn’t exist. Return to the Gnani.ai homepage or explore our products and resources." property="og:description"/><meta content="Page Not Found | Gnani.ai" property="twitter:title"/><meta content="The page you’re looking for doesn’t exist. Return to the Gnani.ai homepage or explore our products and resources." property="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="noindex" name="robots"/><link href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/css/gnani-ai.webflow.shared.ebdf8867d.min.css" rel="stylesheet" type="text/css" integrity="sha384-69+IZ93POVDoK+0XSI/dyzeP3Zjd/xedNwwmt7cZqoTeI2x2LghQGnTj9v95bCWz" crossorigin="anonymous"/><link href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/css/gnani-ai.webflow.6848bfb15c1067d1b767cef3-4cf5c169b.min.css" rel="stylesheet" type="text/css" integrity="sha384-hmFwAXKC7Yd+1oFHNaMsCkQ9c3tR64oJCer/7HolyE9v/ddmG006Yk6Zl6rGvtFE" crossorigin="anonymous"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/68497b67afb5f7300bc633de_gnani%20favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/68497b6baa6f82e5cf0a2e9a_gnani%20webclip.png" rel="apple-touch-icon"/><link href="https://www.gnani.ai/404" rel="canonical"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ZBPKRKV1GL"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('js', new Date());gtag('config', 'G-ZBPKRKV1GL');</script><!-- Preconnect to Webflow CDN -->
+<link rel="preconnect" href="https://cdn.prod.website-files.com" crossorigin>
+
+<!-- Preload critical fonts -->
+<link rel="preload" as="font" type="font/woff2" href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/68511f444f01ef53d86b6bf7_Inter_28pt-Regular.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/68511f44fc29efab588d1e61_Inter_28pt-Medium.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/68511f447f8bf5bf1511b758_Inter_28pt-SemiBold.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/684b3aecd3bba73d5893071b_Array-Regular.woff2" crossorigin>
+
+
+<link rel="preconnect" href="https://cdn.prod.website-files.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://d3e54v103j8qbb.cloudfront.net" crossorigin>
+
+
+<!-- Optimized CSS -->
+<style>
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Animation states - combined selectors for better performance 
+[data-scroll-animation="heading"],
+[data-load-animation="section"],
+[data-load-animation="element"] {
+  visibility: hidden;
+  opacity: 0;
+  filter: blur(2px);
+}
+
+[data-scroll-animation="body"],
+[data-load-animation="bottom-fade"] {
+  opacity: 0;
+}
+*/
+/* Layout optimizations 
+.w-dyn-list:has(> .w-dyn-empty),
+.section_finisher:has(.swiper-button-lock) {
+  display: none;
+}
+*/
+
+@media (min-width: 991px) {
+  .x-tab_pane:first-of-type,
+  .y-tab_pane:first-of-type {
+    display: block;
+  }
+}
+</style>
+
+<!-- Preload critical resources -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js" type="module" defer fs-scrolldisable></script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://gnani.ai/#organization",
+  "name": "Gnani.ai",
+  "url": "https://gnani.ai/",
+  "logo": "https://images.yourstory.com/cs/images/companies/3422b432cc39-GnaniLogoHighRes-1613728491291.png?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
+  "foundingDate": "2016",
+  "founders": [
+    { "@type": "Person", "name": "Ganesh Gopalan" },
+    { "@type": "Person", "name": "Ananth Nagaraj" },
+    { "@type": "Person", "name": "Bharath Shankar" }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/gnani-ai/",
+    "https://x.com/GnaniAi",
+    "https://www.youtube.com/channel/UCSeSyVjhwQdOgj2o9pqmiVA",
+    "https://www.instagram.com/gnani.ai/"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+918011991387",
+      "email": "hello@gnani.ai",
+      "contactType": "sales",
+      "availableLanguage": ["en"],
+      "areaServed": ["US", "IN", "Global"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+919342510660",
+      "email": "hello@gnani.ai",
+      "contactType": "sales",
+      "availableLanguage": ["en","hi"],
+      "areaServed": ["IN", "Global"]
+    }
+  ],
+  "department": [
+    { "@id": "https://gnani.ai/#office-bengaluru" },
+    { "@id": "https://gnani.ai/#office-mumbai" },
+    { "@id": "https://gnani.ai/#office-gurugram" },
+    { "@id": "https://gnani.ai/#office-covina" }
+  ]
+}
+</script>
+
+<script>!function(key) {if (window.reb2b) return;window.reb2b = {loaded: true};var s = document.createElement("script");s.async = true;s.src = "https://b2bjsstore.s3.us-west-2.amazonaws.com/b/" + key + "/" + key + ".js.gz";document.getElementsByTagName("script")[0].parentNode.insertBefore(s, document.getElementsByTagName("script")[0]);}("E63P0HW2P4OW");</script>
+
+<script>window.faitracker=window.faitracker||function(){this.q=[];var t=new CustomEvent("FAITRACKER_QUEUED_EVENT");return this.init=function(t,e,a){this.TOKEN=t,this.INIT_PARAMS=e,this.INIT_CALLBACK=a,window.dispatchEvent(new CustomEvent("FAITRACKER_INIT_EVENT"))},this.call=function(){var e={k:"",a:[]};if(arguments&&arguments.length>=1){for(var a=1;a<arguments.length;a++)e.a.push(arguments[a]);e.k=arguments[0]}this.q.push(e),window.dispatchEvent(t)},this.message=function(){window.addEventListener("message",function(t){"faitracker"===t.data.origin&&this.call("message",t.data.type,t.data.message)})},this.message(),this.init("16f9optoitay385ndag4x91ou4csdzdz",{host:"https://api.factors.ai"}),this}(),function(){var t=document.createElement("script");t.type="text/javascript",t.src="https://app.factors.ai/assets/factors.js",t.async=!0,(d=document.getElementsByTagName("script")[0]).parentNode.insertBefore(t,d)}();</script></head><body><div class="global-styles w-embed"><style>
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Set color style to inherit */
+.inherit-color * {
+  color: inherit !important;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+</style>
+
+
+<style>
+.swiper {
+  width: 100%;
+  overflow: visible;
+}
+
+.swiper-wrapper {
+  width: auto;
+}
+</style>
+
+<style>
+.wf-design-mode img {
+pointer-events: auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</style></div><div class="section_404"><div class="padding-global"><div class="container-large"><div class="_404_component"><img src="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/68a43cb13e9f5595b060212f_404%20Visual.avif" loading="eager" width="640.5" alt="" class="_404_image"/><div class="_404_text-wrap"><div><p class="text-size-xl text-weight-semibold gradient-grey-900-700__45">Oops! You lost somewhere in the future</p><div class="spacer-xxsmall"></div><p class="text-color-quat-500">Go home and continue exploring.</p></div><a data-wf--button--variant="is-small---black" href="/" class="button w-variant-2ffec4de-8e79-9607-e472-a858373f10f9 w-inline-block"><div class="hover-text">Go Home</div></a></div></div></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6848bfb15c1067d1b767ceb1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6848bfb15c1067d1b767ceb1/js/webflow.bb0d2307.a5f1dc05b14297a4.js" type="text/javascript" integrity="sha384-TMrbWS4QU0VUZshOwKut4AQUT8laYq9NQfMxu4Pg4B1ZUv+UkVEue1bLSlxsPk5a" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/SplitText.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js" type="text/javascript"></script><script type="text/javascript">gsap.registerPlugin(SplitText,ScrollTrigger);</script><!-- Load scripts efficiently -->
+<script src="https://cdn.jsdelivr.net/gh/adarshgowdaa/webflow-cnd-script@fe035a664e50c3eea127410b44dfa661eeb340bd
+ /script.min.js?v=2.1" defer></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
+
+<!-- ========================================
+     SCRIPT 1: SCROLL ANIMATIONS
+     ======================================== -->
+<!--script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initScrollAnimations() {
+    // Check if GSAP is loaded
+    if (typeof gsap === 'undefined') {
+      return;
+    }
+    
+    // Register ScrollTrigger plugin
+    if (typeof ScrollTrigger !== 'undefined') {
+      gsap.registerPlugin(ScrollTrigger);
+    }
+    
+    const sections = document.querySelectorAll('[data-scroll-animation="section"]');
+    if (!sections.length) return;
+    
+    sections.forEach(section => {
+      const heading = section.querySelector('[data-scroll-animation="heading"]');
+      const bodies = section.querySelectorAll('[data-scroll-animation="body"]');
+      
+      if (!heading && !bodies.length) return;
+      
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: section,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+          once: true,
+        }
+      });
+      
+      if (heading) {
+        tl.to(heading, {
+          visibility: 'visible',
+          filter: 'blur(0px)',
+          opacity: 1,
+          duration: 1.2,
+          ease: 'power2.out'
+        });
+      }
+      
+      if (bodies.length) {
+        tl.to(bodies, {
+          opacity: 1,
+          duration: 1,
+          ease: 'power2.out',
+          stagger: { amount: 0.4, from: 'start' }
+        }, '-=0.6');
+      }
+    });
+  }
+  
+  initScrollAnimations();
+});
+</script-->
+
+<!-- ========================================
+     SCRIPT 2: HERO ANIMATION
+     ======================================== -->
+<!--script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initHeroAnimation() {
+    // Check if GSAP is loaded
+    if (typeof gsap === 'undefined') {
+      console.warn('GSAP not loaded for hero animations');
+      return;
+    }
+    
+    const hero = document.querySelector('[data-load-animation="section"]');
+    if (!hero) return;
+
+    const primaryElements = hero.querySelectorAll('[data-load-animation="element"]');
+    const bottomFadeElements = hero.querySelectorAll('[data-load-animation="bottom-fade"]');
+
+    gsap.set([hero, ...primaryElements], { visibility: 'visible' });
+    gsap.set(bottomFadeElements, { visibility: 'visible', y: '2rem' });
+
+    const tl = gsap.timeline()
+      .to(hero, {
+        opacity: 1,
+        filter: 'blur(0px)',
+        duration: 0.8,
+        ease: 'power2.out'
+      })
+      .to(primaryElements, {
+        opacity: 1,
+        filter: 'blur(0px)',
+        duration: 0.8,
+        ease: 'power2.out',
+        stagger: 0.2
+      }, '-=0.8');
+
+    bottomFadeElements.forEach(element => {
+      const delay = parseFloat(element.getAttribute('data-load-delay')) || 0;
+      tl.to(element, {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        ease: 'power2.out'
+      }, `-=${delay}`);
+    });
+  }
+  
+  initHeroAnimation();
+});
+</script-->
+
+<!-- ========================================
+     SCRIPT 3: BUTTON HOVER EFFECTS
+     ======================================== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initHoverEffects() {
+    let isInitialized = false;
+    let cleanupFns = [];
+    
+    function setupHoverAnimation() {
+      const buttons = document.querySelectorAll('.button');
+      if (!buttons.length) return;
+
+      buttons.forEach((button) => {
+        const originalText = button.querySelector('.hover-text');
+        if (!originalText || typeof SplitText === 'undefined') return;
+
+        try {
+          const originalSplit = new SplitText(originalText, { type: "chars" });
+          const clonedText = originalText.cloneNode(true);
+          clonedText.classList.add('cloned-text');
+          clonedText.setAttribute("aria-hidden", "true");
+          button.appendChild(clonedText);
+
+          const clonedSplit = new SplitText(clonedText, { type: "chars" });
+
+          gsap.set(clonedText, {
+            position: "absolute",
+            top: "auto",
+            left: 0,
+            width: "100%",
+            pointerEvents: "none"
+          });
+
+          gsap.set(clonedSplit.chars, { y: '100%' });
+          gsap.set(originalSplit.chars, { y: '0%' });
+
+          const onEnter = () => animateChars(originalSplit.chars, '-100%', clonedSplit.chars, '0%');
+          const onLeave = () => animateChars(originalSplit.chars, '0%', clonedSplit.chars, '100%');
+
+          button.addEventListener('mouseenter', onEnter, { passive: true });
+          button.addEventListener('mouseleave', onLeave, { passive: true });
+
+          cleanupFns.push(() => {
+            button.removeEventListener('mouseenter', onEnter);
+            button.removeEventListener('mouseleave', onLeave);
+            if (button.contains(clonedText)) button.removeChild(clonedText);
+            originalSplit.revert();
+            clonedSplit.revert();
+          });
+        } catch (error) {
+          console.warn('Hover animation setup failed:', error);
+        }
+      });
+    }
+
+    function animateChars(chars1, y1, chars2, y2) {
+      gsap.to(chars1, { y: y1, duration: 0.3, ease: 'power2.inOut', stagger: 0.02 });
+      gsap.to(chars2, { y: y2, duration: 0.3, ease: 'power2.inOut', stagger: 0.02 });
+    }
+
+    function checkScreenSize() {
+      const isLarge = window.innerWidth > 991;
+      if (isLarge && !isInitialized) {
+        setupHoverAnimation();
+        isInitialized = true;
+      } else if (!isLarge && isInitialized) {
+        cleanupFns.forEach(fn => fn());
+        cleanupFns = [];
+        isInitialized = false;
+      }
+    }
+
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(checkScreenSize, 150);
+    }, { passive: true });
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(checkScreenSize);
+    } else {
+      setTimeout(checkScreenSize, 100);
+    }
+  }
+  
+  initHoverEffects();
+});
+</script>
+
+<!-- ========================================
+     SCRIPT 4: NUMBER COUNTERS
+     ======================================== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initNumberCounters() {
+    const elements = document.querySelectorAll('[counter-element="number"]');
+    if (!elements.length) return;
+    
+    const animateNumber = (element, target, duration) => {
+      const easingFunction = t => t * t * (3 - 2 * t);
+      let startTime = null;
+
+      const animate = time => {
+        if (!startTime) startTime = time;
+        const progress = Math.min((time - startTime) / duration, 1);
+        const value = Math.floor(target * easingFunction(progress));
+        
+        element.textContent = value;
+        
+        if (progress < 1) {
+          requestAnimationFrame(animate);
+        } else {
+          element.textContent = target;
+        }
+      };
+      
+      requestAnimationFrame(animate);
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const finalNumber = parseInt(el.textContent, 10);
+          const duration = parseInt(el.getAttribute('data-duration'), 10) || 2000;
+          
+          animateNumber(el, finalNumber, duration);
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    elements.forEach(el => observer.observe(el));
+  }
+  
+  initNumberCounters();
+});
+</script>
+
+<!-- ========================================
+     SCRIPT 5: SWIPER SLIDER
+     ======================================== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initSwiper() {
+    const swiperEl = document.querySelector('.swiper.is-sstories');
+    if (!swiperEl || typeof Swiper === 'undefined') {
+      console.warn('Swiper element not found or Swiper library not loaded');
+      return;
+    }
+    
+    try {
+      new Swiper(swiperEl, {
+        slidesPerView: 'auto',
+        spaceBetween: 32,
+        navigation: {
+          nextEl: '.swiper-next',
+          prevEl: '.swiper-prev',
+          disabledClass: 'is-swiper-disable'
+        },
+        breakpoints: {
+          0: { spaceBetween: 16 },
+          478: { spaceBetween: 32 }
+        },
+        simulateTouch: true,
+        touchEventsTarget: 'container',
+        mousewheel: {
+          forceToAxis: true,
+          sensitivity: 0.3,
+          releaseOnEdges: true,
+          thresholdDelta: 30,
+          thresholdTime: 200,
+        },
+      });
+    } catch (error) {
+      console.warn('Swiper initialization failed:', error);
+    }
+  }
+  
+  initSwiper();
+});
+</script>
+
+<!-- ========================================
+     SCRIPT 6: TAB SYSTEM
+     ======================================== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initTabSystem() {
+    const panes = document.querySelectorAll(".y-tab_pane, .x-tab_pane");
+    const closeButtons = document.querySelectorAll(".y-tab_close-mobile, .x-tab_close-mobile, .tab-modal_close-button");
+    
+    if (!panes.length) return;
+    
+    const body = document.body;
+    const isMobile = () => window.innerWidth <= 991;
+    
+    const setPaneActive = (pane, active) => {
+      pane.classList.toggle("active", active);
+      pane.style.display = active ? "block" : "none";
+    };
+
+    const clearActivePanes = () => panes.forEach(pane => setPaneActive(pane, false));
+    
+    const updateBodyOverflow = () => {
+      if (!isMobile()) {
+        body.style.overflow = "";
+        return;
+      }
+      const isAnyVisible = Array.from(panes).some(pane => pane.style.display !== "none");
+      body.style.overflow = isAnyVisible ? "hidden" : "";
+    };
+
+    if (isMobile()) clearActivePanes();
+    updateBodyOverflow();
+
+    const observer = new MutationObserver(updateBodyOverflow);
+    panes.forEach(pane => {
+      observer.observe(pane, {
+        attributes: true,
+        attributeFilter: ["style", "class"]
+      });
+    });
+
+    closeButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (isMobile()) clearActivePanes();
+      }, { passive: true });
+    });
+
+    let resizeTimeout;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(updateBodyOverflow, 100);
+    }, { passive: true });
+  }
+  
+  initTabSystem();
+});
+</script>
+
+<!-- ========================================
+     SCRIPT 7: BANNER CLOSE
+     ======================================== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initBannerClose() {
+    const closeBtn = document.querySelector(".banner_close-icon");
+    const banner = document.querySelector(".banner_wrap");
+    
+    if (closeBtn && banner) {
+      closeBtn.addEventListener("click", () => {
+        banner.style.display = "none";
+      }, { passive: true });
+    }
+  }
+  
+  initBannerClose();
+});
+</script>
+
+<!-- ========================================
+     SCRIPT 8: CURRENT YEAR
+     ======================================== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function initCurrentYear() {
+    const elements = document.querySelectorAll('[year]');
+    const currentYear = new Date().getFullYear();
+    elements.forEach(element => {
+      element.textContent = currentYear;
+    });
+  }
+  
+  initCurrentYear();
+});
+</script>
+</body></html>
