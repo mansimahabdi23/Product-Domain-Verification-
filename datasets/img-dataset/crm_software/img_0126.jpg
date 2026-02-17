@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">  
+<script type="text/javascript" src="https://www.salesbabu.com/wp-content/themes/customizr/inc/js/my-script.js?x26564"></script>
+ 
+<script type="text/javascript" src="https://www.salesbabu.com/wp-content/themes/customizr/inc/js/jquery.min.js?x26564"></script>
+<script type="text/javascript" src="https://www.salesbabu.com/wp-content/themes/customizr/inc/js/jquery-ui.min.js?x26564">
+  </script>
+
+<style>
+    .entry-header{
+      display:none;
+      }
+    </style>
+   
+			<head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		    <title>Page Not Found - SalesBabu Business Solutions Pvt. Ltd.</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link rel="profile" href="http://gmpg.org/xfn/11" />
+		    <link rel="pingback" href="https://www.salesbabu.com/xmlrpc.php" />
+		   
+		   <!-- Icons font support for IE6-7  -->
+		    <!--[if lt IE 8]>
+		      <script src="https://www.salesbabu.com/wp-content/themes/customizr/inc/css/fonts/lte-ie7.js?x26564"></script>
+		    <![endif]-->
+		    <meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page Not Found - SalesBabu Business Solutions Pvt. Ltd." />
+	<meta property="og:site_name" content="SalesBabu Business Solutions Pvt. Ltd." />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.salesbabu.com/#organization","name":"SalesBabu Business Solution Pvt. Ltd.","url":"https://www.salesbabu.com/","sameAs":["https://www.instagram.com/salesbabucrm","https://www.linkedin.com/company/salesbabu.com","https://in.pinterest.com/salesbabu/","https://www.youtube.com/user/SalesBabu","https://www.facebook.com/salesbabu/","https://twitter.com/salesbabu"],"logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.salesbabu.com/#/schema/logo/image/","url":"https://www.salesbabu.com/wp-content/uploads/2016/09/Sbspl-logo123.jpg","contentUrl":"https://www.salesbabu.com/wp-content/uploads/2016/09/Sbspl-logo123.jpg","width":268,"height":56,"caption":"SalesBabu Business Solution Pvt. Ltd."},"image":{"@id":"https://www.salesbabu.com/#/schema/logo/image/"}},{"@type":"WebSite","@id":"https://www.salesbabu.com/#website","url":"https://www.salesbabu.com/","name":"SalesBabu Business Solutions Pvt. Ltd.","description":"","publisher":{"@id":"https://www.salesbabu.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.salesbabu.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="SalesBabu Business Solutions Pvt. Ltd. &raquo; Feed" href="https://www.salesbabu.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SalesBabu Business Solutions Pvt. Ltd. &raquo; Comments Feed" href="https://www.salesbabu.com/comments/feed/" />
+<link rel='stylesheet' id='customizr-skin-css'  href='https://www.salesbabu.com/wp-content/themes/customizr/inc/css/blue.css?x26564' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='https://www.salesbabu.com/wp-content/themes/customizr/style.css?x26564' media='all' />
+<script src='https://www.salesbabu.com/wp-content/themes/customizr/inc/js/jquery-3.5.1.min.js?x26564' id='jquery-js'></script>
+<link rel="https://api.w.org/" href="https://www.salesbabu.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.salesbabu.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.salesbabu.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="shortcut icon" href="https://www.salesbabu.com/wp-content/uploads/2025/04/sb_avatar.png?x26564" type="image/png">
+<!-- Schema & Structured Data For WP v1.35 - -->
+<script type="application/ld+json" class="saswp-schema-markup-output">
+[{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Products","url":"https:\/\/www.salesbabu.com\/crm\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Overview","url":"https:\/\/www.salesbabu.com\/crm\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"CRM On Demand","url":"https:\/\/www.salesbabu.com\/crm\/sales-crm-software\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Service On Demand","url":"https:\/\/www.salesbabu.com\/crm\/customer-service-support-software\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"medSFA (Pharma CRM)","url":"https:\/\/www.salesbabu.com\/crm\/pharma-crm-software\/mr-reporting-software-pharma-crm-sfa\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Inventory On Demand","url":"https:\/\/www.salesbabu.com\/inventory\/cloud-based-online-inventory-management-software-system\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"ERP On demand","url":"https:\/\/www.salesbabu.com\/crm\/on-demand-online-erp-software\/online-erp-software\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Payroll On Demand","url":"https:\/\/www.salesbabu.com\/crm\/online-payroll-management-system\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"CRM for Small Business","url":"https:\/\/www.salesbabu.com\/small-business-software\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Appointment manager","url":"https:\/\/www.salesbabu.com\/appointment-manager\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"GST Billing Software","url":"https:\/\/www.salesbabu.com\/gst-billing-software\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Industry","url":"https:\/\/www.salesbabu.com\/industries\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Manufacturing","url":"https:\/\/www.salesbabu.com\/solutions\/manufacturing-industries-crm\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Medical Equipment & Hospital Supplies","url":"https:\/\/www.salesbabu.com\/industries\/crm-for-medical-equipment-and-hospital-supply-companies\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Lighting Industry","url":"https:\/\/www.salesbabu.com\/crm-for-lighting-industry\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Services","url":"https:\/\/www.salesbabu.com\/solutions\/services\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Lab & Scientific Equipment","url":"https:\/\/www.salesbabu.com\/industries\/crm-for-lab-and-scientific-equipment-companies\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Industrial Valve Manufacture & Supplier","url":"https:\/\/www.salesbabu.com\/ecmp\/valves-fitting-manufacturing-crm.html"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Sales & Distribution","url":"https:\/\/www.salesbabu.com\/industries\/Online-Dealer-Distributor-Management-System-Software\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Retail","url":"https:\/\/www.salesbabu.com\/solutions\/crm-for-retail-industry\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Pharma","url":"https:\/\/www.salesbabu.com\/solutions\/pharma-crm-software\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Travel","url":"https:\/\/www.salesbabu.com\/solutions\/travel-crm\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Education","url":"https:\/\/www.salesbabu.com\/solutions\/crm-for-education-industry\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Real Estate","url":"https:\/\/www.salesbabu.com\/solutions\/real-estate-crm\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Call Center","url":"https:\/\/www.salesbabu.com\/solutions\/call-center-crm\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Chemical","url":"https:\/\/www.salesbabu.com\/solutions\/crm-solution-for-chemical-industry\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"About Us","url":"https:\/\/www.salesbabu.com\/about-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Request Demo | SalesBabu CRM","url":"https:\/\/www.salesbabu.com\/about-us\/request_demo\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Edition Pricing","url":"https:\/\/www.salesbabu.com\/crm\/edition-pricing-crm\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Media Coverage","url":"https:\/\/www.salesbabu.com\/about-us\/media"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Security","url":"https:\/\/www.salesbabu.com\/about-us\/security\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Privacy Policy","url":"https:\/\/www.salesbabu.com\/about-us\/privacy-policy\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Careers","url":"https:\/\/www.salesbabu.com\/about-us\/career\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Contact Us","url":"https:\/\/www.salesbabu.com\/contact-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Partnership Enquiry","url":"https:\/\/www.salesbabu.com\/about-us\/request_partnership\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/www.salesbabu.com#My Menu","name":"Blog","url":"https:\/\/www.salesbabu.com\/blog\/"}]}]
+</script>
+
+
+                  <style id="option-custom-css" type="text/css">.page .entry-title {
+ display: none;
+}
+
+
+.navbar .nav {
+margin: 22px 0 0 0;
+}
+.visual-form-builder fieldset {
+    margin: 0px 0px;
+}
+#vfb-131-131{
+display:none;
+}
+
+.span9{
+/*padding-right:10px;*/
+}
+</style>
+        
+        
+        <link rel="icon" href="https://www.salesbabu.com/wp-content/uploads/2018/06/salesbabu-crm-150x150.jpg?x26564" sizes="32x32" />
+<link rel="icon" href="https://www.salesbabu.com/wp-content/uploads/2018/06/salesbabu-crm-300x300.jpg?x26564" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.salesbabu.com/wp-content/uploads/2018/06/salesbabu-crm-300x300.jpg?x26564" />
+<meta name="msapplication-TileImage" content="https://www.salesbabu.com/wp-content/uploads/2018/06/salesbabu-crm-300x300.jpg" />
+		    <!--Icons size hack for IE8 and less -->
+		    <!--[if lt IE 9]>
+		      <link href="https://www.salesbabu.com/wp-content/themes/customizr/inc/css/fonts/ie8-hacks.css?x26564" rel="stylesheet" type="text/css"/>
+		    <![endif]-->
+		</head>
+		
+	<body class="error404 wp-custom-logo"  >
+		
+		
+	   	<!--header class="tc-header clearfix row-fluid" role="banner"-->
+    
+		<div class="header">
+      
+
+			
+			</div>
+      
+</div>              
+		</header>
+
+
+		   
+    
+
+<!---/////////////////////////////////////////////////////////////////////////////-->
+<div id="main-wrapper" class="container">
+
+        
+    <div class="container" role="main">
+      <style>
+ .span12{background:#c1eefa;}
+  iframe{display:none}
+  .social-block a {color: #fff;font-size: 15px;text-shadow: 0 0px 0 white;opacity: 1;background: #444;margin: 0px;border-radius: 30px;padding: 7px 6px 3px 6px;background:#fff;}
+  #main-wrapper {
+margin-top: 0px;margin-bottom: 5px;
+}
+.blog_div{display: flow-root;margin: auto;max-width: 850px;margin-top: 20px;
+    background: #c1eefa;box-shadow: 0 0 8px 2px rgb(0 0 0 / 50%);}
+.blog_d {
+float: left;
+padding: 0 16px;
+width: 250px;
+margin-bottom: 20px;
+}
+.blog_third {
+float: left;
+height: 100px;
+width: 260px;
+}
+.blog_title {
+color: #000000;
+display: inline-block;
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 5px;margin-top: 10px;
+text-decoration: none;
+}
+.blog_d p{
+font-size: 11px;
+margin: 0;text-align:justify;    line-height: 1.2;
+}
+div.display_b {
+display: block !important;
+}
+div.social-block.span5.web_head15 {
+    display: block;
+}
+@media (max-width:650px){
+.blog_d {
+float: none;
+padding-right: 4%;
+padding-left: 4%;
+width: 90%;
+margin-bottom: 20px;
+}
+.ugreq-b2 {
+    display: block !important;
+    float: none !important;
+    text-align: center;
+    height: 80px;
+}
+.ugreq-b1 {
+    display: block !important;
+    text-align: center;
+}
+}
+  </style>
+        <div class="row">
+
+            <div style="padding-top: 32px;background: #c1eefa;">
+	<div style="max-width: 850px;margin: auto;">
+		<div><a href="http://www.salesbabu.com"><img src="http://www.salesbabu.com/wp-content/uploads/2014/06/new-salesbabu-logo.png?x26564" alt="Back Home" width="299" height="50"></a></div>
+		
+ <div style="padding: 55px 0px;">	<p style="padding-top:20px;text-align:center;"><span style="font-size: 36px;font-family: ubuntu;color: rgb(15, 69, 97);">Thanks for showing interest in SalesBabu</span></p>
+ 	
+  	<!--p style="line-height: 32px;text-align:center;"><span style="font-size: 20px;font-family: ubuntu;color:#000000;">One of our Online Solution Consultant will contact you soon to address your requirements.</span></p-->
+  </div>	
+  	
+  
+ 
+     
+	</div>
+	</div>
+
+                </div><!--.article-container -->
+
+           
+
+        </div><!--.row -->
+          <div style="margin:15px"><div class="blog_div" >
+          <p style="line-height: 78px;text-align:center;"><span style="font-size: 24px;font-weight:bold;font-family: ubuntu;color:#0f4561;">Stay updated with our Blogs</span></p>
+   
+<div class="blog_d">
+	  	<a href="https://www.salesbabu.com/blog/distribution-management-system-right-solution-for-your-business/"><img src="https://www.salesbabu.com/wp-content/uploads/2021/07/Distribution-Management-System.png?x26564" /></a>
+<a class="blog_title" href="https://www.salesbabu.com/blog/distribution-management-system-right-solution-for-your-business/" rel="bookmark" title="Distribution Management System: Making A Right Choice For Your Business">Distribution Management System: Making A Right Choice For Your Business</a>
+   
+<p>A distribution management system software is very important for every business organization or company as it</p>
+</div>
+    
+  
+<div class="blog_d">
+	  	<a href="https://www.salesbabu.com/blog/top-6-reasons-invest-ecommerce/"><img src="https://www.salesbabu.com/wp-content/uploads/2020/01/Top-6-Reasons-to-invest-in-E-commerce-.png?x26564" /></a>
+<a class="blog_title" href="https://www.salesbabu.com/blog/top-6-reasons-invest-ecommerce/" rel="bookmark" title="6 Reasons you should invest in E-commerce">6 Reasons you should invest in E-commerce</a>
+   
+<p>What is E-commerce?&nbsp; E-commerce also known as electronic commerce or internet commerce refers to the buying</p>
+</div>
+    
+  
+<div class="blog_d">
+	  	<a href="https://www.salesbabu.com/blog/mobile-sales-quoting-apps-solution-to-flourish-your-business/"><img src="https://www.salesbabu.com/wp-content/uploads/2020/01/Mobile-Sales-Quoting-App.png?x26564" /></a>
+<a class="blog_title" href="https://www.salesbabu.com/blog/mobile-sales-quoting-apps-solution-to-flourish-your-business/" rel="bookmark" title="Mobile Sales Quoting Apps: Solution to flourish your business">Mobile Sales Quoting Apps: Solution to flourish your business</a>
+   
+<p>Business quoting is a necessary sales activity of any company which takes up the sales bandwidth;</p>
+</div>
+    
+ 
+ 
+ 
+ </div></div>
+ 
+    </div>
+<div style="background: #c1eefa;display:none;" class="display_b" >
+  <div class="ugreq" style="max-width: 850px;margin: auto;padding: 10px 0;color: #000;">
+    
+<div class="ugreq-b1" style="display: inline-block;"><p style="font-weight:bold;" >For urgent requirement, you can reach us on:</p>
+    <p style="font-size: 15px;"><span><img style="padding-right:5px;" src="http://www.salesbabu.com/wp-content/uploads/2015/01/email.png?x26564" /><a style="color:#444;font-weight: normal;" href="mailto:sales@salesbabu.com">sales@salesbabu.com</a></span><span style="padding-left: 50px;"><img src="http://www.salesbabu.com/wp-content/uploads/2015/01/mob.png?x26564" />  +91 9611 171 345</span></p>
+    </div>
+    <div class="ugreq-b2" style="display: inline-block;float: right;"><div><p style="font-weight:bold;">Stay Connected</p>
+      <div class="social-block span5 web_head15" style="width:100%;">
+     <span style="display:inline-block;color:#000;padding-right:10px;vertical-align: sub;">Social with Us</span><a class="social-icon " style="background: #c1eefa;" href="https://www.facebook.com/salesbabu/" title="Follow me on Facebook" target="_blank"><img src="http://www.salesbabu.com/wp-content/uploads/2014/09/fb.jpg?x26564" style="width:26px" /></a><a style="background: #c1eefa;" class="social-icon" href="https://twitter.com/SalesBabu" title="Follow me on Twitter" target="_blank"><img src="http://www.salesbabu.com/wp-content/uploads/2014/09/tw.jpg?x26564" style="width:26px" /></a><a style="background: #c1eefa;" class="social-icon" href="https://plus.google.com/+Salesbabu" title="Follow me on Google+" target="_blank"><img src="http://www.salesbabu.com/wp-content/uploads/2014/09/gp.jpg?x26564" style="width:26px" /></a><a style="background: #c1eefa;" class="social-icon" href="http://www.linkedin.com/company/salesbabu.com" title="Follow me on LinkedIn" target="_blank"><img src="http://www.salesbabu.com/wp-content/uploads/2014/09/in.jpg?x26564" style="width:26px" /></a>
+    </div>
+      </div></div>
+    
+  </div>
+  </div><!-- .container role: main -->
+
+    <div style="display:none;" class="display_b"><div style="max-width:850px;margin:auto;text-align:center;"><p style="font-family:ubantu;color:#cccccc;">Copyright @2026 SalesBabu Software Solutions Pvt. Ltd. <a href="http://www.salesbabu.com/about-us/privacy-policy/">Privacy Policy</a></p></div></div>
+</div><!--#main-wrapper"-->
+
+
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 91/170 objects using disk
+
+Served from: www.salesbabu.com @ 2026-02-17 21:19:04 by W3 Total Cache
+-->
