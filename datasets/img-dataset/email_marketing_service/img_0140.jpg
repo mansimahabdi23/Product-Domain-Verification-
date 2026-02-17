@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+    <title>403 Forbidden - Nginx</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f1f4f5;
+            color: #37474f;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .container {
+            display: flex;
+            width: 535px;
+        }
+        .container-code{
+            min-width: 250px;
+            text-align: center;
+        }
+        .container-text {
+            min-width: 250px;
+            padding-left: 20px;
+        }
+        .error_code {
+            display: block;
+            font-size: 92px;
+            font-weight: 700;
+            margin-top: -25px;
+        }
+        .error_brief {
+            display: block;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .help_button {
+            background-color: #399bff;
+            color: #fff;
+            margin-top: 15px;
+            font-size: 14px;
+            padding: 7px 20px 7px 20px;
+            border: none;
+            border-radius: 3px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        #fix_details {
+            margin-top: 20px;
+            visibility: hidden;
+            transition: visibility 0.3s, opacity 0.3s linear;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .container-text{
+                padding: 30px;
+                text-align: center;
+                min-width: auto;
+            }
+            .container-code{
+                min-width: auto;
+                text-align: center;
+                margin-top: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+<script>
+    function toggleHelp() {
+        document.getElementById("fix_details").style.visibility = 'visible';
+        document.getElementById("fix_details").style.opacity = '1';
+
+        document.querySelectorAll('.hide-help').forEach(function (el){
+            if (undefined !== el){
+                el.style.display = 'none';
+            }
+        });
+    }
+</script>
+<div class="container">
+    <div class="container-code">
+        <span class="error_code">403</span>
+        <span class="error_description">Forbidden</span>
+    </div>
+    <div class="container-text">
+        <span class="error_brief message_3"></span>
+        <span class="error_detail message_0"></span>
+        <br class="hide-help"/>
+        <button class="help_button hide-help message_4" onclick="return toggleHelp()"></button>
+
+        <div id="fix_details">
+            <span class="message_1"></span>
+            <a target="_blank" class="message_2" href="https://hosting.xyz/wiki/hosting/errors/403/"></a> <span class="message_5"></span>
+        </div>
+    </div>
+</div>
+<script>
+    window.languages = {
+        'en': {
+            '.message_0': 'The index file may not be loaded, or its permissions might be set incorrectly.',
+            '.message_1': 'If you are the site administrator, this article can help you fix the error.',
+            '.message_2': 'Error 403 Forbidden',
+            '.message_3': 'Access denied',
+            '.message_4': 'How to fix it?',
+            '.message_5': 'in our help section.'
+        },
+        'pl': {
+            '.message_0': 'Plik indeksowy może nie być załadowany lub jego uprawnienia mogą być nieprawidłowe.',
+            '.message_1': 'Jeśli jesteś administratorem strony, ten artykuł może pomóc rozwiązać problem.',
+            '.message_2': 'Błąd 403 Forbidden',
+            '.message_3': 'Odmowa dostępu',
+            '.message_4': 'Jak to naprawić?',
+            '.message_5': 'w naszej sekcji pomocy.'
+        },
+        'de': {
+            '.message_0': 'Die Indexdatei ist möglicherweise nicht geladen oder ihre Berechtigungen sind falsch eingestellt.',
+            '.message_1': 'Wenn Sie der Administrator der Website sind, kann Ihnen dieser Artikel helfen, den Fehler zu beheben.',
+            '.message_2': 'Fehler 403 Forbidden',
+            '.message_3': 'Zugriff verweigert',
+            '.message_4': 'Wie behebt man das?',
+            '.message_5': 'in unserem Hilfebereich.'
+        },
+        'uk': {
+            '.message_0': 'Можливо, файл індексу не завантажений або його права доступу встановлено неправильно.',
+            '.message_1': 'Якщо ви адміністратор сайту, ця стаття допоможе виправити помилку.',
+            '.message_2': 'Помилка 403 Forbidden',
+            '.message_3': 'Доступ заборонено',
+            '.message_4': 'Як це виправити?',
+            '.message_5': 'у нашій довідці.'
+        },
+        'cn': {
+            '.message_0': '索引文件可能未加载，或者其权限设置不正确。',
+            '.message_1': '如果您是网站管理员，这篇文章可以帮助您修复错误。',
+            '.message_2': '错误 403 Forbidden',
+            '.message_3': '访问被拒绝',
+            '.message_4': '如何修复？',
+            '.message_5': '在我们的帮助部分。'
+        },
+        'ru': {
+            '.message_0': 'Возможно, не загружен индексный файл или неправильно указаны права для него.',
+            '.message_1': 'Если Вы администратор сайта, исправить эту ошибку поможет статья',
+            '.message_2': 'Ошибка 403 Forbidden',
+            '.message_3': 'В доступе отказано',
+            '.message_4': 'Как это исправить?',
+            '.message_5': 'в нашей справке.'
+        }
+    };
+
+	function display(){
+		let default_lang = 'en',
+			browser_lang = window.navigator.language || navigator.userLanguage,
+			lang = '';
+
+		browser_lang = browser_lang.slice(0, 2).toLowerCase();
+
+		if( window.languages.hasOwnProperty(browser_lang) ){
+			lang = browser_lang;
+		}else{
+			lang = default_lang;
+		}
+
+		for (let key in window.languages[lang]){
+			if(undefined !== document.querySelector(key)){
+				document.querySelector(key).innerHTML = window.languages[lang][key];
+			}
+		}
+
+		return false;
+	}
+
+	document.addEventListener("DOMContentLoaded", display);
+</script>
+</body>
+</html>
