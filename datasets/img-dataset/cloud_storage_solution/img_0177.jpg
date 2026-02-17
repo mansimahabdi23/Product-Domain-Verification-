@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="" />
+	<title>404 - Page not found</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://nwflabs.com/#Organization","name":"New World Forensics","url":"https://nwflabs.com","logo":{"@type":"ImageObject","@id":"https://nwflabs.com/#logo","url":"https://nwflabs.com/wp-content/uploads/2025/02/cropped-Color-logo-no-background.png","contentUrl":"https://nwflabs.com/wp-content/uploads/2025/02/cropped-Color-logo-no-background.png","caption":"New World Forensics","inLanguage":"en-US","width":512,"height":512},"description":"New World Forensics","sameAs":["https://x.com/"]}</script><meta property="og:url" content="https://nwflabs.com" /><meta property="og:site_name" content="New World Forensics" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="object" /><meta property="og:description" content="New World Forensics Labs" /><meta name="twitter:card" content="summary"/><meta name="twitter:locale" content="en_US"/><meta name="twitter:description" content="New World Forensics Labs"/><meta name="twitter:url" content="https://nwflabs.com"/><link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="New World Forensics &raquo; Feed" href="https://nwflabs.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="New World Forensics &raquo; Comments Feed" href="https://nwflabs.com/comments/feed/" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://nwflabs.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.35.4' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://nwflabs.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.35.4' media='all' />
+<link rel='stylesheet' id='jkit-elements-main-css' href='https://nwflabs.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.0.3' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://nwflabs.com/wp-includes/css/dist/block-library/style.min.css?ver=6.9.1' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='cmplz-general-css' href='https://nwflabs.com/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieblocker.min.css?ver=1761935122' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://nwflabs.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.4' media='all' />
+<link rel='stylesheet' id='elementor-post-195-css' href='https://nwflabs.com/wp-content/uploads/elementor/css/post-195.css?ver=1771265893' media='all' />
+<link rel='stylesheet' id='cute-alert-css' href='https://nwflabs.com/wp-content/plugins/metform/public/assets/lib/cute-alert/style.css?ver=4.1.2' media='all' />
+<link rel='stylesheet' id='text-editor-style-css' href='https://nwflabs.com/wp-content/plugins/metform/public/assets/css/text-editor.css?ver=4.1.2' media='all' />
+<link rel='stylesheet' id='wur_content_css-css' href='https://nwflabs.com/wp-content/plugins/wp-ultimate-review/assets/public/css/content-page.css?ver=2.3.8' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://nwflabs.com/wp-includes/css/dashicons.min.css?ver=6.9.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://nwflabs.com/wp-content/themes/hello-elementor/style.min.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://nwflabs.com/wp-content/themes/hello-elementor/theme.min.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://nwflabs.com/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-css' href='https://nwflabs.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.5.3' media='all' />
+<link rel='stylesheet' id='ekit-responsive-css' href='https://nwflabs.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.5.3' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-titilliumweb-css' href='https://nwflabs.com/wp-content/uploads/elementor/google-fonts/css/titilliumweb.css?ver=1742336124' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-opensans-css' href='https://nwflabs.com/wp-content/uploads/elementor/google-fonts/css/opensans.css?ver=1742336214' media='all' />
+<script src="https://nwflabs.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.35.4" id="font-awesome-4-shim-js"></script>
+<script src="https://nwflabs.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://nwflabs.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://nwflabs.com/wp-content/plugins/wp-ultimate-review/assets/public/script/content-page.js?ver=2.3.8" id="wur_review_content_script-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script src="https://www.googletagmanager.com/gtag/js?id=GT-NSLFPSXT" id="google_gtagjs-js" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["nwflabs.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NSLFPSXT");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://nwflabs.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nwflabs.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.1" />
+<meta name="generator" content="Site Kit by Google 1.172.0" />			<style>.cmplz-hidden {
+					display: none !important;
+				}</style><meta name="generator" content="Elementor 3.35.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://nwflabs.com/wp-content/uploads/2025/02/cropped-Color-logo-no-background-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://nwflabs.com/wp-content/uploads/2025/02/cropped-Color-logo-no-background-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://nwflabs.com/wp-content/uploads/2025/02/cropped-Color-logo-no-background-180x180.png" />
+<meta name="msapplication-TileImage" content="https://nwflabs.com/wp-content/uploads/2025/02/cropped-Color-logo-no-background-270x270.png" />
+</head>
+
+<body class="error404 wp-embed-responsive wp-theme-hello-elementor jkit-color-scheme theme-default elementor-default elementor-kit-195">
+<div id="page" class="jkit-template  site">
+
+				<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+					<style>.elementor-68 .elementor-element.elementor-element-77ec9c0e > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-68 .elementor-element.elementor-element-77ec9c0e:not(.elementor-motion-effects-element-type-background), .elementor-68 .elementor-element.elementor-element-77ec9c0e > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://nwflabs.com/wp-content/uploads/2025/03/blue-futuristic-stream-data-communication-flying-into-digital-technologic-animation-3d-rendering-1024x576.jpg");background-position:top center;background-size:cover;}.elementor-68 .elementor-element.elementor-element-77ec9c0e{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 0px 0px 0px;z-index:2;}.elementor-68 .elementor-element.elementor-element-77ec9c0e > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-bc-flex-widget .elementor-68 .elementor-element.elementor-element-2401f602.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-68 .elementor-element.elementor-element-2401f602.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf > .elementor-widget-container{background-color:var( --e-global-color-secondary );margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;border-radius:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf.elementor-widget > .elementor-widget-container, .elementor-68 .elementor-element.elementor-element-2ec3bfaf.elementor-widget > .elementor-widget-container > *{position:relative;--jkit-option-enabled:0px;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf.elementor-widget > .elementor-widget-container::before{content:"";width:100%;height:100%;position:absolute;left:0;top:0;-webkit-backdrop-filter:blur(0px);backdrop-filter:blur(0px);border-radius:inherit;background-color:inherit;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf{text-align:center;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf img{width:82%;max-width:68%;height:139px;object-fit:contain;object-position:center center;opacity:1;transition-duration:0s;border-radius:0px 0px 0px 0px;box-shadow:0px 0px 0px 0px rgba(0,0,0,0.5);}.elementor-68 .elementor-element.elementor-element-2ec3bfaf:hover img{opacity:0.1;}.elementor-68 .elementor-element.elementor-element-6d1cc4f{width:initial;max-width:initial;text-align:start;font-family:var( --e-global-typography-863c9d8-font-family ), Sans-serif;font-size:var( --e-global-typography-863c9d8-font-size );font-weight:var( --e-global-typography-863c9d8-font-weight );line-height:var( --e-global-typography-863c9d8-line-height );text-shadow:0px 0px 0px rgba(0,0,0,0.3);color:#F80404;}.elementor-68 .elementor-element.elementor-element-6d1cc4f > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-3f03a721 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children .sub-menu{background-color:#FFFFFF;padding:10px 10px 10px 10px;border-radius:10px 10px 10px 10px;min-width:220px;box-shadow:0px 0px 0px 0px rgba(0,0,0,0.5);}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu{background-color:#FFFFFF00;float:right;border-style:solid;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-close-menu{background-color:#FFFFFF;border-style:solid;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu > ul, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper:not(.active) .jkit-menu, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper:not(.active) .jkit-menu > li > a{display:flex;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu{justify-content:center;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu .menu-item .sub-menu{left:unset;top:unset;right:100%;bottom:unset;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper{height:77px;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;border-radius:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper.active{background-color:var( --e-global-color-text );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li > a{padding:0px 18px 0px 18px;color:#F4ECEC;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li > a svg{fill:#F4ECEC;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li:not(.hover-gradient, .current-menu-item):hover > a{color:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li:not(.hover-gradient, .current-menu-item):hover > a svg{fill:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li.current-menu-item > a, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li.current-menu-ancestor > a{color:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li.current-menu-item > a svg, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li.current-menu-ancestor > a svg{fill:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children > a i, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children > a svg, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.has-mega-menu > a i, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.has-mega-menu > a svg{margin:3px 0px 0px 10px;border-style:solid;border-width:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu .sub-menu li > a{color:#00142C;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu .sub-menu li > a svg{fill:#00142C;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu .sub-menu li:not(.hover-gradient, .current-menu-item):hover > a{color:#0EC9AC;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu .sub-menu li:not(.hover-gradient, .current-menu-item):hover > a svg{fill:#0EC9AC;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu .sub-menu li.current-menu-item > a{color:#0EC9AC;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu .sub-menu li.current-menu-item > a svg{fill:#0EC9AC;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-nav-site-title .jkit-nav-logo img{object-fit:cover;}.elementor-68 .elementor-element.elementor-element-3bd99f86 .elementor-button{background-color:#0EC9AC;fill:#F9FEFF;color:#F9FEFF;border-radius:5px 5px 5px 5px;padding:15px 30px 15px 30px;}.elementor-68 .elementor-element.elementor-element-3bd99f86 > .elementor-widget-container{margin:0px 0px 0px 0px;}:root{--page-title-display:none;}@media(min-width:768px){.elementor-68 .elementor-element.elementor-element-2401f602{width:25%;}.elementor-68 .elementor-element.elementor-element-3f03a721{width:57.547%;}.elementor-68 .elementor-element.elementor-element-2806ed0f{width:16.76%;}}@media(max-width:1024px) and (min-width:768px){.elementor-68 .elementor-element.elementor-element-2401f602{width:30%;}.elementor-68 .elementor-element.elementor-element-3f03a721{width:70%;}}@media(max-width:1024px){.elementor-68 .elementor-element.elementor-element-77ec9c0e{padding:10px 20px 10px 20px;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf.elementor-element{--flex-shrink:0;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf img{width:71%;max-width:72%;height:121px;object-fit:scale-down;border-radius:15px 15px 15px 15px;}.elementor-68 .elementor-element.elementor-element-6d1cc4f{font-size:var( --e-global-typography-863c9d8-font-size );line-height:var( --e-global-typography-863c9d8-line-height );}.elementor-68 .elementor-element.elementor-element-3f03a721 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper{padding:20px 20px 0px 20px;margin:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li > a{padding:10px 20px 15px 10px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children > a i, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children > a svg, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.has-mega-menu > a i, .elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.has-mega-menu > a svg{border-radius:10px 10px 10px 10px;border-width:1px 1px 1px 1px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children .sub-menu{padding:10px 10px 10px 5px;border-radius:10px 10px 10px 10px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu{float:right;border-width:0px 0px 0px 0px;border-radius:10px 10px 10px 10px;color:var( --e-global-color-secondary );padding:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu svg{fill:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-close-menu{border-width:0px 0px 0px 0px;border-radius:10px 10px 10px 10px;color:var( --e-global-color-accent );margin:10px 20px 0px 0px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-close-menu svg{fill:var( --e-global-color-accent );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-nav-site-title .jkit-nav-logo img{max-width:260px;}}@media(max-width:767px){.elementor-68 .elementor-element.elementor-element-2401f602{width:50%;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf.elementor-element{--flex-grow:0;--flex-shrink:1;}.elementor-68 .elementor-element.elementor-element-2ec3bfaf img{width:90%;border-radius:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-6d1cc4f:not(.e-transform) > .elementor-widget-container{-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}.elementor-68 .elementor-element.elementor-element-6d1cc4f.e-transform > .elementor-widget-container{--e-transform-rotateZ:0deg;}.elementor-68 .elementor-element.elementor-element-6d1cc4f{text-align:start;font-size:var( --e-global-typography-863c9d8-font-size );line-height:var( --e-global-typography-863c9d8-line-height );}.elementor-68 .elementor-element.elementor-element-6d1cc4f p{margin-block-end:0px;}.elementor-68 .elementor-element.elementor-element-3f03a721{width:50%;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu{justify-content:flex-start;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper{height:122px;}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper{background-color:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li > a{color:var( --e-global-color-text );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li > a svg{fill:var( --e-global-color-text );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu{color:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu svg{fill:var( --e-global-color-secondary );}.elementor-68 .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-nav-site-title .jkit-nav-logo img{max-width:240px;}}@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-hamburger-menu { display: block; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper { width: 100%; max-width: 360px; border-radius: 0; background-color: #f7f7f7; width: 100%; position: fixed; top: 0; left: -110%; height: 100%!important; box-shadow: 0 10px 30px 0 rgba(255,165,0,0); overflow-y: auto; overflow-x: hidden; padding-top: 0; padding-left: 0; padding-right: 0; display: flex; flex-direction: column-reverse; justify-content: flex-end; -moz-transition: left .6s cubic-bezier(.6,.1,.68,.53), width .6s; -webkit-transition: left .6s cubic-bezier(.6,.1,.68,.53), width .6s; -o-transition: left .6s cubic-bezier(.6,.1,.68,.53), width .6s; -ms-transition: left .6s cubic-bezier(.6,.1,.68,.53), width .6s; transition: left .6s cubic-bezier(.6,.1,.68,.53), width .6s; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper.active { left: 0; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu-container { overflow-y: hidden; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel { padding: 10px 0px 10px 0px; display: block; position: relative; z-index: 5; width: 100%; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-nav-site-title { display: inline-block; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-close-menu { display: block; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu { display: block; height: 100%; overflow-y: auto; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children > a i { margin-left: auto; border: 1px solid var(--jkit-border-color); border-radius: 3px; padding: 4px 15px; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children > a svg { margin-left: auto; border: 1px solid var(--jkit-border-color); border-radius: 3px; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children .sub-menu { position: inherit; box-shadow: none; background: none; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li { display: block; width: 100%; position: inherit; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li .sub-menu { display: none; max-height: 2500px; opacity: 0; visibility: hidden; transition: max-height 5s ease-out; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li .sub-menu.dropdown-open { display: block; opacity: 1; visibility: visible; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li a { display: block; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li a i { float: right; } }@media (max-width: 767px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li a svg { float: right } }@media (min-width: 768px) {.elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu-container { height: 100%; } }@media (max-width: 767px) {.admin-bar .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper { top: 32px; } }@media (max-width: 782px) {.admin-bar .elementor-element.elementor-element-529141ec .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper { top: 46px; } }</style>		<div data-elementor-type="page" data-elementor-id="68" class="elementor elementor-68" data-elementor-post-type="jkit-header">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-77ec9c0e elementor-section-content-middle ops-section elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="77ec9c0e" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll&quot;:&quot;section&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2401f602" data-id="2401f602" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2ec3bfaf elementor-widget elementor-widget-image" data-id="2ec3bfaf" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://www.nwflabs.com">
+							<img width="167" height="100" src="https://nwflabs.com/wp-content/uploads/2025/02/Color-logo-no-background.png" class="elementor-animation-grow attachment-full size-full wp-image-58" alt="" decoding="async" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-6d1cc4f elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="6d1cc4f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h5>888-322-4038</h5>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3f03a721" data-id="3f03a721" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-529141ec elementor-widget elementor-widget-jkit_nav_menu" data-id="529141ec" data-element_type="widget" data-e-type="widget" data-widget_type="jkit_nav_menu.default">
+				<div class="elementor-widget-container">
+					<div  class="jeg-elementor-kit jkit-nav-menu break-point-mobile submenu-click-title jeg_module___6994acb67e6de"  data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;icon icon-chevron-down&quot;&gt;&lt;/i&gt;"><button aria-label="open-menu" class="jkit-hamburger-menu"><i aria-hidden="true" class="icon icon-menu-button-of-three-horizontal-lines"></i></button>
+        <div class="jkit-menu-wrapper"><div class="jkit-menu-container"><ul id="menu-main" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-right"><li id="menu-item-665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="https://nwflabs.com/criminal-defense-support/">Criminal Defense</a></li>
+<li id="menu-item-666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="https://nwflabs.com/mobile_forensics/">Mobile Forensics</a></li>
+<li id="menu-item-667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a href="https://nwflabs.com/computer_forensics/">Digital Forensics</a></li>
+<li id="menu-item-668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="https://nwflabs.com/ediscovery/">eDiscovery</a></li>
+<li id="menu-item-669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-669"><a href="https://nwflabs.com/insider-threat/">Insider Threat</a></li>
+<li id="menu-item-663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-663"><a href="https://nwflabs.com/about_us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-686"><a href="https://nwflabs.com/cases/">Cases</a></li>
+	<li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="https://nwflabs.com/reporting-cyber-crimes/">Reporting Cyber Crimes</a></li>
+	<li id="menu-item-828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-828"><a href="https://nwflabs.com/about_us/">About_Us</a></li>
+	<li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-688"><a href="https://nwflabs.com/c/">Career</a>
+	<ul class="sub-menu">
+		<li id="menu-item-687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-687"><a href="https://nwflabs.com/job_opportunity_business/">Job_Opportunity_Business</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-662"><a href="https://nwflabs.com/">Home Page</a>
+<ul class="sub-menu">
+	<li id="menu-item-919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-919"><a href="https://nwflabs.com/opt-out-preferences/">Opt-out preferences</a></li>
+	<li id="menu-item-921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-921"><a href="https://nwflabs.com/privacy-statement-us/">Privacy Statement (US)</a></li>
+</ul>
+</li>
+</ul></div>
+            <div class="jkit-nav-identity-panel">
+                <div class="jkit-nav-site-title"><a href="https://nwflabs.com" class="jkit-nav-logo" aria-label="Home Link"><img width="167" height="100" src="https://nwflabs.com/wp-content/uploads/2025/02/Color-logo-no-background.png" class="attachment-full size-full" alt="" decoding="async" /></a></div>
+                <button aria-label="close-menu" class="jkit-close-menu"><svg aria-hidden="true" class="e-font-icon-svg e-fas-times" viewBox="0 0 352 512" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></button>
+            </div>
+        </div>
+        <div class="jkit-overlay"></div></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2806ed0f elementor-hidden-tablet elementor-hidden-phone" data-id="2806ed0f" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3bd99f86 elementor-align-right elementor-widget elementor-widget-button" data-id="3bd99f86" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://nwflabs.com/contact_us/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Contact Us</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+						</header>
+			<main id="content" class="site-main">
+
+			<div class="page-header">
+			<h1 class="entry-title">The page can&rsquo;t be found.</h1>
+		</div>
+	
+	<div class="page-content">
+		<p>It looks like nothing was found at this location.</p>
+	</div>
+
+</main>
+				<footer itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+					<style>.elementor-324 .elementor-element.elementor-element-7dee4a7b:not(.elementor-motion-effects-element-type-background), .elementor-324 .elementor-element.elementor-element-7dee4a7b > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#001530;}.elementor-324 .elementor-element.elementor-element-7dee4a7b{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:5em 0em 2em 0em;}.elementor-324 .elementor-element.elementor-element-7dee4a7b > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-324 .elementor-element.elementor-element-1aa3acf6 > .elementor-element-populated{padding:0em 4em 0em 0em;}.elementor-324 .elementor-element.elementor-element-d3752f6{text-align:start;}.elementor-324 .elementor-element.elementor-element-388e1083{text-align:start;}.elementor-324 .elementor-element.elementor-element-ec4e005 > .elementor-widget-container{margin:4px 18px -2px 12px;padding:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-3eba0790 > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-4b981f4a > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-4ef4d8d4 > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-6478efa8 > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-68b68903 > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-06d4fb2 > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-6328c7d8 > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-236b8971 > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-624763b > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-1fa0b4dc > .elementor-widget-container{margin:0em 0em 1em 0em;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-field-group{padding-right:calc( 12px/2 );padding-left:calc( 12px/2 );margin-bottom:12px;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-form-fields-wrapper{margin-left:calc( -12px/2 );margin-right:calc( -12px/2 );margin-bottom:-12px;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-field-group.recaptcha_v3-bottomleft, .elementor-324 .elementor-element.elementor-element-3c276514 .elementor-field-group.recaptcha_v3-bottomright{margin-bottom:0;}body.rtl .elementor-324 .elementor-element.elementor-element-3c276514 .elementor-labels-inline .elementor-field-group > label{padding-left:0px;}body:not(.rtl) .elementor-324 .elementor-element.elementor-element-3c276514 .elementor-labels-inline .elementor-field-group > label{padding-right:0px;}body .elementor-324 .elementor-element.elementor-element-3c276514 .elementor-labels-above .elementor-field-group > label{padding-bottom:0px;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-field-type-html{padding-bottom:0px;}.elementor-324 .elementor-element.elementor-element-3c276514 .e-form__buttons__wrapper__button-next{color:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-button[type="submit"]{color:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-button[type="submit"] svg *{fill:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .e-form__buttons__wrapper__button-previous{color:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .e-form__buttons__wrapper__button-next:hover{color:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-button[type="submit"]:hover{color:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-button[type="submit"]:hover svg *{fill:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .e-form__buttons__wrapper__button-previous:hover{color:#ffffff;}.elementor-324 .elementor-element.elementor-element-3c276514 .elementor-button{padding:24px 24px 24px 24px;}.elementor-324 .elementor-element.elementor-element-3c276514{--e-form-steps-indicators-spacing:20px;--e-form-steps-indicator-padding:30px;--e-form-steps-indicator-inactive-secondary-color:#ffffff;--e-form-steps-indicator-active-secondary-color:#ffffff;--e-form-steps-indicator-completed-secondary-color:#ffffff;--e-form-steps-divider-width:1px;--e-form-steps-divider-gap:10px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-container{height:80px;border-radius:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a{color:#F3EEEE;padding:0px 15px 0px 15px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a:hover{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a:focus{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a:active{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li:hover > a{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li:hover > a .elementskit-submenu-indicator{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a:hover .elementskit-submenu-indicator{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a:focus .elementskit-submenu-indicator{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a:active .elementskit-submenu-indicator{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li.current-menu-item > a{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li.current-menu-ancestor > a{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li.current-menu-ancestor > a .elementskit-submenu-indicator{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a .elementskit-submenu-indicator{color:#101010;fill:#101010;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a .ekit-submenu-indicator-icon{color:#101010;fill:#101010;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel > li > a{padding:15px 15px 15px 15px;color:#000000;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:hover{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:focus{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:active{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel > li:hover > a{color:#707070;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel > li.current-menu-item > a{color:#707070 !important;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-submenu-panel{padding:15px 0px 15px 0px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel{border-radius:0px 0px 0px 0px;min-width:220px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-hamburger{float:right;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-hamburger .elementskit-menu-hamburger-icon{background-color:rgba(0, 0, 0, 0.5);}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-hamburger > .ekit-menu-icon{color:rgba(0, 0, 0, 0.5);}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-hamburger:hover .elementskit-menu-hamburger-icon{background-color:rgba(0, 0, 0, 0.5);}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-hamburger:hover > .ekit-menu-icon{color:rgba(0, 0, 0, 0.5);}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-close{color:rgba(51, 51, 51, 1);}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-close:hover{color:rgba(0, 0, 0, 0.5);}.elementor-324 .elementor-element.elementor-element-2007c03a{--spacer-size:50px;}.elementor-324 .elementor-element.elementor-element-1c5e236f{--divider-border-style:solid;--divider-border-width:1px;}.elementor-324 .elementor-element.elementor-element-1c5e236f .elementor-divider-separator{width:100%;}.elementor-324 .elementor-element.elementor-element-1c5e236f .elementor-divider{padding-block-start:2px;padding-block-end:2px;}.elementor-324 .elementor-element.elementor-element-46f18388{margin-top:1em;margin-bottom:0em;}.elementor-324 .elementor-element.elementor-element-d9be973{text-align:center;}@media(max-width:1024px){.elementor-324 .elementor-element.elementor-element-7dee4a7b{padding:4em 3em 1em 3em;}.elementor-324 .elementor-element.elementor-element-1aa3acf6 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-6552dc98 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-324 .elementor-element.elementor-element-4506ca08 > .elementor-element-populated{margin:4em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-324 .elementor-element.elementor-element-4c3c8ee7 > .elementor-element-populated{margin:4em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-nav-identity-panel{padding:10px 10px 10px 10px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-container{max-width:623px;border-radius:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a{color:#F0E7E7;padding:10px 15px 10px 15px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel > li > a{padding:15px 15px 15px 15px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav .elementskit-submenu-panel{border-radius:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-hamburger{padding:8px 8px 8px 8px;width:45px;border-radius:3px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-menu-close{padding:8px 8px 8px 8px;margin:12px 12px 12px 12px;width:45px;border-radius:3px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-nav-logo > img{max-width:160px;max-height:60px;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-nav-logo{margin:5px 0px 5px 0px;padding:5px 5px 5px 5px;}}@media(max-width:767px){.elementor-324 .elementor-element.elementor-element-7dee4a7b{padding:4em 1em 1em 1em;}.elementor-324 .elementor-element.elementor-element-4414b993 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-1aa3acf6 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-d3752f6{text-align:center;}.elementor-324 .elementor-element.elementor-element-388e1083{text-align:center;}.elementor-324 .elementor-element.elementor-element-ec4e005{width:var( --container-widget-width, 134px );max-width:134px;--container-widget-width:134px;--container-widget-flex-grow:0;}.elementor-324 .elementor-element.elementor-element-6552dc98 > .elementor-element-populated{margin:3em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-324 .elementor-element.elementor-element-3eba0790{text-align:center;}.elementor-324 .elementor-element.elementor-element-4b981f4a{text-align:center;}.elementor-324 .elementor-element.elementor-element-4ef4d8d4{text-align:center;}.elementor-324 .elementor-element.elementor-element-6478efa8{text-align:center;}.elementor-324 .elementor-element.elementor-element-68b68903{text-align:center;}.elementor-324 .elementor-element.elementor-element-06d4fb2{text-align:center;}.elementor-324 .elementor-element.elementor-element-4506ca08 > .elementor-element-populated{margin:3em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;padding:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-6328c7d8 > .elementor-widget-container{margin:0em 0em 0em 0em;}.elementor-324 .elementor-element.elementor-element-6328c7d8{text-align:center;}.elementor-324 .elementor-element.elementor-element-236b8971{text-align:center;}.elementor-324 .elementor-element.elementor-element-624763b{text-align:center;}.elementor-324 .elementor-element.elementor-element-4c3c8ee7 > .elementor-element-populated{margin:3em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;padding:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-1fa0b4dc{text-align:center;}.elementor-324 .elementor-element.elementor-element-203060a7{text-align:center;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-navbar-nav > li > a{font-size:1px;line-height:0.1em;}.elementor-324 .elementor-element.elementor-element-beb8868 .elementskit-nav-logo > img{max-width:120px;max-height:50px;}.elementor-324 .elementor-element.elementor-element-46f18388{margin-top:0em;margin-bottom:1em;}.elementor-324 .elementor-element.elementor-element-59b61839 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-324 .elementor-element.elementor-element-d9be973{text-align:center;}}@media(min-width:768px){.elementor-324 .elementor-element.elementor-element-1aa3acf6{width:27%;}.elementor-324 .elementor-element.elementor-element-6552dc98{width:18%;}.elementor-324 .elementor-element.elementor-element-4506ca08{width:26%;}.elementor-324 .elementor-element.elementor-element-4c3c8ee7{width:28.752%;}}@media(max-width:1024px) and (min-width:768px){.elementor-324 .elementor-element.elementor-element-1aa3acf6{width:50%;}.elementor-324 .elementor-element.elementor-element-6552dc98{width:50%;}.elementor-324 .elementor-element.elementor-element-4506ca08{width:50%;}.elementor-324 .elementor-element.elementor-element-4c3c8ee7{width:50%;}.elementor-324 .elementor-element.elementor-element-59b61839{width:100%;}}</style>		<div data-elementor-type="page" data-elementor-id="324" class="elementor elementor-324" data-elementor-post-type="jkit-footer">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-7dee4a7b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7dee4a7b" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4414b993" data-id="4414b993" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-7d9fbed elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7d9fbed" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1aa3acf6" data-id="1aa3acf6" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d3752f6 elementor-widget elementor-widget-image" data-id="d3752f6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://www.nwflabs.com">
+							<img width="167" height="100" src="https://nwflabs.com/wp-content/uploads/2025/02/Color-logo-no-background.png" class="attachment-large size-large wp-image-58" alt="" decoding="async" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-388e1083 elementor-widget elementor-widget-text-editor" data-id="388e1083" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Delivering reliable, precise digital forensic and eDiscovery services with integrity and expertise.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-ec4e005 elementor-widget-mobile__width-initial elementor-widget elementor-widget-html" data-id="ec4e005" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<a href="https://www.bbb.org/us/fl/miami/profile/information-technology-services/new-world-forensics-llc-0633-92036325/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-seflorida.bbb.org/seals/blue-seal-200-130-bbb-92036325.png" style="border: 0;" alt="New World Forensics LLC BBB Business Review" /></a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6552dc98" data-id="6552dc98" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3eba0790 elementor-widget elementor-widget-heading" data-id="3eba0790" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Quick Links</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4b981f4a elementor-widget elementor-widget-heading" data-id="4b981f4a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://nwflabs.com/about_us/">About</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4ef4d8d4 elementor-widget elementor-widget-heading" data-id="4ef4d8d4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://nwflabs.com/">Our Service</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6478efa8 elementor-widget elementor-widget-heading" data-id="6478efa8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://nwflabs.com/c/">Career</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-68b68903 elementor-widget elementor-widget-heading" data-id="68b68903" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://nwflabs.com/contact_us/">Contact</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-06d4fb2 elementor-widget elementor-widget-heading" data-id="06d4fb2" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://nwflabs.com/reporting-cyber-crimes/">Reporting Computer Crimes</a></p>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4506ca08" data-id="4506ca08" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6328c7d8 elementor-widget elementor-widget-heading" data-id="6328c7d8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Contact Us</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-236b8971 elementor-widget elementor-widget-heading" data-id="236b8971" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="#">Contact: (888-322-4038)</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-624763b elementor-widget elementor-widget-heading" data-id="624763b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="#Info@nwflabs.com">Contact: Info@nwflabs.com</a></p>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4c3c8ee7" data-id="4c3c8ee7" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1fa0b4dc elementor-widget elementor-widget-heading" data-id="1fa0b4dc" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Subscribe</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-203060a7 elementor-widget elementor-widget-text-editor" data-id="203060a7" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Stay informed and keep updated on our exciting new services and offerings as they become available.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-3c276514 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="3c276514" data-element_type="widget" data-e-type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+							<form class="elementor-form" method="post" name="New Form" aria-label="New Form">
+			<input type="hidden" name="post_id" value="324"/>
+			<input type="hidden" name="form_id" value="3c276514"/>
+			<input type="hidden" name="referer_title" value="Home_Page" />
+
+							<input type="hidden" name="queried_id" value="331"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
+												<label for="form-field-name" class="elementor-field-label elementor-screen-only">
+								Your email							</label>
+														<input size="1" type="email" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button class="elementor-button elementor-size-sm" type="submit">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Subscribe now</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-beb8868 elementor-widget elementor-widget-ekit-nav-menu" data-id="beb8868" data-element_type="widget" data-e-type="widget" data-widget_type="ekit-nav-menu.default">
+				<div class="elementor-widget-container">
+							<nav class="ekit-wid-con ekit_menu_responsive_mobile" 
+			data-hamburger-icon="" 
+			data-hamburger-icon-type="icon" 
+			data-responsive-breakpoint="767">
+			            <button class="elementskit-menu-hamburger elementskit-menu-toggler"  type="button" aria-label="hamburger-icon">
+                                    <span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
+                            </button>
+            <div id="ekit-megamenu-main" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page- ekit-nav-dropdown-hover"><ul id="menu-main-1" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/criminal-defense-support/" class="ekit-menu-nav-link">Criminal Defense</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/mobile_forensics/" class="ekit-menu-nav-link">Mobile Forensics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/computer_forensics/" class="ekit-menu-nav-link">Digital Forensics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/ediscovery/" class="ekit-menu-nav-link">eDiscovery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-669 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/insider-threat/" class="ekit-menu-nav-link">Insider Threat</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-663 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/about_us/" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">About Us<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-686 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/cases/" class=" dropdown-item">Cases</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/reporting-cyber-crimes/" class=" dropdown-item">Reporting Cyber Crimes</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-828 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/about_us/" class=" dropdown-item">About_Us</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-688 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/c/" class=" dropdown-item">Career<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+	<ul class="elementskit-dropdown elementskit-submenu-panel">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-687 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/job_opportunity_business/" class=" dropdown-item">Job_Opportunity_Business</a>	</ul>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-662 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Home Page<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-919 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/opt-out-preferences/" class=" dropdown-item">Opt-out preferences</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-921 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://nwflabs.com/privacy-statement-us/" class=" dropdown-item">Privacy Statement (US)</a></ul>
+</li>
+</ul><div class="elementskit-nav-identity-panel"><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>			
+			<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>        </nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-2007c03a elementor-widget elementor-widget-spacer" data-id="2007c03a" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-1c5e236f elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1c5e236f" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-46f18388 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="46f18388" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-59b61839" data-id="59b61839" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d9be973 elementor-widget elementor-widget-heading" data-id="d9be973" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">© 2025 New World Forensics LLC.    All Rights Reserved</p>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+						</footer>
+			</div><!-- #page -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<!-- Start of StatCounter Code -->
+		<script>
+			<!--
+			var sc_project=13002830;
+			var sc_security="14e08363";
+			var sc_invisible=1;
+		</script>
+        <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+		<noscript><div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter" src="https://c.statcounter.com/13002830/0/14e08363/1/" alt="web analytics" /></a></div></noscript>
+		<!-- End of StatCounter Code -->
+		
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 banner-a optout cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optout" aria-describedby="cmplz-message-1-optout">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optout">Manage Consent</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optout">To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Functional</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optout"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optout"><span class="screen-reader-text">Functional</span></label>
+								</span>
+								Always active							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferences</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optout"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optout"><span class="screen-reader-text">Preferences</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistics</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optout"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optout"><span class="screen-reader-text">Statistics</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optout"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optout"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<ul>
+			<li><a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage options</a></li>
+			<li><a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Manage services</a></li>
+			<li><a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Manage {vendor_count} vendors</a></li>
+			<li><a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/" aria-label="Read more about TCF purposes on Cookie Database">Read more about these purposes</a></li>
+		</ul>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accept</button>
+		<button class="cmplz-btn cmplz-deny">Deny</button>
+		<button class="cmplz-btn cmplz-view-preferences">View preferences</button>
+		<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">View preferences</a>
+			</div>
+
+	
+	<div class="cmplz-documents cmplz-links">
+		<ul>
+			<li><a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a></li>
+		</ul>
+			</div>
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Manage consent</button>
+
+</div>			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='jeg-dynamic-style-css' href='https://nwflabs.com/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css?ver=1.3.0' media='all' />
+<link rel='stylesheet' id='elementor-post-68-css' href='https://nwflabs.com/wp-content/uploads/elementor/css/post-68.css?ver=1771265894' media='all' />
+<link rel='stylesheet' id='elementor-icons-ekiticons-css' href='https://nwflabs.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.5.3' media='all' />
+<link rel='stylesheet' id='e-animation-grow-css' href='https://nwflabs.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.35.4' media='all' />
+<link rel='stylesheet' id='e-animation-bounceInRight-css' href='https://nwflabs.com/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInRight.min.css?ver=3.35.4' media='all' />
+<link rel='stylesheet' id='elementor-post-324-css' href='https://nwflabs.com/wp-content/uploads/elementor/css/post-324.css?ver=1771265894' media='all' />
+<link rel='stylesheet' id='widget-form-css' href='https://nwflabs.com/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=3.35.1' media='all' />
+<link rel='stylesheet' id='widget-divider-css' href='https://nwflabs.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.35.4' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://nwflabs.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.4' media='all' />
+<script id="cmplz-dnsmpd-js-extra">
+var cmplz_datarequests = {"url":"https://nwflabs.com/wp-json/complianz/v1/datarequests"};
+//# sourceURL=cmplz-dnsmpd-js-extra
+</script>
+<script src="https://nwflabs.com/wp-content/plugins/complianz-gdpr-premium/DNSMPD/script.min.js?ver=1761935124" id="cmplz-dnsmpd-js"></script>
+<script src="https://nwflabs.com/wp-content/plugins/metform/public/assets/lib/cute-alert/cute-alert.js?ver=4.1.2" id="cute-alert-js"></script>
+<script src="https://nwflabs.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.3.0" id="hello-theme-frontend-js"></script>
+<script src="https://nwflabs.com/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.5.3" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'https://nwflabs.com/wp-json/elementskit/v1/',
+		}
+
+		
+//# sourceURL=elementskit-framework-js-frontend-js-after
+</script>
+<script src="https://nwflabs.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.5.3" id="ekit-widget-scripts-js"></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"0","banner_version":"25","version":"7.5.6.1","store_consent":"","do_not_track_enabled":"","consenttype":"optout","region":"us","geoip":"1","dismiss_timeout":"5000","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"1","cookie_expiry":"365","url":"https://nwflabs.com/wp-json/complianz/v1/","locale":"lang=en&locale=en_US","set_cookies_on_root":"0","cookie_domain":"","current_policy_id":"24","cookie_path":"/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"Click to accept {category} cookies and enable this content","css_file":"https://nwflabs.com/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=25","page_links":{"us":{"cookie-statement":{"title":"Opt-out preferences","url":"https://nwflabs.com/opt-out-preferences/"},"privacy-statement":{"title":"Privacy Statement ","url":"https://nwflabs.com/privacy-statement-us/"},"privacy-statement-children":{"title":"","url":"https://nwflabs.com/privacy-statement-us/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Click to accept {category} cookies and enable this content"};
+//# sourceURL=cmplz-cookiebanner-js-extra
+</script>
+<script defer src="https://nwflabs.com/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1761935122" id="cmplz-cookiebanner-js"></script>
+<script id="cmplz-cookiebanner-js-after">
+		if ('undefined' != typeof window.jQuery) {
+			jQuery(document).ready(function ($) {
+				$(document).on('elementor/popup/show', () => {
+					let rev_cats = cmplz_categories.reverse();
+					for (let key in rev_cats) {
+						if (rev_cats.hasOwnProperty(key)) {
+							let category = cmplz_categories[key];
+							if (cmplz_has_consent(category)) {
+								document.querySelectorAll('[data-category="' + category + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+
+					let services = cmplz_get_services_on_page();
+					for (let key in services) {
+						if (services.hasOwnProperty(key)) {
+							let service = services[key].service;
+							let category = services[key].category;
+							if (cmplz_has_service_consent(service, category)) {
+								document.querySelectorAll('[data-service="' + service + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+				});
+			});
+		}
+    
+    
+//# sourceURL=cmplz-cookiebanner-js-after
+</script>
+<script src="https://nwflabs.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.4" id="elementor-webpack-runtime-js"></script>
+<script src="https://nwflabs.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.4" id="elementor-frontend-modules-js"></script>
+<script src="https://nwflabs.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.35.4","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_editor_one":true,"import-export-customization":true,"mega-menu":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/nwflabs.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/nwflabs.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/nwflabs.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"308c44f7c7"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"body_background_background":"gradient","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":0,"title":"404 - Page not found","excerpt":""}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="https://nwflabs.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.4" id="elementor-frontend-js"></script>
+<script id="elementor-frontend-js-after">
+var jkit_ajax_url = "https://nwflabs.com/?jkit-ajax-request=jkit_elements", jkit_nonce = "35388de9aa";
+//# sourceURL=elementor-frontend-js-after
+</script>
+<script src="https://nwflabs.com/wp-content/plugins/jeg-elementor-kit/assets/js/elements/nav-menu.js?ver=3.0.3" id="jkit-element-navmenu-js"></script>
+<script src="https://nwflabs.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.35.1" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://nwflabs.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script src="https://nwflabs.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/nwflabs.com\/wp-admin\/admin-ajax.php","nonce":"bb2d1bdf1c","urls":{"assets":"https:\/\/nwflabs.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/nwflabs.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/nwflabs.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script src="https://nwflabs.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.35.1" id="elementor-pro-frontend-js"></script>
+<script src="https://nwflabs.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.35.1" id="pro-elements-handlers-js"></script>
+<script src="https://nwflabs.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.5.3" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"https://nwflabs.com/wp-admin/admin-ajax.php","nonce":"159782c69d"};
+//# sourceURL=elementskit-elementor-js-extra
+</script>
+<script src="https://nwflabs.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.5.3" id="elementskit-elementor-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://nwflabs.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://nwflabs.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html> 
