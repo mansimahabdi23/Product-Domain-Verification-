@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 165" style="enable-background:new 0 0 200 165;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#D2D2D2;stroke-width:1.639;stroke-miterlimit:10;}
+	.st1{fill:#262626;}
+	.st2{fill:#D4D4D4;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#FFFFFF;stroke:#FF3653;stroke-miterlimit:10;}
+	.st5{clip-path:url(#SVGID_2_);}
+	.st6{fill:#FFCA05;}
+	.st7{clip-path:url(#SVGID_4_);}
+	.st8{fill:none;stroke:#FFCD00;stroke-width:2.14;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+<g id="Group_410" transform="translate(-1541.84 -3573.022)">
+	<path id="Path_96" class="st0" d="M1727.2,3596.4c-126.6-49.8-204.6,92-162.1,118.9c17.7,11.2,25.3-22.7,1.9-25
+		c-21-2.1-28.8,24.1-19.1,34.3"/>
+	<g id="Group_409">
+		<path id="Rectangle_39" class="st1" d="M1583.2,3615.7h122.4c2.1,0,3.8,1.7,3.8,3.8v68.6c0,2.1-1.7,3.8-3.8,3.8h-122.4
+			c-2.1,0-3.8-1.7-3.8-3.8v-68.6C1579.4,3617.4,1581.1,3615.7,1583.2,3615.7z"/>
+		<rect id="Rectangle_40" x="1650.7" y="3638.3" class="st2" width="30.9" height="8.8"/>
+		<rect id="Rectangle_41" x="1650.7" y="3653.8" class="st3" width="46.6" height="4.8"/>
+		<rect id="Rectangle_42" x="1650.7" y="3665.3" class="st3" width="42.3" height="4.8"/>
+		<circle id="Ellipse_3" class="st4" cx="1613.8" cy="3653.8" r="24.2"/>
+		<g id="Group_408">
+			<g>
+				<defs>
+					<circle id="SVGID_1_" cx="1613.8" cy="3654.1" r="21.8"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g id="Group_407" class="st5">
+					<circle id="Ellipse_4" class="st6" cx="1613.7" cy="3651.6" r="10.6"/>
+					<path id="Path_97" class="st1" d="M1614.1,3641c0,0,0.6,9.2-11.1,11c-2.7-8.8,3.5-15.1,10.9-15.7c5-0.4,13.1,5.1,11.2,15.3
+						C1616.6,3650.9,1614.1,3641,1614.1,3641z"/>
+					<g id="Group_406">
+						<g>
+							<defs>
+								<rect id="SVGID_3_" x="1577.3" y="3662.3" width="68" height="22.2"/>
+							</defs>
+							<clipPath id="SVGID_4_">
+								<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+							</clipPath>
+							<g id="Group_405" class="st7">
+								<path id="Path_98" class="st1" d="M1629.2,3712.9c6.3-26.9,0.7-43.5-6.9-47.7c-9.7-5.5-38.6-1.8-26.1,47.1"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path id="Path_99" class="st8" d="M1699.2,3601c26.4,3.9,40.4,17.8,40.4,17.8"/>
+</g>
+</svg>
