@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Maintenance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" as="style" onload="this.onload = null;this.rel = 'stylesheet'" />
+</head>
+<style>
+    .container{ max-width:992px; width:100%; margin: 0px auto; padding:20px; display: flex; flex-direction: row-reverse; align-items:center; font-family:"Poppins",sans-serif; justify-content: space-between; flex-wrap: wrap; height:100vh; }
+    .left-sec{ font-size: 16px;color: #666666;font-weight: 400;line-height: 30px;margin-top: 20px;margin-bottom: 0; }
+    .left-sec a{ color:#ffb100;}
+    @media screen and (max-width: 1024px) {
+        .container{ justify-content: center; text-align:center; height:auto; align-self: center; flex-direction: row; }
+    }
+</style>
+<body>
+<div class="container">
+    <div class="right-sec">
+        <img src="https://d2ati23fc66y9j.cloudfront.net/2024/ubuy/error-page/bad-bot.png.webp" alt="Error" >
+    </div>
+    <div class="left-sec">
+        <img class="ubuy-error-logo" src="https://d2ati23fc66y9j.cloudfront.net/2024/ubuy/error-page/ubuy-logo.svg" alt="Ubuy Logo">
+        <p class="para_one">The content you requested is not accessible at this time.</p>
+        <p class="para_two"><a href="https://ubuy.com/" title="Visit our website">Visit our website</a></p>
+    </div>
+</div>
+</body>
+</html>
