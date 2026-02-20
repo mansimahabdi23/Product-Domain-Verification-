@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<base href="https://www.matterhorn.com.tr/">
+	<meta charset="UTF-8">
+	<title>   Matterhorn Agricultural Machinery Ploughing, Fertilisation, Tillage, Spraying, Hay / Silage Making, Disc Mover, Lawn Mower, Rotary Drum Mower, Garden Drum Mower, Trailed Type Lawn Mower, Hay Rakes, Rotary Rake, Bedding & Feeding, Seeding, Balers&Wrappers, Manure Spreading, Land Leveler, Other, INDEPENDENT INTER ROW HOEING MACHINE Interrow Cultivator Tillage, GOBLEY WITH HYDRAULIC SYSTEM (HEAVY TYPE ) Trailed Disc Harrow Tillage, INDEPENDENT INTER ROW HOEING MACHINE Interrow Cultivator U Type Tillage, HOEING MACHINES WITH FERTILIZER Hoeing Machine Tillage, HOEING MACHINEZ WITH FERTILIZER Hoeing Machine Spring Type Tillage, SUBSOILERS SUBSOILERS Tillage, DIRECT STUBBLE PLANTING COMBINE GRAIN MACHINE Direct Seeder No Till Seeding, MECHANICAL SEED DRILL MACHINES ( UNIVERSAL TYPE ) Mechanic Planter Seeding, ONE ROW HARVEY DISC Sesame Seeder Seeding, PNEUMATIC PRECSION SEEDING MACHINES FOR VEGETABLE Pneumatic Vegetable Planter Seeding, PNEUMATIC PRECISION SEEDING MACHINE ( AXE TYPE ) WITH SHAFT AND CHAIN Pneumatic Planter Axe Type Seeding, STUBBLE PNEUMATIC SEEDING MACHINE (NOTILL ) Pneumatic Planter No Till Seeding, PNEUMATIC PRECESION SEEDING MACHINE ( DISC TYPE ) WITH SHAFT AND CHAIN Pneumatic Planter Disc Type Seeding, CONVENTIONAL PLOUGH CONVENTIONAL PLOUGH Ploughing, CONVENTIONAL PLOUGH WITH BAR POINT CONVENTIONAL PLOUGH WITH BAR POINT Ploughing, FURROW OPENER PLOUGH FURROW OPENER PLOUGH Ploughing, PROFILE PLOUGH WITH SPRING SAFETY PROFILE PLOUGH WITH SPRING SAFETY Ploughing, REVERSIABLE PLOUGH HEAVY TYPE REVERSIABLE PLOUGH HEAVY TYPE Ploughing, REVERSIBLE PLOUGH LIGHT TYPE REVERSIBLE PLOUGH LIGHT TYPE Ploughing, FULL AUTOMATIC REVERSIBLE PLOUGH FULL AUTOMATIC REVERSIBLE PLOUGH Ploughing, REVERSIBLE PLOUGH (STRIP TYPE MOULDBOARD+ FOREBODY) REVERSIBLE PLOUGH (STRIP TYPE MOULDBOARD+ FOREBODY) Ploughing, PROFILE PLOUGH WITH SPRING SAFETY (Hydraulic adjustment ) PROFILE PLOUGH WITH SPRING SAFETY (Hydraulic adjustment ) Ploughing, PROFILE PLOUGH PROFILE PLOUGH Ploughing, SEMI AUTOMATIC CONVENTIONAL PLOUGH SEMI AUTOMATIC CONVENTIONAL PLOUGH Ploughing, CONVENTIONAL PLOUGH WITH BOLT SAFETY CONVENTIONAL PLOUGH WITH BOLT SAFETY Ploughing, VINEYARD PLOUGH VINEYARD PLOUGH Ploughing, MICRO PLOUGH MICRO PLOUGH Ploughing, DITCHER PLOUGH DITCHER PLOUGH Ploughing, CHISEL PLOUGH CHISEL PLOUGH Ploughing, CULTIVATOR CULTIVATOR Tillage, STRIP TILL STRIP TILL Tillage, MTBM E-CLASS 55 MTBM E-CLASS 55 Balers&Wrappers, MTBM W-CLASS 55 MTBM W-CLASS 55 Balers&Wrappers, MTBM 4320 MTBM 4320 Balers&Wrappers, MTBM TURBOGOLD 7190 MTBM TURBOGOLD 7190 Balers&Wrappers, MTBM SUPERGOLD 7190 MTBM SUPERGOLD 7190 Balers&Wrappers, MTBM 4320 XL AUTOMATIC MTBM 4320 XL AUTOMATIC Balers&Wrappers, MTMH TURBO 125 MTMH-125 Hay / Silage Making, MTMH TURBO 210 MTMH-210 Hay / Silage Making, MTFMV JUMBOMIX 2,5M MTFMV-25 Bedding & Feeding, MTFMH JUMBOMIX 4M MTFMH-40 Bedding & Feeding, MTFMH JUMBOMİX 6M MTFMH-60 Bedding & Feeding, MTMST JUMBO G.S.R. 5 TONE MTMST-5 Manure Spreading, MTMST JUMBO G.S.R. 10 TONE MTMST-10 Manure Spreading, FERTILIZER SPREADDING MACHINE FERTILIZER SPREADDING MACHINE Fertilisation, FIELD SPRAYER FIELD SPRAYER Spraying, TURBO ATOMIZER TURBO ATOMIZER Spraying, Bale Loading Machines ( For Trailers ) Bale Loading Machines ( For Trailers ) Balers&Wrappers, INTER-ROW ROTARY CULTIVATOR 45CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 45CM SEQUENCE Tillage, INTER-ROW ROTARY CULTIVATOR 70CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 70CM SEQUENCE Tillage, INTER-ROW ROTARY CULTIVATOR 90 CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 90 CM SEQUENCE Tillage, FIELD TYPE ROTOVATOR FIELD TYPE ROTOVATOR Tillage, HEAVY DUTY TYPE ROTARY TILLER HEAVY DUTY TYPE ROTARY TILLER Tillage, MINI STABLE GARDEN TYPE ROTOVATOR MINI STABLE GARDEN TYPE ROTOVATOR Tillage, STABLE GARDEN TYPE ROTOVATOR STABLE GARDEN TYPE ROTOVATOR Tillage, GARDEN TYPE MECHANICAL ROTOVATOR GARDEN TYPE MECHANICAL ROTOVATOR Tillage, GARDEN TYPE HYDRAULIC ROTOVATOR GARDEN TYPE HYDRAULIC ROTOVATOR Tillage, POTATO PLANTER 4 ROW POTATO PLANTER 4 ROW Seeding, Potatoe Panter 2 Row Super Type Potatoe Panter 2 Row Super Type Seeding, Potatoe Planter 2 ROW Potatoe Planter 2 ROW Seeding, DOUBLE ORDER REMOVAL Double Row Potatoe Harvester Tillage, SINGLE-ROW POTATO MACHINE Single Row Potatoe Planter Tillage, MTDM-245 Disc Mower MTDM-245 Disc Mower Disc Mover, MTDM- 205 Disc Mower MTDM- 205 Disc Mower Disc Mover, MTDM-165 Disc Mower MTDM-165 Disc Mower Disc Mover, MTDM- 285 Disc Mower MTDM- 285 Disc Mower Disc Mover, MTLM- 205 Lawn Mower MTLM- 205 Lawn Mower Lawn Mower, MTLM-165 Lawn Mower MTLM-165 Lawn Mower Lawn Mower, MTLM-245 Lawn Mower MTLM-245 Lawn Mower Lawn Mower, MTRM-210 Rotary Drum Mower MTRM-210 Rotary Drum Mower Rotary Drum Mower, MTRM-195H Rotary Hydraulic Drum Mower MTRM-195H Rotary Hydraulic Drum Mower Rotary Drum Mower, MTRM-195 Rotary Drum Mower MTRM -195 Rotary Drum Mower Rotary Drum Mower, MTRM-165 Rotary Hydraulic Drum Mower MTRM-165 Rotary Hydraulic Drum Mower Rotary Drum Mower, MTRM-165 Rotary Drum Mower MTRM-165 Rotary Drum Mower Rotary Drum Mower, MTRM-145 Rotary Drum Mower MTRM-145 Rotary Drum Mower Rotary Drum Mower, MTRM- 125 Rotary Drum Mower MTRM- 125 Rotary Drum Mower Rotary Drum Mower, MTRMG-195 Garden Drum Mower MTRMG-195 Garden Drum Mower Garden Drum Mower, MTGRM-165 Garden Drum Mower MTGRM-165 Garden Drum Mower Garden Drum Mower, MTGRM-145 Garden Drum Mower MTGRM-145 Garden Drum Mower Garden Drum Mower, MTGMR-125 Garden Drum Mower MTGMR-125 Garden Drum Mower Garden Drum Mower, MTTLM-285 Trailed Type Lawn Mower MTTLM-285 Trailed Type Lawn Mower Trailed Type Lawn Mower, MTTLM-330 Trailed Type Lawn Mower MTTLM-330 Trailed Type Lawn Mower Trailed Type Lawn Mower, 2 Wheels Hay Rake 2 Wheels Hay Rake MTHR-2 Hay Rakes, 3 Wheels Hay Rake 3 Wheels Hay Rake MTHR-3 Hay Rakes, 4 Wheels Hay Rake 4 Wheels Hay Rake MTHR-4P Hay Rakes, 4 Wheels Hay Rake 4 Wheels Hay Rake MTHR-4 Hay Rakes, 5 Wheels Hay Rake 5 Wheels Hay Rake MTHR-5P Hay Rakes, 5 Wheels Hay Rake 5 Wheels Hay Rake MTHR-5 Hay Rakes, 8 Wheel V Type Hay Rake Wheel V Type Hay Rake MTHRV-8 Hay Rakes, 8 Wheel Carted Hay Rake 8 Wheel Carted Hay Rake MTTHR-8 Hay Rakes, 9 Wheel Carted Hay Rake 9 Wheel Carted Hay Rake MTTHR-9 Hay Rakes, 10 Wheel Carted Hay Rake 10 Wheel Carted Hay Rake MTTHR-10 Hay Rakes, 11 Wheel Carted Hay Rake 11 Wheel Carted Hay Rake MTTHR-11 Hay Rakes, Side Rake 10 Wheel Side Rake 10 Wheel MTSR-10 Hay Rakes, 13 Wheel Carted Hay Rake 13 Wheel Carted Hay Rake MTTHR-13 Hay Rakes, Rotary Rake Rotary Rake MTRW-9 Rotary Rake, LASER LEVELLING SHOVEL (FOLDABLE) LASER LEVELLING SHOVEL (FOLDABLE) Land Leveler, LASER LEVELLING SHOVEL LASER LEVELLING SHOVEL Land Leveler, SCRAPER SCRAPER Land Leveler &mdash; Matterhorn Agricultural Machinery Ploughing, Fertilisation, Tillage, Spraying, Hay / Silage Making, Disc Mover, Lawn Mower, Rotary Drum Mower, Garden Drum Mower, Trailed Type Lawn Mower, Hay Rakes, Rotary Rake, Bedding & Feeding, Seeding, Balers&Wrappers, Manure Spreading, Land Leveler, Other, INDEPENDENT INTER ROW HOEING MACHINE Interrow Cultivator Tillage, GOBLEY WITH HYDRAULIC SYSTEM (HEAVY TYPE ) Trailed Disc Harrow Tillage, INDEPENDENT INTER ROW HOEING MACHINE Interrow Cultivator U Type Tillage, HOEING MACHINES WITH FERTILIZER Hoeing Machine Tillage, HOEING MACHINEZ WITH FERTILIZER Hoeing Machine Spring Type Tillage, SUBSOILERS SUBSOILERS Tillage, DIRECT STUBBLE PLANTING COMBINE GRAIN MACHINE Direct Seeder No Till Seeding, MECHANICAL SEED DRILL MACHINES ( UNIVERSAL TYPE ) Mechanic Planter Seeding, ONE ROW HARVEY DISC Sesame Seeder Seeding, PNEUMATIC PRECSION SEEDING MACHINES FOR VEGETABLE Pneumatic Vegetable Planter Seeding, PNEUMATIC PRECISION SEEDING MACHINE ( AXE TYPE ) WITH SHAFT AND CHAIN Pneumatic Planter Axe Type Seeding, STUBBLE PNEUMATIC SEEDING MACHINE (NOTILL ) Pneumatic Planter No Till Seeding, PNEUMATIC PRECESION SEEDING MACHINE ( DISC TYPE ) WITH SHAFT AND CHAIN Pneumatic Planter Disc Type Seeding, CONVENTIONAL PLOUGH CONVENTIONAL PLOUGH Ploughing, CONVENTIONAL PLOUGH WITH BAR POINT CONVENTIONAL PLOUGH WITH BAR POINT Ploughing, FURROW OPENER PLOUGH FURROW OPENER PLOUGH Ploughing, PROFILE PLOUGH WITH SPRING SAFETY PROFILE PLOUGH WITH SPRING SAFETY Ploughing, REVERSIABLE PLOUGH HEAVY TYPE REVERSIABLE PLOUGH HEAVY TYPE Ploughing, REVERSIBLE PLOUGH LIGHT TYPE REVERSIBLE PLOUGH LIGHT TYPE Ploughing, FULL AUTOMATIC REVERSIBLE PLOUGH FULL AUTOMATIC REVERSIBLE PLOUGH Ploughing, REVERSIBLE PLOUGH (STRIP TYPE MOULDBOARD+ FOREBODY) REVERSIBLE PLOUGH (STRIP TYPE MOULDBOARD+ FOREBODY) Ploughing, PROFILE PLOUGH WITH SPRING SAFETY (Hydraulic adjustment ) PROFILE PLOUGH WITH SPRING SAFETY (Hydraulic adjustment ) Ploughing, PROFILE PLOUGH PROFILE PLOUGH Ploughing, SEMI AUTOMATIC CONVENTIONAL PLOUGH SEMI AUTOMATIC CONVENTIONAL PLOUGH Ploughing, CONVENTIONAL PLOUGH WITH BOLT SAFETY CONVENTIONAL PLOUGH WITH BOLT SAFETY Ploughing, VINEYARD PLOUGH VINEYARD PLOUGH Ploughing, MICRO PLOUGH MICRO PLOUGH Ploughing, DITCHER PLOUGH DITCHER PLOUGH Ploughing, CHISEL PLOUGH CHISEL PLOUGH Ploughing, CULTIVATOR CULTIVATOR Tillage, STRIP TILL STRIP TILL Tillage, MTBM E-CLASS 55 MTBM E-CLASS 55 Balers&Wrappers, MTBM W-CLASS 55 MTBM W-CLASS 55 Balers&Wrappers, MTBM 4320 MTBM 4320 Balers&Wrappers, MTBM TURBOGOLD 7190 MTBM TURBOGOLD 7190 Balers&Wrappers, MTBM SUPERGOLD 7190 MTBM SUPERGOLD 7190 Balers&Wrappers, MTBM 4320 XL AUTOMATIC MTBM 4320 XL AUTOMATIC Balers&Wrappers, MTMH TURBO 125 MTMH-125 Hay / Silage Making, MTMH TURBO 210 MTMH-210 Hay / Silage Making, MTFMV JUMBOMIX 2,5M MTFMV-25 Bedding & Feeding, MTFMH JUMBOMIX 4M MTFMH-40 Bedding & Feeding, MTFMH JUMBOMİX 6M MTFMH-60 Bedding & Feeding, MTMST JUMBO G.S.R. 5 TONE MTMST-5 Manure Spreading, MTMST JUMBO G.S.R. 10 TONE MTMST-10 Manure Spreading, FERTILIZER SPREADDING MACHINE FERTILIZER SPREADDING MACHINE Fertilisation, FIELD SPRAYER FIELD SPRAYER Spraying, TURBO ATOMIZER TURBO ATOMIZER Spraying, Bale Loading Machines ( For Trailers ) Bale Loading Machines ( For Trailers ) Balers&Wrappers, INTER-ROW ROTARY CULTIVATOR 45CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 45CM SEQUENCE Tillage, INTER-ROW ROTARY CULTIVATOR 70CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 70CM SEQUENCE Tillage, INTER-ROW ROTARY CULTIVATOR 90 CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 90 CM SEQUENCE Tillage, FIELD TYPE ROTOVATOR FIELD TYPE ROTOVATOR Tillage, HEAVY DUTY TYPE ROTARY TILLER HEAVY DUTY TYPE ROTARY TILLER Tillage, MINI STABLE GARDEN TYPE ROTOVATOR MINI STABLE GARDEN TYPE ROTOVATOR Tillage, STABLE GARDEN TYPE ROTOVATOR STABLE GARDEN TYPE ROTOVATOR Tillage, GARDEN TYPE MECHANICAL ROTOVATOR GARDEN TYPE MECHANICAL ROTOVATOR Tillage, GARDEN TYPE HYDRAULIC ROTOVATOR GARDEN TYPE HYDRAULIC ROTOVATOR Tillage, POTATO PLANTER 4 ROW POTATO PLANTER 4 ROW Seeding, Potatoe Panter 2 Row Super Type Potatoe Panter 2 Row Super Type Seeding, Potatoe Planter 2 ROW Potatoe Planter 2 ROW Seeding, DOUBLE ORDER REMOVAL Double Row Potatoe Harvester Tillage, SINGLE-ROW POTATO MACHINE Single Row Potatoe Planter Tillage, MTDM-245 Disc Mower MTDM-245 Disc Mower Disc Mover, MTDM- 205 Disc Mower MTDM- 205 Disc Mower Disc Mover, MTDM-165 Disc Mower MTDM-165 Disc Mower Disc Mover, MTDM- 285 Disc Mower MTDM- 285 Disc Mower Disc Mover, MTLM- 205 Lawn Mower MTLM- 205 Lawn Mower Lawn Mower, MTLM-165 Lawn Mower MTLM-165 Lawn Mower Lawn Mower, MTLM-245 Lawn Mower MTLM-245 Lawn Mower Lawn Mower, MTRM-210 Rotary Drum Mower MTRM-210 Rotary Drum Mower Rotary Drum Mower, MTRM-195H Rotary Hydraulic Drum Mower MTRM-195H Rotary Hydraulic Drum Mower Rotary Drum Mower, MTRM-195 Rotary Drum Mower MTRM -195 Rotary Drum Mower Rotary Drum Mower, MTRM-165 Rotary Hydraulic Drum Mower MTRM-165 Rotary Hydraulic Drum Mower Rotary Drum Mower, MTRM-165 Rotary Drum Mower MTRM-165 Rotary Drum Mower Rotary Drum Mower, MTRM-145 Rotary Drum Mower MTRM-145 Rotary Drum Mower Rotary Drum Mower, MTRM- 125 Rotary Drum Mower MTRM- 125 Rotary Drum Mower Rotary Drum Mower, MTRMG-195 Garden Drum Mower MTRMG-195 Garden Drum Mower Garden Drum Mower, MTGRM-165 Garden Drum Mower MTGRM-165 Garden Drum Mower Garden Drum Mower, MTGRM-145 Garden Drum Mower MTGRM-145 Garden Drum Mower Garden Drum Mower, MTGMR-125 Garden Drum Mower MTGMR-125 Garden Drum Mower Garden Drum Mower, MTTLM-285 Trailed Type Lawn Mower MTTLM-285 Trailed Type Lawn Mower Trailed Type Lawn Mower, MTTLM-330 Trailed Type Lawn Mower MTTLM-330 Trailed Type Lawn Mower Trailed Type Lawn Mower, 2 Wheels Hay Rake 2 Wheels Hay Rake MTHR-2 Hay Rakes, 3 Wheels Hay Rake 3 Wheels Hay Rake MTHR-3 Hay Rakes, 4 Wheels Hay Rake 4 Wheels Hay Rake MTHR-4P Hay Rakes, 4 Wheels Hay Rake 4 Wheels Hay Rake MTHR-4 Hay Rakes, 5 Wheels Hay Rake 5 Wheels Hay Rake MTHR-5P Hay Rakes, 5 Wheels Hay Rake 5 Wheels Hay Rake MTHR-5 Hay Rakes, 8 Wheel V Type Hay Rake Wheel V Type Hay Rake MTHRV-8 Hay Rakes, 8 Wheel Carted Hay Rake 8 Wheel Carted Hay Rake MTTHR-8 Hay Rakes, 9 Wheel Carted Hay Rake 9 Wheel Carted Hay Rake MTTHR-9 Hay Rakes, 10 Wheel Carted Hay Rake 10 Wheel Carted Hay Rake MTTHR-10 Hay Rakes, 11 Wheel Carted Hay Rake 11 Wheel Carted Hay Rake MTTHR-11 Hay Rakes, Side Rake 10 Wheel Side Rake 10 Wheel MTSR-10 Hay Rakes, 13 Wheel Carted Hay Rake 13 Wheel Carted Hay Rake MTTHR-13 Hay Rakes, Rotary Rake Rotary Rake MTRW-9 Rotary Rake, LASER LEVELLING SHOVEL (FOLDABLE) LASER LEVELLING SHOVEL (FOLDABLE) Land Leveler, LASER LEVELLING SHOVEL LASER LEVELLING SHOVEL Land Leveler, SCRAPER SCRAPER Land Leveler </title>
+	<!-- Metas -->
+	<meta name="description" content="Matterhorn For Sustainable Farming
+Matterhorn Agricultural Machinery is a Turkey based manufacturing company specialised in Farm Implements.
+Karalar family is a farmer origin family and engaged in farm machines manufacturing in 1974. We have been manufacturing since then. 
+In 2018, Bulent Karalar founded Matterhorn Agricultural Machinery Ltd. for export market and currently have 38 dealers worldwide and also have cooperate companies in Africa and South America.
+Our motto is ‘ Matterhorn For Sustainable Farming’">
+	<meta name="keywords" content="Matterhorn Agricultural Machinery Ploughing, Fertilisation, Tillage, Spraying, Hay / Silage Making, Disc Mover, Lawn Mower, Rotary Drum Mower, Garden Drum Mower, Trailed Type Lawn Mower, Hay Rakes, Rotary Rake, Bedding & Feeding, Seeding, Balers&Wrappers, Manure Spreading, Land Leveler, Other, INDEPENDENT INTER ROW HOEING MACHINE Interrow Cultivator Tillage, GOBLEY WITH HYDRAULIC SYSTEM (HEAVY TYPE ) Trailed Disc Harrow Tillage, INDEPENDENT INTER ROW HOEING MACHINE Interrow Cultivator U Type Tillage, HOEING MACHINES WITH FERTILIZER Hoeing Machine Tillage, HOEING MACHINEZ WITH FERTILIZER Hoeing Machine Spring Type Tillage, SUBSOILERS SUBSOILERS Tillage, DIRECT STUBBLE PLANTING COMBINE GRAIN MACHINE Direct Seeder No Till Seeding, MECHANICAL SEED DRILL MACHINES ( UNIVERSAL TYPE ) Mechanic Planter Seeding, ONE ROW HARVEY DISC Sesame Seeder Seeding, PNEUMATIC PRECSION SEEDING MACHINES FOR VEGETABLE Pneumatic Vegetable Planter Seeding, PNEUMATIC PRECISION SEEDING MACHINE ( AXE TYPE ) WITH SHAFT AND CHAIN Pneumatic Planter Axe Type Seeding, STUBBLE PNEUMATIC SEEDING MACHINE (NOTILL ) Pneumatic Planter No Till Seeding, PNEUMATIC PRECESION SEEDING MACHINE ( DISC TYPE ) WITH SHAFT AND CHAIN Pneumatic Planter Disc Type Seeding, CONVENTIONAL PLOUGH CONVENTIONAL PLOUGH Ploughing, CONVENTIONAL PLOUGH WITH BAR POINT CONVENTIONAL PLOUGH WITH BAR POINT Ploughing, FURROW OPENER PLOUGH FURROW OPENER PLOUGH Ploughing, PROFILE PLOUGH WITH SPRING SAFETY PROFILE PLOUGH WITH SPRING SAFETY Ploughing, REVERSIABLE PLOUGH HEAVY TYPE REVERSIABLE PLOUGH HEAVY TYPE Ploughing, REVERSIBLE PLOUGH LIGHT TYPE REVERSIBLE PLOUGH LIGHT TYPE Ploughing, FULL AUTOMATIC REVERSIBLE PLOUGH FULL AUTOMATIC REVERSIBLE PLOUGH Ploughing, REVERSIBLE PLOUGH (STRIP TYPE MOULDBOARD+ FOREBODY) REVERSIBLE PLOUGH (STRIP TYPE MOULDBOARD+ FOREBODY) Ploughing, PROFILE PLOUGH WITH SPRING SAFETY (Hydraulic adjustment ) PROFILE PLOUGH WITH SPRING SAFETY (Hydraulic adjustment ) Ploughing, PROFILE PLOUGH PROFILE PLOUGH Ploughing, SEMI AUTOMATIC CONVENTIONAL PLOUGH SEMI AUTOMATIC CONVENTIONAL PLOUGH Ploughing, CONVENTIONAL PLOUGH WITH BOLT SAFETY CONVENTIONAL PLOUGH WITH BOLT SAFETY Ploughing, VINEYARD PLOUGH VINEYARD PLOUGH Ploughing, MICRO PLOUGH MICRO PLOUGH Ploughing, DITCHER PLOUGH DITCHER PLOUGH Ploughing, CHISEL PLOUGH CHISEL PLOUGH Ploughing, CULTIVATOR CULTIVATOR Tillage, STRIP TILL STRIP TILL Tillage, MTBM E-CLASS 55 MTBM E-CLASS 55 Balers&Wrappers, MTBM W-CLASS 55 MTBM W-CLASS 55 Balers&Wrappers, MTBM 4320 MTBM 4320 Balers&Wrappers, MTBM TURBOGOLD 7190 MTBM TURBOGOLD 7190 Balers&Wrappers, MTBM SUPERGOLD 7190 MTBM SUPERGOLD 7190 Balers&Wrappers, MTBM 4320 XL AUTOMATIC MTBM 4320 XL AUTOMATIC Balers&Wrappers, MTMH TURBO 125 MTMH-125 Hay / Silage Making, MTMH TURBO 210 MTMH-210 Hay / Silage Making, MTFMV JUMBOMIX 2,5M MTFMV-25 Bedding & Feeding, MTFMH JUMBOMIX 4M MTFMH-40 Bedding & Feeding, MTFMH JUMBOMİX 6M MTFMH-60 Bedding & Feeding, MTMST JUMBO G.S.R. 5 TONE MTMST-5 Manure Spreading, MTMST JUMBO G.S.R. 10 TONE MTMST-10 Manure Spreading, FERTILIZER SPREADDING MACHINE FERTILIZER SPREADDING MACHINE Fertilisation, FIELD SPRAYER FIELD SPRAYER Spraying, TURBO ATOMIZER TURBO ATOMIZER Spraying, Bale Loading Machines ( For Trailers ) Bale Loading Machines ( For Trailers ) Balers&Wrappers, INTER-ROW ROTARY CULTIVATOR 45CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 45CM SEQUENCE Tillage, INTER-ROW ROTARY CULTIVATOR 70CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 70CM SEQUENCE Tillage, INTER-ROW ROTARY CULTIVATOR 90 CM SEQUENCE INTER-ROW ROTARY CULTIVATOR 90 CM SEQUENCE Tillage, FIELD TYPE ROTOVATOR FIELD TYPE ROTOVATOR Tillage, HEAVY DUTY TYPE ROTARY TILLER HEAVY DUTY TYPE ROTARY TILLER Tillage, MINI STABLE GARDEN TYPE ROTOVATOR MINI STABLE GARDEN TYPE ROTOVATOR Tillage, STABLE GARDEN TYPE ROTOVATOR STABLE GARDEN TYPE ROTOVATOR Tillage, GARDEN TYPE MECHANICAL ROTOVATOR GARDEN TYPE MECHANICAL ROTOVATOR Tillage, GARDEN TYPE HYDRAULIC ROTOVATOR GARDEN TYPE HYDRAULIC ROTOVATOR Tillage, POTATO PLANTER 4 ROW POTATO PLANTER 4 ROW Seeding, Potatoe Panter 2 Row Super Type Potatoe Panter 2 Row Super Type Seeding, Potatoe Planter 2 ROW Potatoe Planter 2 ROW Seeding, DOUBLE ORDER REMOVAL Double Row Potatoe Harvester Tillage, SINGLE-ROW POTATO MACHINE Single Row Potatoe Planter Tillage, MTDM-245 Disc Mower MTDM-245 Disc Mower Disc Mover, MTDM- 205 Disc Mower MTDM- 205 Disc Mower Disc Mover, MTDM-165 Disc Mower MTDM-165 Disc Mower Disc Mover, MTDM- 285 Disc Mower MTDM- 285 Disc Mower Disc Mover, MTLM- 205 Lawn Mower MTLM- 205 Lawn Mower Lawn Mower, MTLM-165 Lawn Mower MTLM-165 Lawn Mower Lawn Mower, MTLM-245 Lawn Mower MTLM-245 Lawn Mower Lawn Mower, MTRM-210 Rotary Drum Mower MTRM-210 Rotary Drum Mower Rotary Drum Mower, MTRM-195H Rotary Hydraulic Drum Mower MTRM-195H Rotary Hydraulic Drum Mower Rotary Drum Mower, MTRM-195 Rotary Drum Mower MTRM -195 Rotary Drum Mower Rotary Drum Mower, MTRM-165 Rotary Hydraulic Drum Mower MTRM-165 Rotary Hydraulic Drum Mower Rotary Drum Mower, MTRM-165 Rotary Drum Mower MTRM-165 Rotary Drum Mower Rotary Drum Mower, MTRM-145 Rotary Drum Mower MTRM-145 Rotary Drum Mower Rotary Drum Mower, MTRM- 125 Rotary Drum Mower MTRM- 125 Rotary Drum Mower Rotary Drum Mower, MTRMG-195 Garden Drum Mower MTRMG-195 Garden Drum Mower Garden Drum Mower, MTGRM-165 Garden Drum Mower MTGRM-165 Garden Drum Mower Garden Drum Mower, MTGRM-145 Garden Drum Mower MTGRM-145 Garden Drum Mower Garden Drum Mower, MTGMR-125 Garden Drum Mower MTGMR-125 Garden Drum Mower Garden Drum Mower, MTTLM-285 Trailed Type Lawn Mower MTTLM-285 Trailed Type Lawn Mower Trailed Type Lawn Mower, MTTLM-330 Trailed Type Lawn Mower MTTLM-330 Trailed Type Lawn Mower Trailed Type Lawn Mower, 2 Wheels Hay Rake 2 Wheels Hay Rake MTHR-2 Hay Rakes, 3 Wheels Hay Rake 3 Wheels Hay Rake MTHR-3 Hay Rakes, 4 Wheels Hay Rake 4 Wheels Hay Rake MTHR-4P Hay Rakes, 4 Wheels Hay Rake 4 Wheels Hay Rake MTHR-4 Hay Rakes, 5 Wheels Hay Rake 5 Wheels Hay Rake MTHR-5P Hay Rakes, 5 Wheels Hay Rake 5 Wheels Hay Rake MTHR-5 Hay Rakes, 8 Wheel V Type Hay Rake Wheel V Type Hay Rake MTHRV-8 Hay Rakes, 8 Wheel Carted Hay Rake 8 Wheel Carted Hay Rake MTTHR-8 Hay Rakes, 9 Wheel Carted Hay Rake 9 Wheel Carted Hay Rake MTTHR-9 Hay Rakes, 10 Wheel Carted Hay Rake 10 Wheel Carted Hay Rake MTTHR-10 Hay Rakes, 11 Wheel Carted Hay Rake 11 Wheel Carted Hay Rake MTTHR-11 Hay Rakes, Side Rake 10 Wheel Side Rake 10 Wheel MTSR-10 Hay Rakes, 13 Wheel Carted Hay Rake 13 Wheel Carted Hay Rake MTTHR-13 Hay Rakes, Rotary Rake Rotary Rake MTRW-9 Rotary Rake, LASER LEVELLING SHOVEL (FOLDABLE) LASER LEVELLING SHOVEL (FOLDABLE) Land Leveler, LASER LEVELLING SHOVEL LASER LEVELLING SHOVEL Land Leveler, SCRAPER SCRAPER Land Leveler">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/mystyle.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/colorbox.css">
+	<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png"/>
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700,700i&display=swap" rel="stylesheet">
+<style>
+
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+#google_translate_element2 {display:none!important;}
+
+</style>
+</head>
+<body  >
+	<div id="header">
+		<div class="header">
+			<div class="headerLeft">
+				<div id="logo">
+					<a href="/"><img src="assets/img/logo.png"  alt="Matterhorn" title="Matterhorn"></a>
+				</div>
+				<!-- #logo -->
+			</div>
+			<div class="headerRight">
+			<a class="menu"><img src="/assets/img/menu-icon.png" alt=""></a>
+			<div id="headerTop">
+
+				<div id="links">
+					<!-- GTranslate: https://gtranslate.io/ -->
+
+
+
+
+<div id="google_translate_element2"></div>
+
+<a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16"alt="English" /></a>
+<a href="#" onclick="doGTranslate('en|ru');return false;"title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian" /></a>
+<a href="https://es.matterhorn.com.tr/" title="Spanish" class="gflag nturl"style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16"alt="Spanish" /></a>
+<a href="https://it.matterhorn.com.tr/" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Italian" /></a>
+<a href="https://pt.matterhorn.com.tr/" title="Portuguese"  class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Portuguese" /></a>
+
+
+				</div>
+				<!-- .links -->
+
+				<div class="popSearch">
+					<form action="/search" method="get">
+						<input type="text" name="s"  placeholder="Search...">
+					</form>
+				</div>
+
+				<div id="shortcut">
+					
+					<div class="searcial">
+						<a href="" class="search"></a>
+						<a href="" class="social"></a>
+					</div>
+
+				</div>
+				<!-- #shortcut -->
+			</div>
+			<!-- #headerTop -->
+
+			<div id="headerBot">
+
+				<div id="menu">
+					<ul>
+						<li><a href="/corporate.html"  alt="Corporate || Matterhorn" title="Corporate || Matterhorn">CORPORATE</a></li>
+						<li><a href="/p/products.html"  alt="Products || Matterhorn" title="Products || Matterhorn">PRODUCTS</a></li>
+						<li><a href="https://www.matterhorn.com.tr/catalog/matterhorn-ecatalog.pdf"  alt="Online Catalog || Matterhorn" title="Online Catalog || Matterhorn">ONLINE CATALOG</a></li>
+						<li><a href="/quality.html"  alt="Quality || Matterhorn" title="Quality || Matterhorn">QUALITY</a></li>
+						<li><a href="/order.html"  alt="Order || Matterhorn" title="Order || Matterhorn">ORDER</a></li>
+						<li><a href="/contact.html"  alt="Contact || Matterhorn" title="Contact || Matterhorn">CONTACT</a></li>
+					</ul>
+				</div>
+				<!-- #menu -->
+			</div>
+
+			<!-- #headerBot -->
+		</div>
+		</div>
+	</div>
+	<!-- #header -->
+	<div id="slider">
+		<div class="swiper-container">
+
+			<div class="swiper-wrapper">
+								<div class="swiper-slide" >
+					<img src="/uploads/slides/new/yeni/mt-pulluk.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Ploughing</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/slides/new/yeni/mt-fertil.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Fertilisation</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/products/tillage/fc-600/AYSAN%20BACAKLI%20%C3%87APA%20(5).jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Tillage</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/slides/new/yeni/mt-spray.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Spraying</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/slides/new/sillage-web.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Hay / Silage Making</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/slides/new/yeni/mt-bedding-feed.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Bedding &amp; Feeding</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/products/seeding/c-900/ana-3.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Seeding</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/slides/new/balers-web.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Balers</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+								<div class="swiper-slide" >
+					<img src="/uploads/slides/new/yeni/mt-manure.jpg">
+					<div class="center">
+						<div class="caption">
+							<h2>Manure spreading</h2>
+							<h3>MATTERHORN</h3>
+						</div>
+					</div>
+				</div>
+							</div>
+		</div>
+		<div class="arrow">
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+		<div id="HproductsShortcut">
+			<div class="schortcutTop">
+				<div class="container">
+					<div class="topLeft">
+					<h1 alt="Products || Matterhorn" title="Products || Matterhorn">Products</h1>
+					</div>
+					<div class="topRight">
+					<a href="/p/allproducts.html"  alt="All Products || Matterhorn" title="All Products || Matterhorn"><p>All Products ><p></a>
+					</div>
+				</div>
+			</div>
+			<div class="schrotcutBottom">
+				<div class="container">	
+					<div class="shorcutBox">
+					                        <div class="item" data-image="/uploads/slides/new/yeni/mt-pulluk.jpg" data-title="Ploughing"  alt="Ploughing || Matterhorn" title="Ploughing || Matterhorn">
+                            <a href="/p/ploughing.html"><i class="ion-arrow-right-c"></i>Ploughing</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-fertil.jpg" data-title="Fertilisation"  alt="Fertilisation || Matterhorn" title="Fertilisation || Matterhorn">
+                            <a href="/p/fertilisation.html"><i class="ion-arrow-right-c"></i>Fertilisation</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/products/tillage/fc-600/AYSAN%20BACAKLI%20%C3%87APA%20(5).jpg" data-title="Tillage"  alt="Tillage || Matterhorn" title="Tillage || Matterhorn">
+                            <a href="/p/tillage.html"><i class="ion-arrow-right-c"></i>Tillage</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-spray.jpg" data-title="Spraying"  alt="Spraying || Matterhorn" title="Spraying || Matterhorn">
+                            <a href="/p/spraying.html"><i class="ion-arrow-right-c"></i>Spraying</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/sillage-web.jpg" data-title="Hay / Silage Making"  alt="Hay / Silage Making || Matterhorn" title="Hay / Silage Making || Matterhorn">
+                            <a href="/p/hay-silage-making.html"><i class="ion-arrow-right-c"></i>Hay / Silage Making</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-bedding-feed.jpg" data-title="Bedding &amp; Feeding"  alt="Bedding &amp; Feeding || Matterhorn" title="Bedding &amp; Feeding || Matterhorn">
+                            <a href="/p/bedding-feeding.html"><i class="ion-arrow-right-c"></i>Bedding &amp; Feeding</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/products/seeding/c-900/ana-3.jpg" data-title="Seeding"  alt="Seeding || Matterhorn" title="Seeding || Matterhorn">
+                            <a href="/p/seeding.html"><i class="ion-arrow-right-c"></i>Seeding</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/balers-web.jpg" data-title="Balers&amp;Wrappers "  alt="Balers&amp;Wrappers  || Matterhorn" title="Balers&amp;Wrappers  || Matterhorn">
+                            <a href="/p/balers-wrappers.html"><i class="ion-arrow-right-c"></i>Balers&amp;Wrappers </a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-manure.jpg" data-title="Manure Spreading"  alt="Manure Spreading || Matterhorn" title="Manure Spreading || Matterhorn">
+                            <a href="/p/manure-spreading.html"><i class="ion-arrow-right-c"></i>Manure Spreading</a>
+                        </div>
+                                            <div class="item" data-image="https://www.matterhorn.com.tr/uploads/slides/new/Ploughing-web.jpg" data-title="Land Leveler "  alt="Land Leveler  || Matterhorn" title="Land Leveler  || Matterhorn">
+                            <a href="/p/land-leveler.html"><i class="ion-arrow-right-c"></i>Land Leveler </a>
+                        </div>
+                                            <div class="item" data-image="https://www.matterhorn.com.tr/uploads/slides/new/Manure-web.jpg" data-title="Other"  alt="Other || Matterhorn" title="Other || Matterhorn">
+                            <a href="/p/other.html"><i class="ion-arrow-right-c"></i>Other</a>
+                        </div>
+                    					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- #slider -->
+
+	
+	<section id="mFull">
+		<div class="container">
+			<div class="header">
+				<a href="/"  alt="Matterhorn" title="Matterhorn"><img src="/assets/img/logo.png" ></a>
+				<a href="javascript:void(0)" class="closebtn">&times;</a>
+				
+			</div>
+
+			<div class="content">
+				
+				<ul>
+					<li><a href="/"  alt="Home || Matterhorn" title="Home || Matterhorn">Home</a></li>
+					<li class="levelOne subMenu"><a class="drop-down" href="#" >Corporate <span class="open"></span><span class="close"></span></a>
+					  <ul class="dropdownMenu"style="display: none;">
+					   <a href="/corporate.html"  alt="About Us || Matterhorn" title="About Us || Matterhorn">About Us</a>
+					   <a href="/human-resources.html" alt="Human Resources || Matterhorn" title="Human Resources || Matterhorn" >Human Resources</a>
+					   <a href="/g/galery/photo-gallery.html" alt="Photo Galery || Matterhorn" title="Photo Galery || Matterhorn" >Photo Gallery </a>
+					  </ul>
+					</li>
+					
+					<li><a href="/p/products.html"  alt="Products || Matterhorn" title="Products || Matterhorn">Products</a></li>
+	
+					<li><a href="https://www.matterhorn.com.tr/catalog/matterhorn-ecatalog.pdf"  alt="Online Catalog || Matterhorn" title="Online Catalog || Matterhorn">Online Catalog</a></li>
+					<li><a href="/h/news.html"  alt="News || Matterhorn" title="News || Matterhorn">News</a></li>
+					<li><a href="/contact.html"  alt="Contact || Matterhorn" title="Contact || Matterhorn">Contact</a></li>
+					<li class="levelOne subMenu"><a class="drop-down" href="#">Language<span class="open"></span><span class="close"></span></a>
+					  <ul class="dropdownMenu"style="display: none;">
+
+						<div id="google_translate_element2"></div>
+
+						<a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16"alt="English" /></a>
+						<a href="#" onclick="doGTranslate('en|ru');return false;"title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian" /></a>
+						<a href="https://es.matterhorn.com.tr/" title="Spanish" class="gflag nturl"style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16"alt="Spanish" /></a>
+						<a href="https://it.matterhorn.com.tr/" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Italian" /></a>
+						<a href="https://pt.matterhorn.com.tr/" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Portuguese" /></a>
+
+					  </ul>
+					</li>
+				  </ul>
+			</div>
+			<div class="info">
+				<div class="phone">
+					<i class="fa fa-phone"></i>
+					<a href="tel:03322340737" alt="Number || Matterhorn" title="Number || Matterhorn"><b>+90332 234 07 37</b></a>
+				</div>
+			  
+			</div>
+			<div class="social">
+
+					<a href="https://www.facebook.com/matterhorn.agromachines/"  class="insta"alt="Facebook || Matterhorn" title="Facebook || Matterhorn"> <i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.linkedin.com/in/matterhorn-agromachines-465492246/"  class="insta"alt="Linkedin || Matterhorn" title="Linkedin || Matterhorn"> <i class="fab fa-linkedin-in"></i></a>
+					<a href="https://www.instagram.com/matterhorn_agromachines/" class="insta" alt="İnstagram || Matterhorn" title="İnstagram || Matterhorn"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://join.skype.com/invite/HHExhD40NhrQ" class="insta" alt="Skype || Matterhorn" title="Skype || Matterhorn"> <i class="fab fa-skype"></i></a>
+					<a href="https://api.whatsapp.com/send?phone=905054014406" class="insta" alt="Whatsap || Matterhorn" title="Whatsap || Matterhorn"><i class="fa-brands fa-whatsapp"></i></a>
+			</div>
+			<div class="footerNav">
+				<div class="footerNav-social">
+					<span >© 2020 Matterhorn All Rights Reserved.</span>
+				</div>
+				<a href="" class="footerNav-inviva"><img src="/assets/img/footerInv.png" alt="İnviva Medya" title="İnviva Medya"></a>
+			</div>
+		</div>
+	</section>
+	 <div id="MproductsShortcut">
+        <div class="schortcutTop">
+            <div class="container">
+                <div class="topLeft">
+                <h1  alt="Products || Matterhorn" title="Products || Matterhorn">Products</h1>
+                </div>
+                <div class="topRight">
+                <a href="/p/allproducts.html"  alt="All Products || Matterhorn" title="All Products || Matterhorn"><p>All Products ><p></a>
+                </div>
+            </div>
+        </div>
+        <div class="schrotcutBottom">
+            <div class="container">	
+                <div class="shorcutBox">
+
+			                            <div class="item" data-image="/uploads/slides/new/yeni/mt-pulluk.jpg" data-title="Ploughing" alt="Ploughing || Matterhorn" title="Ploughing || Matterhorn">
+                            <a href="/p/ploughing.html"><i class="ion-arrow-right-c"></i>Ploughing</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-fertil.jpg" data-title="Fertilisation" alt="Fertilisation || Matterhorn" title="Fertilisation || Matterhorn">
+                            <a href="/p/fertilisation.html"><i class="ion-arrow-right-c"></i>Fertilisation</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/products/tillage/fc-600/AYSAN%20BACAKLI%20%C3%87APA%20(5).jpg" data-title="Tillage" alt="Tillage || Matterhorn" title="Tillage || Matterhorn">
+                            <a href="/p/tillage.html"><i class="ion-arrow-right-c"></i>Tillage</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-spray.jpg" data-title="Spraying" alt="Spraying || Matterhorn" title="Spraying || Matterhorn">
+                            <a href="/p/spraying.html"><i class="ion-arrow-right-c"></i>Spraying</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/sillage-web.jpg" data-title="Hay / Silage Making" alt="Hay / Silage Making || Matterhorn" title="Hay / Silage Making || Matterhorn">
+                            <a href="/p/hay-silage-making.html"><i class="ion-arrow-right-c"></i>Hay / Silage Making</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-bedding-feed.jpg" data-title="Bedding &amp; Feeding" alt="Bedding &amp; Feeding || Matterhorn" title="Bedding &amp; Feeding || Matterhorn">
+                            <a href="/p/bedding-feeding.html"><i class="ion-arrow-right-c"></i>Bedding &amp; Feeding</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/products/seeding/c-900/ana-3.jpg" data-title="Seeding" alt="Seeding || Matterhorn" title="Seeding || Matterhorn">
+                            <a href="/p/seeding.html"><i class="ion-arrow-right-c"></i>Seeding</a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/balers-web.jpg" data-title="Balers&amp;Wrappers " alt="Balers&amp;Wrappers  || Matterhorn" title="Balers&amp;Wrappers  || Matterhorn">
+                            <a href="/p/balers-wrappers.html"><i class="ion-arrow-right-c"></i>Balers&amp;Wrappers </a>
+                        </div>
+                                            <div class="item" data-image="/uploads/slides/new/yeni/mt-manure.jpg" data-title="Manure Spreading" alt="Manure Spreading || Matterhorn" title="Manure Spreading || Matterhorn">
+                            <a href="/p/manure-spreading.html"><i class="ion-arrow-right-c"></i>Manure Spreading</a>
+                        </div>
+                                            <div class="item" data-image="https://www.matterhorn.com.tr/uploads/slides/new/Ploughing-web.jpg" data-title="Land Leveler " alt="Land Leveler  || Matterhorn" title="Land Leveler  || Matterhorn">
+                            <a href="/p/land-leveler.html"><i class="ion-arrow-right-c"></i>Land Leveler </a>
+                        </div>
+                                            <div class="item" data-image="https://www.matterhorn.com.tr/uploads/slides/new/Manure-web.jpg" data-title="Other" alt="Other || Matterhorn" title="Other || Matterhorn">
+                            <a href="/p/other.html"><i class="ion-arrow-right-c"></i>Other</a>
+                        </div>
+                                    </div>
+            </div>
+        </div>	
+    </div>
+	<a href="https://api.whatsapp.com/send?phone=905054014406" target="_blank" class="whatsapFixed">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+	   
+    <div id="boxes">
+        <div class="center">
+            <ul class="boxes">
+                <li class="box" alt="About Us || Matterhorn" title="About Us || Matterhorn">
+                    <div class="title" >
+                        <h1>ABOUT US</h1>
+                        <a href="/corporate.html">Matterhorn For Sustainable Farming ></a>
+                    </div>
+                    <div class="content">
+                        <div class="image">
+                            <img src="/assets/img/corparate-logo.png" alt="About Us || Matterhorn" title="About Us || Matterhorn" >
+                        </div>
+                        <div class="text">
+                            <h2>Matterhorn</h2>
+                            <p>Matterhorn Agricultural Machinery is a Turkey based manufacturing company specialised in Farm Implements.
+Karalar family is a farmer origin family and engaged in farm machines manufacturing in 1974. ...</p>
+                        </div>
+                        <div class="more aa">
+                            <a href="/corporate.html"></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="pro box" alt="Products || Matterhorn" title="Products || Matterhorn">
+                    <div class="title">
+                        <h1>PRODUCTS</h1>
+                        <a href="/p/products.html">Please click for all products ></a>
+                    </div>
+                    <div class="content">
+                        <div class="image">
+                            <img src="/assets/img/products.png" >
+                        </div>
+                        <div class="list">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide"><a href="/p/ploughing.html" alt="Ploughing || Matterhorn" title="Ploughing || Matterhorn"><i class="ion-arrow-right-c"></i>Ploughing</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/fertilisation.html" alt="Fertilisation || Matterhorn" title="Fertilisation || Matterhorn"><i class="ion-arrow-right-c"></i>Fertilisation</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/tillage.html" alt="Tillage || Matterhorn" title="Tillage || Matterhorn"><i class="ion-arrow-right-c"></i>Tillage</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/spraying.html" alt="Spraying || Matterhorn" title="Spraying || Matterhorn"><i class="ion-arrow-right-c"></i>Spraying</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/hay-silage-making.html" alt="Hay / Silage Making || Matterhorn" title="Hay / Silage Making || Matterhorn"><i class="ion-arrow-right-c"></i>Hay / Silage Making</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/bedding-feeding.html" alt="Bedding &amp; Feeding || Matterhorn" title="Bedding &amp; Feeding || Matterhorn"><i class="ion-arrow-right-c"></i>Bedding &amp; Feeding</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/seeding.html" alt="Seeding || Matterhorn" title="Seeding || Matterhorn"><i class="ion-arrow-right-c"></i>Seeding</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/balers-wrappers.html" alt="Balers&amp;Wrappers  || Matterhorn" title="Balers&amp;Wrappers  || Matterhorn"><i class="ion-arrow-right-c"></i>Balers&amp;Wrappers </a></div>
+                                                                        <div class="swiper-slide"><a href="/p/manure-spreading.html" alt="Manure Spreading || Matterhorn" title="Manure Spreading || Matterhorn"><i class="ion-arrow-right-c"></i>Manure Spreading</a></div>
+                                                                        <div class="swiper-slide"><a href="/p/land-leveler.html" alt="Land Leveler  || Matterhorn" title="Land Leveler  || Matterhorn"><i class="ion-arrow-right-c"></i>Land Leveler </a></div>
+                                                                        <div class="swiper-slide"><a href="/p/other.html" alt="Other || Matterhorn" title="Other || Matterhorn"><i class="ion-arrow-right-c"></i>Other</a></div>
+                                                                    </div>
+                            </div>
+                            <div class="pagination">
+                                <div class="pag"></div>
+                            </div>
+                            <div class="arrow">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="news box" alt="News || Matterhorn" title="News || Matterhorn">
+                    <div class="title" >
+                        <h1>NEWS</h1>
+                        <a href="/h/news.html">Please click for all news ></a>
+                    </div>
+                    <div class="content">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide" alt="MOON LANDING MAIZE MAZE SHOWCASES PRECISION FARMING CAPABILITIES || Matterhorn" title="MOON LANDING MAIZE MAZE SHOWCASES PRECISION FARMING CAPABILITIES || Matterhorn">
+                                    <div class="image">
+                                            <a href="h/news/moon-landing-maize-maze-showcases-precision-farming-capabilities.html"> <img src="/uploads/news/33.gif" alt=""></a>
+                                    </div>
+                                    <div class="text">
+                                       <h2>MOON LANDING MAIZE MAZE SHOWCASES PRECISION FARMING CAPABILITIES</h2>
+                                        <p>A 10 acre maize maze at the National Forest Adventure Farm in Staffordshire, created using an </p>
+                                    </div>
+                                    <div class="more">
+                                        <a href="h/news/moon-landing-maize-maze-showcases-precision-farming-capabilities.html"></a>
+                                    </div>
+                                </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- #boxes -->
+
+    
+        
+    <div id="shortcuts">
+        <div class="center">
+            <ul class="shortcuts">
+                <li  alt="Price List || Matterhorn" title="Price List || Matterhorn"><a target="_blank" href="#" >
+                    <div class="ico">
+                        <i class="ion-folder"></i>
+                    </div>
+                    <div class="title">
+                        <h2>PRICE <strong>LIST</strong></h2>
+                    </div>
+                </a></li>
+                <li alt="Photo Galery || Matterhorn" title="Photo Galery || Matterhorn"><a href="/g/galery/photo-gallery.html">
+                    <div class="ico">
+                        <i class="ion-image"></i>
+                    </div>
+                    <div class="title">
+                        <h2>PHOTO <strong>GALLERY</strong></h2>
+                    </div>
+                </a></li>
+                <li alt="Quality Policy || Matterhorn" title="Quality Policy || Matterhorn"><a href="/quality-policy.html">
+                    <div class="ico">
+                        <i class="ion-filing"></i>
+                    </div>
+                    <div class="title">
+                        <h2>QUALITY <strong>POLICY</strong></h2>
+                    </div>
+                </a></li>
+                <li alt="Sales Locations || Matterhorn" title="Sales Locations || Matterhorn"><a href="/sales-locations.html">
+                    <div class="ico">
+                        <i class="ion-navigate"></i>
+                    </div>
+                    <div class="title">
+                        <h2>SALES<strong> LOCATIONS</strong></h2>
+                    </div>
+                </a></li>
+                <li alt="Choose Us || Matterhorn" title="Choose Us || Matterhorn"><a href="/references.html">
+                    <div class="ico">
+                        <i class="ion-person-stalker"></i>
+                    </div>
+                    <div class="title">
+                        <h2>CHOOSE <strong>US</strong></h2>
+                    </div>
+                </a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+	<div id="footer">
+
+		<div class="center">
+
+			<div class="footer">
+
+				<div class="copyright">
+					<p><strong>© 2020 Matterhorn </strong></p>
+					<p>All the rights of articles, pictures and news item in our site are reserved.</p>
+					<p>cannot be used without permission.</p>
+				</div>
+				<!-- .copyright -->
+
+				<div class="sosyalIletisim">
+
+					<div class="socialMedia">
+						<h3>Social Media:</h3>
+						<ul>
+						<a href="https://www.facebook.com/matterhorn.agromachines/"><li class="fb"></li></a>
+						<a href="https://www.linkedin.com/in/matterhorn-agromachines-465492246/"><li class="tw"></li></a>
+						<a href="https://www.instagram.com/matterhorn_agromachines/"><li class="gp"></li></a>
+						<a href="https://api.whatsapp.com/send?phone=905054014406"><li class="yt"></li></a>
+						<a href="https://join.skype.com/invite/HHExhD40NhrQ"><li class="ytt"></li></a>
+						</ul>
+					</div>
+					<!-- .socialMedia -->
+
+					<div class="phone">
+						<i class="ion-ios-telephone"></i>
+						<p>Contact Line:</p>
+						<a href="tel:03322340737" alt="Number || Matterhorn" title="Number || Matterhorn"><span>+0332<strong>234 0737</strong></span></a>
+					</div>
+					<!-- .phone -->
+				</div>
+
+				<div class="prativa">
+					<a href="https://prativa.com.tr/"></a>
+				</div>
+				<!-- .prativa -->
+			</div>
+
+		</div>
+	</div>
+	<!-- #footer -->
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/jquery.colorbox.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script>
+	<script src="https://kit.fontawesome.com/af6ba484c8.js" crossorigin="anonymous"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PTMPY450DG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PTMPY450DG');
+</script>
+	<script type="text/javascript">
+		new Swiper('.pro .swiper-container', {
+			pagination: '.pag',
+			slidesPerView: 3,
+			paginationClickable: true,
+			spaceBetween: 0,
+			direction: 'vertical',
+			centeredSlides: true,
+			loop:true,
+			nextButton: '.pro .swiper-button-next',
+			prevButton: '.pro .swiper-button-prev',
+		});
+
+		new Swiper('.news .swiper-container', {
+			pagination: '.pag',
+			paginationClickable: true,
+			spaceBetween: 0,
+			centeredSlides: true,
+			loop:true,
+			nextButton: '.news .swiper-button-next',
+			prevButton: '.news .swiper-button-prev',
+		});
+
+		new Swiper('#slider .swiper-container', {
+			spaceBetween: 0,
+			autoplay: 4000,
+			loop:true,
+			nextButton: '#slider .swiper-button-next',
+			prevButton: '#slider .swiper-button-prev'
+		});
+	</script>
+
+	<script>
+        $('#HproductsShortcut .item').hover(function() {
+            var image = $(this).data('image');
+            var title = $(this).data('title');
+            $('#slider img').attr('src', image);
+            $('#slider h2').text(title);
+        });
+</script>
+<script>
+    $('#MproductsShortcut .item').hover(function() {
+        var image = $(this).data('image');
+        var title = $(this).data('title');
+        $('#slider img').attr('src', image);
+        $('#slider h2').text(title);
+    });
+</script>
+
+<!-- GTranslate: https://gtranslate.io/ -->
+<script type="text/javascript">
+function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en',autoDisplay: false}, 'google_translate_element2');}
+</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
+/* ]]> */
+</script>
+ <script type="text/javascript">
+
+
+function IE(e) {
+     if (navigator.appName == "Microsoft Internet Explorer" && (event.button == "2" || event.button == "3")) {
+          alert('Unauthorized duplication, copying and use of published photographs and images, albeit unofficially, constitutes a crime according to the Law No. 5846 on Intellectual and Artistic Works.All rights reserved.MATTERHORN');
+          return false;
+     }
+}
+function NS(e) {
+     if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == "2" || e.which == "3") {
+               alert('Unauthorized duplication, copying and use of published photographs and images, albeit unofficially, constitutes a crime according to the Law No. 5846 on Intellectual and Artistic Works.All rights reserved.MATTERHORN');
+               return false;
+          }
+     }
+}
+document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Function("return false");
+
+</script> 
+	
+
+    
+</body>
+</html>
