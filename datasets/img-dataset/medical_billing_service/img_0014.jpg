@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bdtask | Best Software Development Company</title>
+    <meta
+      name="description"
+      content="Bdtask is a digital experience software development and IT company in Bangladesh. We provide custom mobile, web and desktop software development services all over the world."
+    />
+
+    <style type="text/css">@font-face {font-family:Poppins;font-style:normal;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/100/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/100/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin/100/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/200/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin/200/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/200/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin/300/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/300/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/300/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/400/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/400/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/500/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin/500/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/500/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin/600/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/600/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/600/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/700/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/700/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/800/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin/800/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/800/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/900/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin/900/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/900/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/100/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin/100/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/100/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/200/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin/200/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/200/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/300/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/300/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin/300/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/400/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin/400/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/400/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/500/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/500/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin/500/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/600/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin/600/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/600/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/700/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/700/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin/700/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin/800/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/800/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/800/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/900/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin/900/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/900/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}</style>
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="canonical" href="https://www.bdtask.com/" />
+    <meta
+      name="google-site-verification"
+      content="acwUugMnJnDo2MlMGz5wzzT2gWOTR4P68xbiEd5VzfI"
+    />
+    <meta name="yandex-verification" content="598e72dfa3eeba81" />
+    <meta name="msvalidate.01" content="93D27DC816FE2DFFE3C578BB39C17386" />
+    <meta name="yandex-verification" content="ccfc62f7aafcb633" />
+
+    <meta name="p:domain_verify" content="ca21c926ce0b41c3a0276e35b512c7ce" />
+    
+    <!-- Bootstrap CSS -->
+	<link href="asset/bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="asset/themify-icons/themify-icons.css" rel="stylesheet">
+	<link href="asset/css/style.css" rel="stylesheet">
+	
+	<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PRJCXQT');</script>
+    <!-- End Google Tag Manager -->
+
+    <style>
+
+      .error_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .error_wrapper .error {
+        font-size: 125px;
+        color: #37a000;
+        line-height: 1;
+        text-shadow: 1px 1px 1px #00d31a, 2px 2px 1px #147c0d,
+          3px 3px 1px #00593e, 4px 4px 1px #00593e, 5px 5px 1px #00593e,
+          6px 6px 1px #00593e, 7px 7px 1px #00593e, 8px 8px 1px #00593e,
+          25px 25px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .page {
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    @media(max-width: 767px){
+        .page{
+            font-size: 20px;
+        }
+    }
+
+      .back-home {
+            display: inline-block;
+            border: 2px solid #222;
+            color: #222;
+            text-transform: capitalize;
+            border-radius: 6px;
+            font-weight: 600;
+            padding: 10px 20px;
+            transition: all 0.2s linear;
+            font-size: 16px;
+        }
+
+      .back-home:hover {
+        background: #008b62;
+        color: #fff;
+        border-color: #008b62;
+      }
+    </style>
+  </head>
+
+  <body>
+      
+    <div class="header_area">
+        <!--<div class="align-items-center d-flex justify-content-center midSaleBg px-4 py-2 text-white">-->
+<!--	<span class="me-2">Mid-Year Software Sale 2023 | Save Upto 50% </span> <a href="https://bdtask.com/mid-year-sale.php" target="_blank" class="btn btn-sm btn-warning" style="white-space: nowrap;">Grab it now</a>-->
+<!--</div>-->
+
+<div class="align-items-center d-flex justify-content-center midSaleBg px-4 py-2 text-white">
+	<span class="me-2">Save Extra Cost & Increase Your ROI </span> <a href="https://www.bdtask.com/software-list.php" target="_blank" class="btn btn-sm btn-warning" style="white-space: nowrap;">Grab it now</a>
+</div>
+
+<!--<div class="align-items-center d-flex justify-content-center midSaleBg px-4 py-2 text-white">-->
+<!--	<span class="me-4">Black Friday & Cyber Monday Deals | Up To 80% Off </span> <a href="https://www.bdtask.com/cyber-week-sale.php" target="_blank" class="btn btn-sm btn-warning" style="white-space: nowrap;">Buy Now</a>-->
+<!--</div>-->		<div class="container-lg">
+			
+<!-- Start Navigation -->
+
+
+
+<header class="d-flex flex-wrap justify-content-center py-4 position-relative">
+	<a href="https://www.bdtask.com/" class="d-flex align-items-center mb-0 me-auto text-dark text-decoration-none">
+		<img id="headerImage" src="https://www.bdtask.com/asset/img/bdtask-logo.webp" alt="Bdtask Logo">
+	</a>
+
+	<ul class="nav nav-pills d-none d-lg-flex">
+		<li class="nav-item dropdown mega-dropdown" id="mega-dropdown-menu">
+			<button type="button" class="mega-dropdown-toggle nav-link position-relative" data-toggle="dropdown" aria-expanded="true">All Products</button>
+			<div class="dropdown-menu end-0 mega-dropdown-menu start-0 bg-white">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="nav nav-pills flex-column" id="pills-megaMenu" role="tablist">
+							<li class="nav-item" role="presentation">
+								<button class="nav-link active" id="pills-business-tab" data-bs-toggle="pill" data-bs-target="#pills-business" type="button" role="tab" aria-controls="pills-business" aria-selected="true">Business Solution</button>
+							</li>
+							<!--<li class="nav-item" role="presentation">-->
+							<!--	<button class="nav-link" id="pills-blockchain-tab" data-bs-toggle="pill" data-bs-target="#pills-blockchain" type="button" role="tab" aria-controls="pills-blockchain" aria-selected="false">Blockchain</button>-->
+							<!--</li>-->
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-hotel-restaurant-tab" data-bs-toggle="pill" data-bs-target="#pills-hotel-restaurant" type="button" role="tab" aria-controls="pills-hotel-restaurant" aria-selected="false">Hotel &amp; Restaurant</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-finetech-tab" data-bs-toggle="pill" data-bs-target="#pills-finetech" type="button" role="tab" aria-controls="pills-finetech" aria-selected="false">Finetech</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-ecommerce-tab" data-bs-toggle="pill" data-bs-target="#pills-ecommerce" type="button" role="tab" aria-controls="pills-ecommerce" aria-selected="false">Ecommerce</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false">Health</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-news-portal-tab" data-bs-toggle="pill" data-bs-target="#pills-news-portal" type="button" role="tab" aria-controls="pills-news-portal" aria-selected="false">News Portal</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-online-reservation-tab" data-bs-toggle="pill" data-bs-target="#pills-online-reservation" type="button" role="tab" aria-controls="pills-online-reservation" aria-selected="false">Online Reservation</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-template-tab" data-bs-toggle="pill" data-bs-target="#pills-template" type="button" role="tab" aria-controls="pills-template" aria-selected="false">Template</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-custom-tab" data-bs-toggle="pill" data-bs-target="#pills-custom" type="button" role="tab" aria-controls="pills-custom" aria-selected="false">Custom Service</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-others-tab" data-bs-toggle="pill" data-bs-target="#pills-others" type="button" role="tab" aria-controls="pills-others" aria-selected="false">Others</button>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-9">
+						<div class="tab-content" id="pills-megaMenuContent">
+							<div class="tab-pane fade show active" id="pills-business" role="tabpanel" aria-labelledby="pills-business-tab">
+								<div class="row g-3">
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/hrms-software.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Business-solution/HR-Manager.webp" class="product_icon" alt="HR Manager">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">HR Manager</p>
+												<p class="mb-0 fs-14">Human Resource Management</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/sales-erp-software.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Business-solution/Sales-ERP.webp" class="product_icon" alt="Sales ERP">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">ERP</p>
+												<p class="mb-0 fs-14">Business ERP Solution / Company Management</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://multistoreleasedemo.bdtask-demo.com/multistore_demo/" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Business-solution/M-store.webp" class="product_icon" alt="M store">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">M-Store</p>
+												<p class="mb-0 fs-14">Multi-Store Inventory Management</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/inventory-management-system.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Business-solution/Wholesale.webp" class="product_icon" alt="Wholesale">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Wholesale</p>
+												<p class="mb-0 fs-14">Inventory Management System</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/business-live-chat-software.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Business-solution/Innue.webp" class="product_icon" alt="Innue">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Innue</p>
+												<p class="mb-0 fs-14">Business Live Chatbot Software</p>
+											</div>
+										</a>
+									</div>
+								    <div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/construction-cost-estimating-software.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Business-solution/nirmako.png" class="product_icon" alt="Innue">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Nirmako</p>
+												<p class="mb-0 fs-14">Construction Cost Estimating Software</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<!--<div class="tab-pane fade" id="pills-blockchain" role="tabpanel" aria-labelledby="pills-blockchain-tab">-->
+
+							<!--	<div class="row g-3">-->
+							<!--	    <div class="col-lg-4">-->
+							<!--			<a href="https://www.bdtask.com/nft-marketplace-script.php" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">-->
+							<!--				<div class="d-block">-->
+							<!--					<img src="https://www.bdtask.com/asset/img/products/Blockchain/NFTBox.webp" class="product_icon" alt="NFTBox">-->
+							<!--				</div>-->
+							<!--				<div class="d-block ms-3">-->
+							<!--					<p class="mb-2 fw_500 fs-16 lh-sm">NFTBOX</p>-->
+							<!--					<p class="mb-0 fs-13">NFT Marketplace Script</p>-->
+							<!--				</div>-->
+							<!--			</a>-->
+							<!--		</div>-->
+							<!--		<div class="col-lg-4">-->
+							<!--			<a href="https://www.bdtask.com/advanced-cryptocurrency-trading-software.php" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">-->
+							<!--				<div class="d-block">-->
+							<!--					<img src="https://www.bdtask.com/asset/img/products/Blockchain/Tradebox.webp" class="product_icon" alt="Tradebox">-->
+							<!--				</div>-->
+							<!--				<div class="d-block ms-3">-->
+							<!--					<p class="mb-2 fw_500 fs-16 lh-sm">Tradebox</p>-->
+							<!--					<p class="mb-0 fs-13">CryptoCurrency Buy Sell and Trading Software</p>-->
+							<!--				</div>-->
+							<!--			</a>-->
+							<!--		</div>-->
+							<!--		<div class="col-lg-4">-->
+							<!--			<a href="https://www.bdtask.com/cryptocurrency-investment-software.php" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">-->
+							<!--				<div class="d-block">-->
+							<!--					<img src="https://www.bdtask.com/asset/img/products/Blockchain/Nisshue.webp" class="product_icon" alt="Nisshue">-->
+							<!--				</div>-->
+							<!--				<div class="d-block ms-3">-->
+							<!--					<p class="mb-2 fw_500 fs-16 lh-sm">Nishue</p>-->
+							<!--					<p class="mb-0 fs-13">CryptoCurrency Buy Sell with MLM System</p>-->
+							<!--				</div>-->
+							<!--			</a>-->
+							<!--		</div>-->
+							<!--		<div class="col-lg-4">-->
+							<!--			<a href="https://www.bdtask.com/ico-script-for-token-launching-software.php" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">-->
+							<!--				<div class="d-block">-->
+							<!--					<img src="https://www.bdtask.com/asset/img/products/Blockchain/ICO-Wallet.webp" class="product_icon" alt="ICO-Wallet">-->
+							<!--				</div>-->
+							<!--				<div class="d-block ms-3">-->
+							<!--					<p class="mb-2 fw_500 fs-16 lh-sm">ICO Wallet</p>-->
+							<!--					<p class="mb-0 fs-13">ICO Software and Token Launching Solution</p>-->
+							<!--				</div>-->
+							<!--			</a>-->
+							<!--		</div>-->
+							<!--		<div class="col-lg-4">-->
+							<!--			<a href="https://www.bdtask.com/best-security-token-offering-sto-platform.php" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">-->
+							<!--				<div class="d-block">-->
+							<!--					<img src="https://www.bdtask.com/asset/img/products/Blockchain/Tokenbox.webp" class="product_icon" alt="Tokenbox">-->
+							<!--				</div>-->
+							<!--				<div class="d-block ms-3">-->
+							<!--					<p class="mb-2 fw_500 fs-16 lh-sm">Tokenbox</p>-->
+							<!--					<p class="mb-0 fs-13">Best Security Token Offering Platform (STO)</p>-->
+							<!--				</div>-->
+							<!--			</a>-->
+							<!--		</div>-->
+							<!--	</div>-->
+							<!--</div>-->
+							
+							<div class="tab-pane fade" id="pills-finetech" role="tabpanel" aria-labelledby="pills-finetech-tab">
+								<div class="row g-3">
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/banking-solutions.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Custom-Service/Banking-Solution.webp" class="product_icon" alt="Banking Solution">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Banking</p>
+												<p class="mb-0 fs-14">Banking Solutoins</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://www.bdtask.com/trading-oms.php" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Finetech/skytrade-icon.png" class="product_icon rounded-3" alt="skytrade">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Skytrade</p>
+												<p class="mb-0 fs-13">Stock Brokerage House Management Software</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-ecommerce" role="tabpanel" aria-labelledby="pills-ecommerce-tab">
+								<div class="row g-3">
+									<div class="col-lg-4">
+										<a href="https://www.bdtask.com/multi-store-ecommerce-shopping-cart-software/" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Ecommerce/Isshue.webp" class="product_icon" alt="Isshue">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Isshue</p>
+												<p class="mb-0 fs-13">Multi Store eCommerce Shopping Cart Solution</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://www.bdtask.com/multivendor-marketplace-platform.php" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Ecommerce/Storefex.webp" class="product_icon" alt="Storefex">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Storefex</p>
+												<p class="mb-0 fs-13">Multi Vendor Marketplace Platform</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+								<div class="row g-3">
+									<div class="col-lg-4">
+										<a href="https://codecanyon.net/item/quizguru-online-exam-system-php-script/19556346" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Education/Quizguru.webp" class="product_icon" alt="Quizguru">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Quizguru</p>
+												<p class="mb-0 fs-13">Online Exam System PHP Script</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://www.bdtask.com/learning-management-system.php" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Education/Edutask.webp" class="product_icon" alt="Edutask">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Edutask</p>
+												<p class="mb-0 fs-13">Online Course Selling Marketplace</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-health" role="tabpanel" aria-labelledby="pills-health-tab">
+								<div class="row g-3">
+									<div class="col-lg-4">
+										<a href="https://www.bdtask.com/hospital-management-software.php" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Health/Hospital-Automanager.webp" class="product_icon" alt="Hospital Automanager">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Hospital Automanager</p>
+												<p class="mb-0 fs-13">Advance Hospital Management System Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://www.bdtask.com/hospital-management-system.php" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Health/Hospital.webp" class="product_icon" alt="Hospital">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Hospital</p>
+												<p class="mb-0 fs-13">Hospital Management System</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://www.bdtask.com/pharmacy-management-system.php" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Health/Pharmacare.webp" class="product_icon" alt="Pharmacare">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Pharmacare</p>
+												<p class="mb-0 fs-13">Pharmacy Management System</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://multihospitalnew.bdtask.com/" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Health/Multi-Hospital.webp" class="product_icon" alt="Multi Hospital">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Multi-Hospital</p>
+												<p class="mb-0 fs-13">Best Hospital Management System (SaaS App)</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://doctorssnew.bdtask.com/login" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Health/Doctorss.webp" class="product_icon" alt="Doctorss">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Doctorss</p>
+												<p class="mb-0 fs-13">Doctor Appointment and Prescription System</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="https://gprescription.bdtask.com/" target="_blank" class="align-items-start bg_grad2 d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Health/G-Prescription.webp" class="product_icon" alt="G-Prescription">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">G-Prescription</p>
+												<p class="mb-0 fs-13">Gynaecology &amp; OBS Consultation Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-4">
+										<a href="" target="_blank" class="align-items-start bg_grad d-flex p-3 product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Health/Clinic-365.webp" class="product_icon" alt="Clinic 365">
+											</div>
+											<div class="d-block ms-3">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Clinic365</p>
+												<p class="mb-0 fs-13">Clinic Management System</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="pills-news-portal" role="tabpanel" aria-labelledby="pills-news-portal-tab">
+								<div class="row g-3">												
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/php-newspaper-script.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/News-Portal/News-365.webp" class="product_icon" alt="News 365">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">News365</p>
+												<p class="mb-0 fs-14">PHP Newspaper Script Magazine Blog with Video Newspaper</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://themeforest.net/item/osru-news-blog-magazine-html-template/21399809" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/News-Portal/Osru.webp" class="product_icon" alt="Osru">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Osru</p>
+												<p class="mb-0 fs-14">Auto News Post and Manual PHP Newspaper Script | Auto Facebook Post</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-online-reservation" role="tabpanel" aria-labelledby="pills-online-reservation-tab">
+								<div class="row g-3">												
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/vehicle-management-system.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Online-Reservation/VMS.webp" class="product_icon" alt="VMS">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">VMS</p>
+												<p class="mb-0 fs-14">Vehicle Management System</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/garage-management-software.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Online-Reservation/GMS.webp" class="product_icon" alt="GMS">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">GMS</p>
+												<p class="mb-0 fs-14">Garage Management Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/bus-reservation-system.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Online-Reservation/Bus-365.webp" class="product_icon" alt="Bus 365">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Bus365</p>
+												<p class="mb-0 fs-14">Bus Reservation System</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-hotel-restaurant" role="tabpanel" aria-labelledby="pills-hotel-restaurant-tab">
+								<div class="row g-3">												
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/restaurant-management-system.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Hotel-Restaurant/Bhojon.webp" class="product_icon" alt="Bhojon">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Bhojon</p>
+												<p class="mb-0 fs-14">Restaurant Management Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/cloud-kitchen-software.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Hotel-Restaurant/Cloud-KItchen.webp" class="product_icon" alt="Cloud KItchen">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Cloud Kitchen</p>
+												<p class="mb-0 fs-14">Kitchen Management Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/hotel-management-system.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Hotel-Restaurant/Xain.webp" class="product_icon" alt="Xain">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Xain Hotel</p>
+												<p class="mb-0 fs-14">Hotel Management System &amp; Booking Software</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-template" role="tabpanel" aria-labelledby="pills-template-tab">
+								<div class="row g-3">												
+									<div class="col-xl-4 col-md-6">
+										<a href="https://thememinister.com/crm/" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/CRM-Admin.webp" class="product_icon" alt="CRM Admin">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">CRM Admin</p>
+												<p class="mb-0 fs-14">Bootstrap CRM Admin Template Dashboard</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://thememinister.com/health/" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/Healtha-Admin.webp" class="product_icon" alt="Healtha Admin">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Health Admin</p>
+												<p class="mb-0 fs-14">Bootstrap Health Admin Template Dashboard</p>
+											</div>
+										</a>
+									</div>											
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/travel-wordpress-theme/index.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/HMVC-Admin.webp" class="product_icon" alt="HMVC Admin">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">HMVC Admin</p>
+												<p class="mb-0 fs-14">Dynamic Admin Panel</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://thememinister.com/adminpage/" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/Admin-Page.webp" class="product_icon" alt="Admin Page">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Adminpage</p>
+												<p class="mb-0 fs-14">Responsive Bootstrap Admin Template</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://thememinister.com/materialdesign/" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/Material-UI.webp" class="product_icon" alt="Material-UI">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Material UI</p>
+												<p class="mb-0 fs-14">Material Design Admin Template Dashboard</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://travel.bdtask.com/travel_demo/" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/Travel-Tour.webp" class="product_icon" alt="Travel Tour">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Travel Tour</p>
+												<p class="mb-0 fs-14">Tour Travel Hotel Booking HTML Template</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://osruhtml.bdtask.com/osru_demo/index.html" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/Osru.webp" class="product_icon" alt="Osru">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Osru</p>
+												<p class="mb-0 fs-14">News, Blog &amp; Magazine HTML Template</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://multipurpose.bdtask.com/" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Template/Arshi.webp" class="product_icon" alt="Arshi">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Arshi</p>
+												<p class="mb-0 fs-14">Multipurpose All in one HTML Template</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-custom" role="tabpanel" aria-labelledby="pills-custom-tab">
+								<div class="row g-3">
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/curtain-management-software.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Custom-Service/Curtain.webp" class="product_icon" alt="Curtain">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Curtain</p>
+												<p class="mb-0 fs-14">Curtain Management</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/agro-erp-software.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Custom-Service/Agro-ERP.webp" class="product_icon" alt="Agro ERP">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Agro ERP</p>
+												<p class="mb-0 fs-14">Agro ERP Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/cement-erp-software.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Custom-Service/Cement-ERP.webp" class="product_icon" alt="Cement ERP">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Cement ERP</p>
+												<p class="mb-0 fs-14">Cement ERP Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/jewelry-store-management-software.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Custom-Service/Jewlry.webp" class="product_icon" alt="Jewlry">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Jewelry</p>
+												<p class="mb-0 fs-14">Jewelry Store Management Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/field-force-management-software.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Custom-Service/Field-Force.webp" class="product_icon" alt="Field Force">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Field Force</p>
+												<p class="mb-0 fs-14">Field Force Management Software</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/flight-booking-software.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Custom-Service/Flight-Booking.webp" class="product_icon" alt="Flight Booking">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Flight Booking</p>
+												<p class="mb-0 fs-14">Flight Booking Management Software</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="pills-others" role="tabpanel" aria-labelledby="pills-others-tab">
+								<div class="row g-3">												
+									<div class="col-xl-4 col-md-6">
+										<a href="https://news365v3.bdtask.com/Osru/" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Others/Booking-365.webp" class="product_icon" alt="Booking 365">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Booking365</p>
+												<p class="mb-0 fs-14">Responsive WordPress Appointment Plugin</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://wordpressall.thememinister.com/wpplugins/multi-appointment/" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Others/Multi-Scheduler.webp" class="product_icon" alt="Multi Scheduler">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Multi Scheduler</p>
+												<p class="mb-0 fs-14">Appointment Booking Multi Booking Plugin</p>
+											</div>
+										</a>
+									</div>											
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/travel-wordpress-theme/index.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Others/Travelz.webp" class="product_icon" alt="Travelz">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Travelz</p>
+												<p class="mb-0 fs-14">Travel WordPress Theme for Tour Agency</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/newspaper-theme/index.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Others/News365.webp" class="product_icon" alt="News365">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">News365</p>
+												<p class="mb-0 fs-14">WordPress Newspaper Theme for Magazine / Blog</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-xl-4 col-md-6">
+										<a href="https://www.bdtask.com/newspaper-theme/index.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+											<div class="d-block">
+												<img src="https://www.bdtask.com/asset/img/products/Others/Resuma.webp" class="product_icon" alt="Resuma">
+											</div>
+											<div class="d-block ms-4">
+												<p class="mb-2 fw_500 fs-16 lh-sm">Resuma</p>
+												<p class="mb-0 fs-14">Resume Portfolio Responsive WordPress Theme</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-block position-absolute all_wrapper">
+					<a href="https://www.bdtask.com/software-list.php" target="_blank" class="bg_grad bg_grad1 d-block px-4 py-3 text-decoration-none btn_all fs-14">See All Products</a>
+				</div>
+			</div>
+		</li>
+		<li class="nav-item dropdown mobile_dropdown">
+			<button class="btn nav-link dropdown-toggle" type="button" id="mobileApps" data-bs-toggle="dropdown" aria-expanded="false">
+				Mobile Apps
+			</button>
+			<div class="bg-white border-0 dropdown-menu dropdown-menu-end p-3 shadow mt-3" aria-labelledby="mobileApps">
+				<div class="row g-3">
+					<div class="col-lg-6">
+    					<a href="https://www.bdtask.com/isshue-ecommerce-android-app.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+    						<div class="d-block">
+    							<img src="https://www.bdtask.com/asset/img/products/Ecommerce/Isshue.webp" class="product_icon" alt="Isshue">
+    						</div>
+    						<div class="d-block ms-4">
+    							<p class="mb-2 fw_500 fs-16 lh-sm">Isshue Apps</p>
+    							<p class="mb-0 fs-14">Ecommerce Android Apps</p>
+    						</div>
+    					</a>
+				    </div>
+					<div class="col-lg-6">
+    					<a href="https://www.bdtask.com/restaurant-management-apps.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+    						<div class="d-block">
+    							<img src="asset/img/products/Hotel-Restaurant/Bhojon.webp" class="product_icon" alt="Bhojon">
+    						</div>
+    						<div class="d-block ms-4">
+    							<p class="mb-2 fw_500 fs-16 lh-sm">Bhojon Android Apps</p>
+    							<p class="mb-0 fs-14">Restaurant Management Apps</p>
+    						</div>
+    					</a>
+    				</div>
+					<div class="col-lg-6">
+    					<a href="https://www.bdtask.com/newspaper-app.php" target="_blank" class="bg_grad2 p-3 align-items-start d-flex product_link h-100">
+    						<div class="d-block">
+    							<img src="asset/img/products/Others/News365.webp" class="product_icon" alt="News365">
+    						</div>
+    						<div class="d-block ms-4">
+    							<p class="mb-2 fw_500 fs-16 lh-sm">Newspaper Apps</p>
+    							<p class="mb-0 fs-14">Newspaper Management</p>
+    						</div>
+    					</a>
+    				</div>
+					<div class="col-lg-6">
+    					<a href="https://www.bdtask.com/sales-erp-app.php" target="_blank" class="bg_grad p-3 align-items-start d-flex product_link h-100">
+    						<div class="d-block">
+    							<img src="asset/img/products/m-store.png" class="product_icon" alt="m store">
+    						</div>
+    						<div class="d-block ms-4">
+    							<p class="mb-2 fw_500 fs-16 lh-sm">Mpos Apps</p>
+    							<p class="mb-0 fs-14">Sales ERP Apps</p>
+    						</div>
+    					</a>
+    				</div>
+    			</div>
+			</div>
+		</li>
+		<li class="nav-item"><a href="https://www.bdtask.com/service.php" class="nav-link" target="_blank">Service</a></li>
+		<li class="nav-item"><a href="https://www.bdtask.com/blog/" class="nav-link" target="_blank">Blog</a></li>
+		<li class="nav-item"><a href="https://www.bdtask.com/contact.php" class="nav-link" target="_blank">Contact Us</a></li>
+	</ul>
+
+	<div class="d-block d-lg-none menu_call">
+		<div class="menu_tray ms-auto"></div>
+		<div class="menu_tray"></div>
+		<div class="menu_tray ms-auto"></div>
+	</div>
+	
+    
+</header>
+
+
+
+
+    
+    		</div>
+	</div>
+
+	
+<div class="bg-white bottom-0 flex-shrink-0 px-4 position-fixed top-0 sideNav">
+	<div class="d-flex justify-content-end w-100">
+		<button class="btn close_icon fs-5 mb-3 px-0">&#10005;</button>
+	</div>
+	<ul class="list-unstyled ps-0 mobileNav">
+		<li>
+			<button class="btn btn-toggle align-items-center" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+				All products <i class="ti-angle-up transition"></i>
+			</button>
+			<div class="collapse show" id="home-collapse" style="">
+				<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ms-3">
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#mbusiness-collapse" aria-expanded="true">
+							Business Solution <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="mbusiness-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/sales-erp-software.php" class="" target="_blank">ERP</a></li>
+								<li><a href="https://www.bdtask.com/hrms-software.php" class="" target="_blank">HR Manager</a></li>
+								<li><a href="https://multistorelease.bdtask.com/multistore_demo/login" class="" target="_blank">M-Store</a></li>
+								<li><a href="https://www.bdtask.com/inventory-management-system.php" class="" target="_blank">Wholesale</a></li>
+								<li><a href="https://www.bdtask.com/business-live-chat-software.php" class="" target="_blank">Chatbot</a></li>
+							</ul>
+						</div>
+					</li>
+					<!--<li>-->
+					<!--	<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#mblock-chain-collapse" aria-expanded="true">-->
+					<!--		Blockchain <i class="ti-angle-up transition"></i>-->
+					<!--	</button>-->
+					<!--	<div class="collapse" id="mblock-chain-collapse" style="">-->
+					<!--		<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">-->
+					<!--			<li><a href="https://www.bdtask.com/advanced-cryptocurrency-trading-software.php" class="" target="_blank">Tradebox</a></li>-->
+					<!--			<li><a href="https://www.bdtask.com/cryptocurrency-investment-software.php" class="" target="_blank">Nishue</a></li>-->
+					<!--			<li><a href="https://www.bdtask.com/ico-script-for-token-launching-software.php" class="" target="_blank">ICO-Wallet</a></li>-->
+					<!--			<li><a href="https://www.bdtask.com/best-security-token-offering-sto-platform.php" class="" target="_blank">Tokenbox</a></li>-->
+					<!--			<li><a href="https://www.bdtask.com/nft-marketplace-script.php" class="" target="_blank">NFTbox</a></li>-->
+					<!--		</ul>-->
+					<!--	</div>-->
+					<!--</li>-->
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#mecommerce-collapse" aria-expanded="true">
+							Ecommerce <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="mecommerce-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/multi-store-ecommerce-shopping-cart-software/" class="" target="_blank">Isshue</a></li>
+								<li><a href="https://www.bdtask.com/multivendor-marketplace-platform.php" class="" target="_blank">Storefex</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#mhotel-collapse" aria-expanded="true">
+							Hotel &amp; Restaurant <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="mhotel-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/restaurant-management-system.php" class="" target="_blank">Bhojon</a></li>
+								<li><a href="https://www.bdtask.com/cloud-kitchen.php" class="" target="_blank">Cloud Kitchen</a></li>
+								<li><a href="https://www.bdtask.com/hotel-management-system.php" class="" target="_blank">Xain Hotel</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#monline-reservation-collapse" aria-expanded="true">
+							Online Reservation <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="monline-reservation-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/vehicle-management-system.php" class="" target="_blank">VMS</a></li>
+								<li><a href="https://www.bdtask.com/garage-management-software.php" class="" target="_blank">GMS</a></li>
+								<li><a href="https://www.bdtask.com/flight-booking-software.php" class="" target="_blank">Flight Booking</a></li>
+								<li><a href="https://www.bdtask.com/bus-reservation-system.php" class="" target="_blank">Bus365 Apps</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#meducation-collapse" aria-expanded="true">
+							Education <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="meducation-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/learning-management-system.php" class="" target="_blank">Edutask</a></li>
+								<li><a href="https://quiz.bdtask.com/demo/home" class="" target="_blank">Quizguru</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#mhealth-collapse" aria-expanded="true">
+							Health <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="mhealth-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/hospital-management-software.php" class="" target="_blank">Hospital Automanager</a></li>
+								<li><a href="https://www.bdtask.com/hospital-management-system.php" class="" target="_blank">Hospital</a></li>
+								<li><a href="https://multihospitalnew.bdtask.com/" class="" target="_blank">Multi Hospital</a></li>
+								<li><a href="https://www.bdtask.com/pharmacy-management-system.php" class="" target="_blank">Pharmacare</a></li>
+								<li><a href="https://doctorssnew.bdtask.com/login" class="" target="_blank">Doctorss</a></li>
+								<li><a href="https://gprescription.bdtask.com/" class="" target="_blank">G-Prescription</a></li>
+								<li><a href="" class="" target="_blank">Clinic365</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#news-collapse" aria-expanded="true">
+							News Portal <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="news-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/newspaper-script/index.php" class="" target="_blank">News365</a></li>
+								<li><a href="" class="" target="_blank">Osru</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#mtheme-collapse" aria-expanded="true">
+							Theme <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="mtheme-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+								<li><a href="https://www.bdtask.com/travel-wordpress-theme/index.php" class="" target="_blank">Travelz</a></li>
+								<li><a href="https://www.bdtask.com/newspaper-theme/index.php" class="" target="_blank">News365</a></li>
+								<li><a href="https://wordpressall.thememinister.com/wptheme/resuma_demo/ResumePreview/preview.html" class="" target="_blank">Resuma</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-expanded="true">
+							Custom Service <i class="ti-angle-up transition"></i>
+						</button>
+						<div class="collapse" id="custom-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-3">
+							    <li><a href="https://www.bdtask.com/banking-solutions.php" class="" target="_blank">Banking</a></li>
+								<li><a href="https://www.bdtask.com/curtain-management-software.php" class="" target="_blank">Curtain</a></li>
+								<li><a href="https://www.bdtask.com/agro-erp-software.php" class="" target="_blank">Agro ERP</a></li>
+								<li><a href="https://www.bdtask.com/jewelry-store-management-software.php" class="" target="_blank">Jewelry</a></li>
+								<li><a href="https://www.bdtask.com/field-force-management-software.php" class="" target="_blank">Field Force</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</li>
+		<li class="">
+			<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+				Mobile Apps <i class="ti-angle-up transition"></i>
+			</button>
+			<div class="collapse" id="dashboard-collapse" style="">
+				<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ms-3">
+					<li><a class="" target="_blank" href="https://www.bdtask.com/isshue-ecommerce-android-app.php">Ecommerce Android Apps</a></li>
+					<li><a class="" target="_blank" href="https://www.bdtask.com/restaurant-management-apps.php">Bhojon Android Apps</a></li>
+					<li><a class="" target="_blank" href="https://www.bdtask.com/newspaper-app.php">Newspaper Apps</a></li>
+					<li><a class="" target="_blank" href="https://www.bdtask.com/sales-erp-app.php">Mpos - Sales ERP Apps</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="">
+			<a href="https://www.bdtask.com/service.php" class="" target="_blank">Services</a>
+		</li>
+		<li class="">
+			<a href="https://www.bdtask.com/blog/" class="" target="_blank">Blog</a>
+		</li>
+		<li class="">
+			<a href="https://www.bdtask.com/blog/" class="" target="_blank">Contact Us</a>
+		</li>
+	</ul>
+</div>
+      
+    <div class="error_wrapper py-5">
+        <img src="asset/img/404.png" class="img-fluid">
+        <div class="page">Sorry! Page not found</div>
+        <a class="back-home" href="https://www.bdtask.com/">Go to Homepage</a>
+    </div>
+    
+    
+    
+    
+<footer class="position-relative">
+	<div class="footer_shape">
+		<img src="https://www.bdtask.com/asset/img/footer-bg.webp" class="w-100" alt="">
+	</div>
+	<div class="footer_wrapper">
+		<div class="container-md">
+			<div class="row pb-5 pt_80 bottom_line position-relative">
+				<div class="col-xl-4 footer-column">
+					<ul class="nav flex-column mb-5 mb-xl-0">
+						<li class="nav-item mb-4">
+							<a class="" href="https://www.bdtask.com/">
+								<img src="https://www.bdtask.com/asset/img/bdtask-logo-white.webp" alt="Bdtask Logo White">
+							</a>
+						</li>
+						<li class="nav-item">
+						    <p class="footer-text w-75">Best Software Development Company To Architect The Dream For Next Generation.</p>
+						</li>
+						<li class="nav-item">
+							<div class="align-items-center d-flex">
+								<div class="me-4">
+									<div class="fs-4 fw-light mb-1 text-white">11,000+</div>
+									<p class="footer-text mb-0">items sold</p>
+								</div>
+								<div class="">
+									<div class="fs-4 fw-light mb-1 text-white">40+</div>
+									<p class="footer-text mb-0">Products</p>
+								</div>
+							</div>
+						</li>
+						<li class="">
+							<ul class="d-flex list-unstyled mt-4">
+								<li><a class="align-items-center d-flex justify-content-center me-2 text-decoration-none text-white social_icon" href="https://www.facebook.com/bdtaskteam/" rel="nofollow" title="Facebook" target="_blank"><i class="ti-facebook"></i></a></li>
+								<li><a class="align-items-center d-flex justify-content-center me-2 text-decoration-none text-white social_icon" href="https://www.pinterest.com/bdtask/" rel="nofollow" title="Pinterest" target="_blank"><i class="ti-pinterest"></i></a></li>
+								<li><a class="align-items-center d-flex justify-content-center me-2 text-decoration-none text-white social_icon" href="https://www.linkedin.com/company/bdtask/" rel="nofollow" title="Linkedin" target="_blank"><i class="ti-linkedin"></i></a></li>
+								<li><a class="align-items-center d-flex justify-content-center me-2 text-decoration-none text-white social_icon" href="https://twitter.com/bdtask" rel="nofollow" title="Twitter" target="_blank"><i class="ti-twitter"></i></a></li>
+								<li><a class="align-items-center d-flex justify-content-center me-2 text-decoration-none text-white social_icon" href="https://www.youtube.com/@bdtask" rel="nofollow" title="Twitter" target="_blank">
+								    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="19" height="19" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
+								</a></li>
+							</ul>
+                        </li>
+					</ul>
+				</div>
+				<div class="col-xl-3 col-md-6 footer-column">
+					<ul class="nav flex-column">
+						<li class="nav-item mb-4">
+							<span class="d-block footer-title fs-17 pb-2 text-white">Address</span>
+						</li>
+						<li class="nav-item">
+							<p class="footer-text fw-bold mb-2">Bangladesh Office</p>
+						</li>
+						<li class="nav-item">
+							<p class="footer-text mb-4">B-25, Mannan Plaza, 4th Floor Khilkhet,<br> Dhaka-1229, Bangladesh</p>
+						</li>
+						<li class="nav-item">
+							<p class="footer-text fw-bold mb-2">UAE Office</p>
+						</li>
+						<li class="nav-item">
+							<p class="footer-text mb-4">Silver Tower (20th floor) - Marasi Drive - Business Bay - Dubai - United Arab Emirates</p>
+						</li>
+						<li class="nav-item mb-2">
+							<p class="footer-text mb-0">Email:</p>
+						</li>	
+						<li class="nav-item">
+							<p class="footer-text mb-0"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="89ebfcfae0e7ecfafac9ebedfde8fae2a7eae6e4">[email&#160;protected]</a> <br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7c15121a133c1e18081d0f17521f1311">[email&#160;protected]</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-4 offset-xl-1 col-md-6 footer-column">
+					<ul class="nav flex-column">
+						<li class="nav-item mb-4">
+							<span class="d-block footer-title fs-17 pb-2 text-white">Phone</span>
+						</li>
+					</ul>
+					<div class="row">
+						<div class="col-6">
+							<ul class="nav">
+								<li class="nav-item">
+									<p class="footer-text mb-2">Service:</p>
+									<p class="footer-text">+880-183-070-1422 <br>+880-185-767-5727 <br>+880-181-758-4639</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-6">
+							<ul class="nav">
+								<li class="nav-item">
+									<p class="footer-text mb-2">Office Reception:</p>
+									<p class="footer-text">+880-258970255</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row py-5 d-none d-xl-flex">
+				<div class="col-md-3">
+					<ul class="nav flex-column">
+						<li class="nav-item mb-4">
+							<span class="footer-title text-white">Disclaimer</span>
+						</li>
+						<li>
+							<p class="footer-text">© <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+                      document.write(new Date().getFullYear());
+                    </script> bdtask. All Rights Reserved.</p>
+							<p class="footer-text">Here all software, apps, themes, plugins, are our own property. Therefore copying or reselling is strictly prohibited.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-8 offset-lg-1">
+					<div class="row">
+						<div class="col-md-4">
+							<ul class="nav flex-column">
+								<li class="nav-item mb-4">
+									<span class="footer-title text-white">Useful Links</span>
+								</li>
+								<li class="nav-item">
+									<a href="https://www.bdtask.com/about.php" class="text-decoration-none footer-text lh-30"><span class="arrow me-2">→</span>About Us</a>
+								</li>
+								<li class="nav-item"><a href="https://www.bdtask.com/blog/" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Blog</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/career.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Career - We Are Hiring</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/terms.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Terms of Use</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/terms-bn.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Terms of Use (বাংলা)</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/yourprivacy.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Privacy Policy</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/copyright.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Copyright</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/client-list.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Client List</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/affiliate-disclosure.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Affiliate Disclosure</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul class="nav flex-column">
+								<li class="nav-item mb-4">
+									<span class="footer-title text-white">Services</span>
+								</li>
+								<li class="nav-item"><a href="https://www.bdtask.com/custom-software-development-service.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Custom Software</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/graphic-design-services.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Graphics Design</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/clipping-path-service-provider.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Clipping Path</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/bdtask-academy/" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Bdtask Academy</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/cyber-security-service.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Cyber Security</a></li>
+								<li class="nav-item"><a href="https://www.bdtask.com/video-production-service.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Video Production</a></li>
+						    	<li class="nav-item"><a href="https://www.bdtask.com/digital-marketing-agency-in-dubai.php" class="text-decoration-none footer-text lh-30" target="_blank"><span class="arrow me-2">→</span>Digital Marketing</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul class="nav flex-column">
+								<li class="nav-item mb-4">
+									<span class="footer-title text-white">Support</span>
+								</li>
+								<li class="nav-item">
+									<a href="https://www.bdtask.com/contact.php" class="text-decoration-none footer-text lh-30"><span class="arrow me-2">→</span>Contact Us</a>
+								</li>
+								<li class="nav-item">
+									<a href="https://www.bdtask.com/support.php" class="text-decoration-none footer-text lh-30"><span class="arrow me-2">→</span>Item Support</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="footer_bottom py-3">
+	<div class="container">
+		<div class="align-items-center justify-content-between row">
+			<div class="col-lg-6">
+				<div class="align-items-center d-flex flex-wrap justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+					<div class="mx-2">
+					    <img src="asset/img/certificate/iso.png" alt="ISO Certificate">
+					</div>
+					<a href="https://basis.org.bd/company-profile/17-04-882" rel="nofollow" class="mx-2" target="_blank">
+						<img src="asset/img/certificate/basis.png" alt="Basis Certificate">
+					</a>
+					<div>
+						<img src="asset/img/certificate/bacco-white.png" class="mx-2" alt="BACCO Certificate">
+					</div>
+					<a href="https://codecanyon.net/user/bdtask/portfolio" rel="nofollow" class="mx-2" target="_blank">
+						<img src="asset/img/certificate/envato-white.png" alt="Envato Certificate">
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="align-items-center d-flex justify-content-center justify-content-lg-end">
+					<div><p class="mb-0 fs-17 me-3 footer-text">We Accept</p></div>
+					<div class="mx-1"><img src="asset/img/payment/1.webp" class="rounded-1" alt="bdtask payment"></div>
+					<div class="mx-1"><img src="asset/img/payment/2.webp" class="rounded-1" alt="bdtask payment"></div>
+					<div class="mx-1"><img src="asset/img/payment/3.webp" class="rounded-1" alt="bdtask payment"></div>
+					<div class="mx-1"><img src="asset/img/payment/4.webp" class="rounded-1" alt="bdtask payment"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Back to top button -->
+<button class="border-0 gotoTop position-fixed rounded-2 py-1 text-center text-decoration-none text-white transition show" aria-label="Go to top">
+     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.25"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up">
+       <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M18 11l-6 -6" /><path d="M6 11l6 -6" />
+     </svg>
+</button>
+
+    
+<!-- appointment modal open for all page  -->
+<div class="modal fade" id="appointment">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content radius_20">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="container p-0 rounded-4">
+          <div class="row g-3 gx-lg-5">
+            <!--<div class="col-12">-->
+            <!--   <a href="https://www.bdtask.com/cyber-week-sale.php">-->
+            <!--       <img class="img-fluid radius_20" src="/asset/img/Cyber-Offer-Popup.jpg" alt="Cyber Offer" />-->
+            <!--   </a>-->
+            <!--</div>-->
+            <div class="col-lg-5">
+              <div class="appointment-modal-L">
+                <img class="img-fluid" src="/asset/img/appointment.webp" alt="person image" />
+              </div>
+            </div>
+            <div class="col-lg-7 text-center d-flex align-items-center justify-content-center">
+              <div class="appointment-modal-R">
+                <p class="fs-4 fw-semibold mb-2 mb-lg-4">Thinking <span class="appointment-text-color">Hassle Free</span> <br /> Software Development Service?</p>
+                <p>We provide custom software development services for business ERP solutions, blockchain, hospitality, e-commerce, e-learning & others.</p>
+                <a href="https://www.bdtask.com/custom-order.html" target="_blank" class="btn appointment-btn mb-3">Book Appointment</a>
+                <p class="fs-14">For <span class="appointment-text-color">30 Minutes</span> Free Consultancy</p>
+                <img src="/asset/img/bdtask-logo.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+
+	<!-- Bootstrap Bundle with Popper -->
+	<script src="asset/js/jquery.js"></script>
+	<script src="asset/bootstrap-5.0.2/js/bootstrap.bundle.min.js"></script>
+	<script src="asset/plugins/OwlCarousel2/owl.carousel.min.js"></script>
+	<script src="asset/plugins/WOW-master/dist/wow.min.js"></script>
+	<script src="asset/plugins/video-popup/videoPopUp.jquery.js"></script>
+	<script src="asset/js/home.js"></script>
+	<script src="https://asset-tidycal.b-cdn.net//js/embed.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRJCXQT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-30511454-12');
+    </script>
+    
+    <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+  </body>
+</html>
