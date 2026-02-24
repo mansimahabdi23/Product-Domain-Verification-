@@ -1,0 +1,74 @@
+    <style>
+        html, body{
+            background: linear-gradient(to left, #e1e7f9 0%, #ffffff 100%);
+        }
+        .content{
+            padding: 1rem;
+            
+            display: flex;
+        }
+        .text-maintenance{
+            width: 50%;
+            margin: 0px auto;
+            font: normal 11px Arial, Tahoma, Verdana, sans-serif;
+            font-family: 'Inter', sans-serif;
+            margin-top: 10%;
+            text-align: center;
+            display: block;
+        }
+        .text-maintenance .f_p{
+            color: #0d4b8f;
+            font-size: 25pt;
+        }
+        .text-maintenance .s_p{
+            font-size: 40pt;
+        }
+        
+        .text-maintenance .t_p{
+            font-size: 18pt;
+            margin-top: 10%;
+        }
+        
+        .logo_new a > span{
+            font-family: 'Inter', sans-serif;
+            font-size: 32pt;
+            color: #0d4b8f;
+            cursor: pointer;
+        }
+        .logo_new a > img{
+            height: 33px;           
+        }
+        .logo_new a > p{
+            text-align: left;
+            margin: 0px;
+            margin-left: 45px;
+            color: black;
+            cursor: unset;         
+            font-size: 11pt;
+            position: relative;
+            top: -5px;
+        }        
+
+        .logo_new a{
+            text-decoration: none;
+            cursor: unset;   
+        }
+    </style>
+<div class="content">
+    <div class="logo_new">
+        <a href="#">
+            <img class="new_logo" width="41" height="33" src="https://crystalgraphics.com/themes/crystal/images/crystalgraphics-logo.png" />
+            <span>PowerShow.com</span>
+            <p>The best place to view and share online presentations</p>
+        </a>
+        
+    </div>
+</div>
+    <div class="text-maintenance">
+        <p class="f_p" style="color: #0d4b8f;">This site is currently undergoing maintenance.</p>
+        <p class="s_p">But we'll be back online soon!</p>
+        <p class="t_p">In the meantime, check out our huge selection <br> of presentation templates, charts, diagrams,<br>
+            animations and more at
+            <a rel="nofollow" href="https://CrystalGraphics.com">CrystalGraphics.com</a>.
+        </p>
+    </div>
